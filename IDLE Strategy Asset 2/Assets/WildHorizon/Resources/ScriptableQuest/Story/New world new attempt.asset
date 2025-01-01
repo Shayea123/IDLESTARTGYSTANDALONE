@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cabbb0b958ac7b9448d63d2a24e143f2, type: 3}
+  m_Name: New world new attempt
+  m_EditorClassIdentifier: 
+  questType: 0
+  nextPart: {fileID: 0}
+  descriptionLocalize:
+  - language: 10
+    description: 'We need to settle in this plain and create a new city.
+
+      Look,
+      there is a suitable place over there.'
+  - language: 30
+    description: "\u041D\u0430\u043C \u043D\u0443\u0436\u043D\u043E \u043E\u0431\u043E\u0441\u043D\u043E\u0432\u0430\u0442\u044C\u0441\u044F
+      \u043D\u0430 \u044D\u0442\u043E\u0439 \u0440\u0430\u0432\u043D\u0438\u043D\u0435
+      \u0438 \u0432\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u044C
+      \u0433\u043E\u0440\u043E\u0434."
+  - language: 15
+    description: 
+  predecessor: {fileID: 11400000, guid: e53b3a7cd353e1e48b73d10d1fb3e4e9, type: 2}
+  items: []
+  spendItems: []
+  sellItems: []
+  buyItems: []
+  buildings:
+  - forLevel: 0
+    item: {fileID: 11400000, guid: ccf1678c07eff70449867ba70efa0478, type: 2}
+    amount: 1
+    requiredBuildingLevel: 1
+  researches: []
+  hunters: 0
+  waterCarrier: 0
+  renameTown: 0
+  rewardItems:
+  - item: {fileID: 11400000, guid: d72ef2fe9b96b8c498e70e5021d07a9f, type: 2}
+    amount: 2
+  - item: {fileID: 11400000, guid: b5675696dfe5a7149a095b6fc9fb0030, type: 2}
+    amount: 5
+  - item: {fileID: 11400000, guid: e49de966ed468bb47b8f6c38a9b8e4de, type: 2}
+    amount: 200
+  - item: {fileID: 11400000, guid: d227b010a81608e4b84c8ef83fde8aaa, type: 2}
+    amount: 150
+  - item: {fileID: 11400000, guid: c04aaacf68f970043a05a7abfbed4275, type: 2}
+    amount: 150
+  - item: {fileID: 11400000, guid: f0c9ba9998da96a4c876e00698687700, type: 2}
+    amount: 100
+  showCompletionPercentage: 1

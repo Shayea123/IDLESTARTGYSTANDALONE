@@ -1,0 +1,57 @@
+English;Russian;German;Italian;French;Spanish
+
+Coins;Coins;Монеты;Coins;;;
+Dollars;Dollars;Доллары;Dollars;;;
+Inhabitants;Inhabitants;Жители;Inhabitants;;;
+
+Water;Water;Вода;Water;;;
+Meat;Meat;Мясо;Meat;;;
+Animal's skin;Animal's skin;Кожа животных;Animal's skin;;;
+Hard leather;Hard leather;Обработанная кожа;Hard leather;;;
+Beer;Beer;Пиво;Beer;;;
+Whiskey;Whiskey;Виски;Whiskey;;;
+
+Wood;Wood;Бревна;Wood;;;
+Wooden plank;Wooden plank;Доски;Wooden plank;;;
+
+Rock;Rock;Камень;Rock;;;
+Rough stone;Rough stone;Грубый Камень;Rough stone;;;
+Stone block;Stone block;Каменный блок;Stone block;;;
+Limestone;Limestone;Известняк;Limestone;;;
+Granite;Granite;Гранит;Granite;;;
+
+Gold;Gold;Золото;Gold;;;
+Iron;Iron;Железная руда;Iron;;;
+Coal;Coal;Уголь;Coal;;;
+
+Iron Ore;Iron Ore;Железная Руда;;;;
+Copper Ore;Copper Ore;Медная Руда;;;;
+Tin Ore;Tin Ore;Оловянная Руда;;;;
+Zinc Ore;Zinc Ore;Цинковая Руда;;;;
+
+
+Iron Piece;Iron Piece;Кусок Железа;Gold;;;
+Copper Piece;Copper Piece;Кусок Меди;Iron;;;
+Tin Piece;Tin Piece;Кусок Олова;Gold;;;
+Zinc Piece;Zinc Piece;Кусок Цинка;Iron;;;
+
+Iron Bar;Iron Bar;Слиток Железа;Gold;;;
+Copper Bar;Copper Bar;Слиток Меди;Iron;;;
+Tin Bar;Tin Bar;Слиток Олова;Gold;;;
+Zinc Bar;Zinc Bar;Слиток Цинка;Iron;;;
+Bronze Bar;Bronze Bar;Слиток Бронзы;Iron;;;
+Brass Bar;Brass Bar;Слиток Латуни;Gold;;;
+Steel Bar;Steel Bar;Слиток Стали;Iron;;;
+
+Axe;Axe;Топор;Axe;;;
+Pickaxe;Pickaxe;Кирка;Pickaxe;;;
+Shovel;Shovel;Лопата;Shovel;;;
+Rusty Axe;Rusty Axe;Ржавый топор;Rusty Axe;;;
+Rusty Pickaxe;Rusty Pickaxe;Ржавая кирка;Rusty Pickaxe;;;
+Rusty shovel;Rusty shovel;Ржавая лопата;Rusty shovel;;;
+Bag;Bag;Кожанная сумка;Bag;;;
+Improved bag;Improved bag;Улучшенная Кожанная сумка;Improved bag;;;
+Belts;Belts;Ремни;Belts;;;
+Nails;Nails;Гвозди;Nails;;;
+
+Cart;Cart;Повозка;Cart;;;

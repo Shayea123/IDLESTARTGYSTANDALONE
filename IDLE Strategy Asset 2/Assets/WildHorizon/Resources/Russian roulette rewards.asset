@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06ab53b601b4f3543b020ff6847cba3d, type: 3}
+  m_Name: Russian roulette rewards
+  m_EditorClassIdentifier: 
+  rewards:
+  - name: Normal
+    turnForAd: 1
+    itemForTurn:
+      item: {fileID: 11400000, guid: d72ef2fe9b96b8c498e70e5021d07a9f, type: 2}
+      amount: 5
+    items:
+    - item: {fileID: 11400000, guid: e49de966ed468bb47b8f6c38a9b8e4de, type: 2}
+      amount: 5000
+    - item: {fileID: 11400000, guid: d72ef2fe9b96b8c498e70e5021d07a9f, type: 2}
+      amount: 9
+    - item: {fileID: 11400000, guid: 664b066b71ce5044cb57ff60168019ed, type: 2}
+      amount: 1
+    - item: {fileID: 11400000, guid: b5675696dfe5a7149a095b6fc9fb0030, type: 2}
+      amount: 25
+    - item: {fileID: 11400000, guid: 847bd3ae1ab0a544eb40eab2410666e6, type: 2}
+      amount: 1
+    - item: {fileID: 11400000, guid: d1f5a87aee454f74ca268732be3153f1, type: 2}
+      amount: 2500
+    - item: {fileID: 11400000, guid: c04aaacf68f970043a05a7abfbed4275, type: 2}
+      amount: 5000
+    - item: {fileID: 11400000, guid: d227b010a81608e4b84c8ef83fde8aaa, type: 2}
+      amount: 2500
+    - item: {fileID: 11400000, guid: 05b6761f291b983449d5da645f787108, type: 2}
+      amount: 2500
+  - name: Rare
+    turnForAd: 1
+    itemForTurn:
+      item: {fileID: 11400000, guid: d72ef2fe9b96b8c498e70e5021d07a9f, type: 2}
+      amount: 10
+    items:
+    - item: {fileID: 11400000, guid: d72ef2fe9b96b8c498e70e5021d07a9f, type: 2}
+      amount: 21
+    - item: {fileID: 11400000, guid: b5675696dfe5a7149a095b6fc9fb0030, type: 2}
+      amount: 50
+    - item: {fileID: 11400000, guid: 637e890b9e5304a42962b96b7c2ab91b, type: 2}
+      amount: 5
+    - item: {fileID: 11400000, guid: a7bc1182b96948146b3ba303482f7225, type: 2}
+      amount: 10
+    - item: {fileID: 11400000, guid: b6becac8ce880aa43a331e9dab8d0360, type: 2}
+      amount: 5000
+    - item: {fileID: 11400000, guid: 93846294e489ba542ba7da5de9e1f745, type: 2}
+      amount: 5000
+    - item: {fileID: 11400000, guid: b374683502d35b1488131c8dc5f04123, type: 2}
+      amount: 5
+    - item: {fileID: 11400000, guid: fccf680b93ac52d489c3f202590cff04, type: 2}
+      amount: 5000
+    - item: {fileID: 11400000, guid: e49de966ed468bb47b8f6c38a9b8e4de, type: 2}
+      amount: 10000
+  - name: Legendary
+    turnForAd: 1
+    itemForTurn:
+      item: {fileID: 11400000, guid: d72ef2fe9b96b8c498e70e5021d07a9f, type: 2}
+      amount: 15
+    items:
+    - item: {fileID: 11400000, guid: fef0cdcf9f2598f45b54da27d2a1d579, type: 2}
+      amount: 2
+    - item: {fileID: 11400000, guid: d72ef2fe9b96b8c498e70e5021d07a9f, type: 2}
+      amount: 45
+    - item: {fileID: 11400000, guid: 7d469321a908dec4abbfe664fed89da7, type: 2}
+      amount: 50
+    - item: {fileID: 11400000, guid: b5675696dfe5a7149a095b6fc9fb0030, type: 2}
+      amount: 75
+    - item: {fileID: 11400000, guid: b6becac8ce880aa43a331e9dab8d0360, type: 2}
+      amount: 10000
+    - item: {fileID: 11400000, guid: e49de966ed468bb47b8f6c38a9b8e4de, type: 2}
+      amount: 100000
+    - item: {fileID: 11400000, guid: fccf680b93ac52d489c3f202590cff04, type: 2}
+      amount: 10000
+    - item: {fileID: 11400000, guid: 3038b1794c4ddf54685515daf2b52061, type: 2}
+      amount: 50
+    - item: {fileID: 11400000, guid: 580cf1fac4f8cad41a3bc13c88e9f251, type: 2}
+      amount: 2

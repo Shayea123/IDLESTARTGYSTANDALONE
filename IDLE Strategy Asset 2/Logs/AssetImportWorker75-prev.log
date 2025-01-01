@@ -1,0 +1,2042 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.41f1 (0f988161febf) revision 1022081'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Enterprise' Language: 'en' Physical Memory: 65299 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.41f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker75
+-projectPath
+C:/Users/User/Developments/Game Development/IDLE Strategy Asset
+-logFile
+Logs/AssetImportWorker75.log
+-srvPort
+51795
+Successfully changed project path to: C:/Users/User/Developments/Game Development/IDLE Strategy Asset
+C:/Users/User/Developments/Game Development/IDLE Strategy Asset
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [49096]  Target information:
+
+Player connection [49096]  * "[IP] 192.168.8.112 [Port] 0 [Flags] 2 [Guid] 4262597266 [EditorId] 4262597266 [Version] 1048832 [Id] WindowsEditor(7,Gigabyte) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [49096] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [49096] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+Refreshing native plugins compatible for Editor in 9.36 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.41f1 (0f988161febf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Developments/Game Development/IDLE Strategy Asset/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4090 (ID=0x2684)
+    Vendor:   NVIDIA
+    VRAM:     24142 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.004068 seconds.
+- Loaded All Assemblies, in  0.200 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.153 seconds
+Domain Reload Profiling: 353ms
+	BeginReloadAssembly (61ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (81ms)
+		LoadAssemblies (60ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (80ms)
+			TypeCache.Refresh (78ms)
+				TypeCache.ScanAssembly (71ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (153ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (127ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (85ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.362 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.376 seconds
+Domain Reload Profiling: 737ms
+	BeginReloadAssembly (86ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (12ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (228ms)
+		LoadAssemblies (166ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (108ms)
+			TypeCache.Refresh (86ms)
+				TypeCache.ScanAssembly (78ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (377ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (293ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (218ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4230 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (241.3 KB). Loaded Objects now: 4695.
+Memory consumption went from 149.7 MB to 149.5 MB.
+Total: 2.634200 ms (FindLiveObjects: 0.292900 ms CreateObjectMapping: 0.094700 ms MarkObjects: 2.063100 ms  DeleteObjects: 0.182600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/IncomingChangesTab.cs: 6fa4849c09cf3ec125d3914af6074a21 -> 82bff1d960538992d4e618d909869d2e
+  custom:scripting/monoscript/fileName/DiffSelection.cs: 34faf7c86f7e0c9a01162e930679d82f -> 1460aaba4240ef35322cb9c198487990
+  custom:scripting/monoscript/fileName/CloudProjectId.cs: f33db9e9673144ad1e994ed4cff5ce2d -> 
+  custom:scripting/monoscript/fileName/DateFilter.cs: 4084040ac52b6e24ba874651890c5c6e -> 85ed700e21fd471cc38c626cebe01d52
+  custom:scripting/monoscript/fileName/PerformInitialCheckin.cs: be22d181e456c0a8a5713675f29ac72a -> 8ef9a9f407b8b94b2b5fad9d24e61f79
+  custom:scripting/monoscript/fileName/ConflictResolutionState.cs: 51eaf597f9533c7ed197ad15e802d20f -> 74a230000ff2fd58c5a60ab4258207dc
+  custom:scripting/monoscript/fileName/FindWorkspace.cs: 39bbd18bfe6bf4a99f5c185dcda4dd4a -> 6af6c9e9382fef881c020ab184e6f7f5
+  custom:scripting/monoscript/fileName/IncomingChangesNotifier.cs: 0bfcdd9eeb0b298616154e2db5e6905b -> 10fad815611441fb3a805150421ed991
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/CheckinConflictsDialog.cs: d3af1d70d3f60a9847d2942647274222 -> e13fa04a97fb675842c94586fc602871
+  custom:scripting/monoscript/fileName/AuthToken.cs: d22b2893825e943bc1389be142abd57e -> 0fba7e8eb1ec8b699f274cdc956451b2
+  custom:scripting/monoscript/fileName/ProgressControlsForDialogs.cs: 6bf8e69ac7dc2163fe988e5d8181ce88 -> 7e6bd1727985204e3b64e1946e589b1c
+  custom:scripting/monoscript/fileName/AssetStatusCache.cs: beede06d8a6d93e7907fd192ad653f2b -> 260d5f85663ac58b2a7e9553c453bc3e
+  custom:scripting/monoscript/fileName/DrawIncomingChangesOverview.cs: 6d1aadb525661622ddc7d545c55841f2 -> 
+  custom:scripting/monoscript/fileName/BuildFormattedHelp.cs: f675844664504d88a0d8165e2b08a2bf -> 
+  custom:scripting/monoscript/fileName/OrganizationPanel.cs: d7ac1288bef1b15a05bb26d201a4d87f -> 57a57e6a345dbd536e91c348b70943a9
+  custom:scripting/monoscript/fileName/MigrationProgressRender.cs: 94a7accb6b5be388f3abff6285d8f1af -> 
+  custom:scripting/monoscript/fileName/ChangeCategoryTreeViewItem.cs: 0f882939555cf173ece99b60f8f54ade -> fd14db176fff061715c8ec88ced1902f
+  custom:scripting/monoscript/fileName/CurrentUserAdminCheckResponse.cs: cec2f173fe8732108711c497674c6f66 -> d57c2dcace740834acd59fdfbc5023b8
+  custom:scripting/monoscript/fileName/UIElementsExtensions.cs: a191d7293be4538b0adb29dfe5b06a46 -> 52e0d612ab032e4d22e9558b90396b99
+  custom:scripting/monoscript/fileName/CreateBranchDialog.cs: f63ae660320757eb20b7d9aed7318945 -> 9eb29fda08033b4f847247136c412db6
+  custom:scripting/monoscript/fileName/DrawCreateWorkspaceView.cs: 6422239d8f649480614f0dd4f018b7f2 -> c6039ac84d85ab3926aa94de163a9f7d
+  custom:scripting/monoscript/fileName/ProjectPath.cs: 5634ebdbea8ca94089eb9622d1b60497 -> 2007f972d3a73eeb86dfe05e849c7f69
+  custom:scripting/monoscript/fileName/SSOCredentialsDialog.cs: 8967ceae1bc195ea8dd32b23c42dd852 -> e140ede12a96f68f30062138385171c3
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/PendingChangesTab_Operations.cs: c99065f3c85ec85c85ece2a1a30665af -> 15ae6787065f4af65778e981f418a60b
+  custom:scripting/monoscript/fileName/LocksListViewItem.cs: cc9cd24c5be4f7363367cba72f12aad4 -> f4a19fabbec093eb3d6a7e1cd4f42611
+  custom:scripting/monoscript/fileName/PendingChangesViewPendingChangeMenu.cs: 561ad0f702e1db14300a4a5f810051f9 -> 9a6ef2277212bf26d647c7f12f946287
+  custom:scripting/monoscript/fileName/SignInPanel.cs: f7e82045994d4eefe3b021faa87b55c6 -> bac0318ce35e37bed3a2cc8137452435
+  custom:scripting/monoscript/fileName/DrawInspectorOperations.cs: 61c4a6a6507d8f84ef5bdf5cba3f0aee -> 8c94fe642e98309082411f46db89106b
+  custom:scripting/monoscript/fileName/DrawDirectoryResolutionPanel.cs: a77980eb09765fe85cd85d4a47964cf2 -> e4e3c9b4bc511687802b504b71016540
+  custom:scripting/monoscript/fileName/CloseWindowIfOpened.cs: d820344e932a12600b5fe6fb7e9f1563 -> ce229ef3b7461ff17e2c1af0695a6657
+  custom:scripting/monoscript/fileName/SaveAssets.cs: 11deea70336cb98c5d0b6c869323e6ef -> 898e86402580d75dc56c5f25b325a28e
+  custom:scripting/monoscript/fileName/RepositoriesListView.cs: 9f95c83dc460fb03fb0916472f14b8a7 -> 95287f65338ca0073ad04002a16eaaf7
+  custom:scripting/monoscript/fileName/AssetOperations.cs: 638daf61300bf6ad727538516d4fa3e2 -> 
+  custom:scripting/monoscript/fileName/HandleMenuItem.cs: 740e54c5f6dca1acc88cad87af74b744 -> b4ad1ecc5243212c5967125ad5e41b1f
+  custom:scripting/monoscript/fileName/ScreenResolution.cs: 5c975132cf4e36dcc261bd0acd604271 -> 7bb7bb5b955671820101b322f0a7bf3d
+  custom:scripting/monoscript/fileName/ApplicationDataPath.cs: 8e4094e28762fb76a1baecfe90c6b65e -> 3e8c4ea8debfda8013fed860ac233d22
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/RepaintInspector.cs: 65202bdc05e3e19fadffb7fd99f30154 -> f134606300316994850c28a68d0cb5a3
+  custom:scripting/monoscript/fileName/LockStatusCache.cs: 5e3725e03dc21c716034553589a67eae -> e99b3f34c5cd3eb73ec19439af1f7f80
+  custom:scripting/monoscript/fileName/DiffTreeView.cs: 68195907d129ef826aa6b6df7202696d -> 49f46fd2a65ea674a218eead75f27aac
+  custom:scripting/monoscript/fileName/DependenciesDialog.cs: 82d30fc8d5e1a73ec0d1ee9acc00fbc2 -> c8902186ab2f4e6471b5dd147afb01b6
+  custom:scripting/monoscript/fileName/ChangesetListViewItem.cs: 95a197949f1e777703db60eea8cc21b3 -> d742a4910e302777daa1ccb9c8e92cb9
+  custom:scripting/monoscript/fileName/LocksViewMenu.cs: fda08381fa9abca53b6eaf3bf55f14f8 -> 186d8514e824865b191ba1829afe4b33
+  custom:scripting/monoscript/fileName/IncomingChangesViewMenu.cs: 832662bce0cd8edd53cba36a0dd96da0 -> 13196979a03411533716f6775c9a624b
+  custom:scripting/monoscript/fileName/QueryVisualElementsExtensions.cs: 75ea535788abf9c38ba9341c984a6241 -> a49740b6efbb934f55475cc70b864a4c
+  custom:scripting/monoscript/fileName/WriteLogConfiguration.cs: 1a8401f47b522f631a3dc005105719f5 -> 1589212d1638ae91a029ea3ddf9999f2
+  custom:scripting/monoscript/fileName/DrawTextBlockWithEndLink.cs: d447e809d154b60a192c102b7b82eecf -> 1cc3e67c46bd397f9508f124a3366994
+  custom:scripting/monoscript/fileName/FileSystemOperation.cs: c31a686e69e66801c204a11be56c950a -> f0ccbe91654279794a85bf6f1c034716
+  custom:scripting/monoscript/fileName/MigrateCollabProject.cs: af93695e471d9c8e4ad014c4165f2c3c -> 9f3487f03a783b35518405572f20ac9e
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ProgressControlsForViews.cs: 7d677c6df38ab15cf390062b5b0bb854 -> a8a18a90f46aa63848e1e45d8d7ff9af
+  custom:scripting/monoscript/fileName/DrawAssetOverlay.cs: 8ccd7cea9aa918859be0b55818cb990b -> 04a46044def089f0abcdafdd281e3646
+  custom:scripting/monoscript/fileName/ProjectWindow.cs: 953e9bbd852a9f12f91349161baa793e -> c62567a3d71fd74636bc783de5162474
+  custom:scripting/monoscript/fileName/MergeLinksListView.cs: 826afb5fb5988163105086b4bf5027af -> c9488671ae9b14523680d0c19097baa0
+  custom:scripting/monoscript/fileName/EditorProgressBar.cs: 7418be9b22aaea32732f8a5f49569d1c -> 08c2f2b90ef64df631d46389f0e22c8e
+  custom:scripting/monoscript/fileName/MeasureMaxWidth.cs: cd9322680ae61d38397008451b7ed0ed -> 1569e3f1dad91a9b01cba66ab6aa30b0
+  custom:scripting/monoscript/fileName/ChangesetsListHeaderState.cs: 69fc4f1a2bc3782d7043ec48961a3616 -> fe1392f9b135da83e13fe8a5e5f39fc2
+  custom:scripting/monoscript/fileName/PendingChangesTreeHeaderState.cs: 7d278b5569d28437d07554a3bbb56e1b -> 5d7f70d142c9ac67864ec14950523d62
+  custom:scripting/monoscript/fileName/MissingEncryptionPasswordPromptHandler.cs: 7f5831fc8a41e9cadd84fcfd0e885072 -> 5d7b9646eb14a39b6d3d5bab19d266ff
+  custom:scripting/monoscript/fileName/ChangelistMenu.cs: ca33bac56b3a337faa90a1b1bba632d6 -> c1bf5aeb760cc5eae584ea3944d6531b
+  custom:scripting/monoscript/fileName/NotificationBar.cs: e0f12e3f3292fff5a590c00b59f3a17a -> 0daf459fa0c4269b16bcc20cd072c021
+  custom:scripting/monoscript/fileName/UnityThreadWaiter.cs: dbd556f2802baab90a20da38c288d36c -> 99333406d92d10003984b4d1920de2f9
+  custom:scripting/monoscript/fileName/CredentialsDialog.cs: 179b5e49656a1623c2e79d838f0f5876 -> c785d5e40f8d66b7ef7ba04ee7c324e0
+  custom:scripting/monoscript/fileName/GetRestorePathDialog.cs: e21eb9983f0b989125951478cd5e9b35 -> 353d1126ca2d2063d5bdbd06806ffc08
+  custom:scripting/monoscript/fileName/UpdateReportListHeaderState.cs: 64a5bf775d221ad9a5ff8c78a1e0e1fa -> d6cbe54be2898ed2c96c2e79572c2e08
+  custom:scripting/monoscript/fileName/LocksListView.cs: 8c6202774eebcf67be9c3b5a2926cc7c -> 7aa51ff93bcc98aa05dec8b46ec200c4
+  custom:scripting/monoscript/fileName/DownloadAndInstallOperation.cs: b043b8d5921892e87f4566e00162cff6 -> 4f4065aeafda2af0ec272a3c228e27b2
+  custom:scripting/monoscript/fileName/MigrationDialog.cs: 1a69d399f9c8aa816a053d285dd8bc5d -> 
+  custom:scripting/monoscript/fileName/DiffTreeViewMenu.cs: 3e62bfc69ca7486976988e151b88922e -> 8039fc4ecf68b3e966e1f4822789e7fa
+  custom:scripting/monoscript/fileName/UnityStyles.cs: 1e97cd7e9a8ef8ab43da545c6691e95c -> b57f61a58df1c49a1c9d37daf76d42cb
+  custom:scripting/monoscript/fileName/HistoryTab.cs: 4d086984813cd90d6be245dd8e03a2ba -> d57f000c65fde42a2228c7a105a836e5
+  custom:scripting/monoscript/fileName/HistorySelection.cs: 7c3afcf345a55e8b77ea41ca0f570218 -> 3d07a3d1241e204b5420d71f1137eba4
+  custom:scripting/monoscript/fileName/CreateWorkspace.cs: 7b3086384e5ddcd73cd5064a3ce31cd2 -> 5256205b5cf0570b6f698c7abe518f5a
+  custom:scripting/monoscript/fileName/ShowWindow.cs: c731454122754eec192bc3c53fac3d95 -> a6bb1d20733c178256b38974418d7450
+  custom:scripting/monoscript/fileName/LocksListHeaderState.cs: b80c5f044f18764adef2e9dbea5f0fb1 -> c7fe4d3b5f954615048f8e79925d29e3
+  custom:scripting/monoscript/fileName/CreateRepositoryDialog.cs: 1e1c5399cf3d0b071c7982c565a710ce -> 5cec3e66b09e0dbe1f805953c5c64af9
+  custom:scripting/monoscript/fileName/RenameBranchDialog.cs: 4e8cba56a673b7adf6b1f70db522f07c -> a4999d46054383b4cef03a3dac804cd0
+  custom:scripting/monoscript/fileName/ProgressControlsForMigration.cs: dafc8442bdd0dcb5e871e398f32473ec -> 
+  custom:scripting/monoscript/fileName/EncryptionConfigurationDialog.cs: 6423045767c07e6360ff314ec741c601 -> 19e9c54aff6ffc68d60fe11f80578947
+  custom:scripting/monoscript/fileName/CheckinProgress.cs: 298ac58365579798eb3b4defc181ccaf -> 75b93dbc5ef307111f0647f735640420
+  custom:scripting/monoscript/fileName/PendingChangesSelection.cs: 766664749a54eea9ecce5dff917430ef -> 1721ad72d074757364587c71b49d9382
+  custom:scripting/monoscript/fileName/LoadAsset.cs: 9042eb334fc462cf466672445be1d4c2 -> 5e4e082aa5b21c13b80eb237fe94d00b
+  custom:scripting/monoscript/fileName/Images.cs: 0b0c14141950fed99e3ef33199b3b4c9 -> fbdd1e600315d249327f3effde045c9d
+  custom:scripting/monoscript/fileName/DrawLocksListViewItem.cs: ce3a3d64ec2d84c3556ffd4141efc4f7 -> 6201c4d50383e970d554210505562d37
+  custom:scripting/monoscript/fileName/DrawProgressForOperations.cs: ea9179848be98ee7719316b39339ef29 -> b544f18e6532ba53bbd1b691fa5cd571
+  custom:scripting/monoscript/fileName/ViewSwitcher.cs: af4cfa015a44a1390a6513bac2b176c3 -> 1700c042de8c16a5c0f6851d66df802a
+  custom:scripting/monoscript/fileName/RepositoryListViewItem.cs: 2f16ba7694ec7934685021093e722c4e -> 3cabcd81911a2500dcd9e2b6ffae3f00
+  custom:scripting/monoscript/fileName/InspectorAssetSelection.cs: 71ba78e42827a9b22a9a6016733d756f -> 4b3c1ae4c44d88205aef26229acfe022
+  custom:scripting/monoscript/fileName/UVCPackageVersion.cs: 0f4077cb83cde000a967972e97c7cc8c -> c4d95cb84d9d8dff4727eba6b0a64378
+  custom:scripting/monoscript/fileName/IncomingChangesTreeHeaderState.cs: 67923e7c73743bbc0577bc7d884f3ba2 -> 9fcb97ef2da44c66332f5c6800c2e6ed
+  custom:scripting/monoscript/fileName/WorkspaceOperationsMonitor.cs: 3aaab60832000a68ac1ea7432c36aabe -> 9241430734576b6454278a078113af4a
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/MacOSConfigWorkaround.cs: 8634a542fc5c45ea8cd9a8244bf2c871 -> 9fe61e763da506601651f6c451cecb0a
+  custom:scripting/monoscript/fileName/IncomingChangesSelection.cs: 281fe0b171b5382d8cd906c4490e5804 -> d86f9f4463e6f9d99bb815e1f018ccf1
+  custom:scripting/monoscript/fileName/PlasticProjectSettingsProvider.cs: 31d8ae24271dbfa9cba89dcd2b9f91a0 -> 50aa12401e4c353b2dea4777ec9b23ad
+  custom:scripting/monoscript/fileName/AssetMenuItems.cs: 64aa50dcc3bfcf35201c6730dc62acc3 -> 9ce81cedb8e568c6b7b646aa6263645b
+  custom:scripting/monoscript/fileName/ToolConstants.cs: a088b027c7b0922429c756f12b0507ea -> 3b0d2490617bc7f94a0bdab65a399e1d
+  custom:scripting/monoscript/fileName/GetSelectedPaths.cs: 02423a81496d6c63598b5cdc203f4354 -> be35dd49dddd53fc840b9febf21b4d0d
+  custom:scripting/monoscript/fileName/TokenExchangeResponse.cs: 0dd9138dbeab6f132711a5b608de5c13 -> f20183d4cf939766d3c1e15cc3bec2e3
+  custom:scripting/monoscript/fileName/ChangesetsTab_Operations.cs: eca44847b108faefa69f8c525242c965 -> 3290c4c0cd248666e01a08ee6d621249
+  custom:scripting/monoscript/fileName/OverlayRect.cs: 61f473b5a4768fa31a00fafe3b1b5b69 -> 59d6887e4803f8a44ffaa0409470e410
+  custom:scripting/monoscript/fileName/ConfigurePartialWorkspace.cs: 309d4276b0164b05348aedbd51cc0b2f -> 10fcc6b6d43dd5ed36c43c6f7b5906c4
+  custom:scripting/monoscript/fileName/ValidRepositoryName.cs: 43c262be3f66a970816e3d3a3ee8872a -> 56bcf92a3678f6ad6215cae2e4914cfd
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/GetPlasticShortcut.cs: 2a84c035152261f00e7e66eb44cd0ffa -> 5c2b7bf07ddd2284efc64b09ef0f1f72
+  custom:scripting/monoscript/fileName/GuiEnabled.cs: 1b1658fd7715b5cc664c10a130c6b629 -> 7bb13fcc8d8cbd392e00f7232841f086
+  custom:scripting/monoscript/fileName/BuildPathDictionary.cs: 943911b84162d26cea47f964f9a0a399 -> 9fabc7cc73fcfc50b8a3307c6aa6ec4d
+  custom:scripting/monoscript/fileName/FindEditorWindow.cs: 2bb64182aef631315344623cf583c78a -> 8c3c78bb7e82ac5008f8a2b8a0d68cff
+  custom:scripting/monoscript/fileName/DrawProgressForViews.cs: c153245b67af73b7ee03f693a1127796 -> 068a172cb549ad77d9873d721698bd0d
+  custom:scripting/monoscript/fileName/UpdateReportDialog.cs: 706e7e86547c339cdb3a4462e3f7a54d -> 087837d8f73228f1a817d0de82c77260
+  custom:scripting/monoscript/fileName/HistoryListView.cs: 527da2d093462f1c4a278d6957e7d5ac -> 7b2d1d2c12ab43d9d244e35197127919
+  custom:scripting/monoscript/fileName/ChangeTreeViewItem.cs: e3d78a2bee9cc81382a4cb8578dc4fb0 -> b0a38ce0a620643c776a3db4fd91bc4c
+  custom:scripting/monoscript/fileName/DownloadPlasticExeWindow.cs: 2cf8d71648f8d0a7527ca76d9f6b13ef -> 
+  custom:scripting/monoscript/fileName/BringWindowToFront.cs: 88b20f2a2881db6a013f54923d68cdee -> a30c7c1ba746c6d277a5aedd3057d15e
+  custom:scripting/monoscript/fileName/LaunchCheckinConflictsDialog.cs: 4417eba1591eccb2221bfdce0106c1e0 -> e2c1e3f8f4e14a62e4363fe6259adbc2
+  custom:scripting/monoscript/fileName/ParseArguments.cs: 03c1a4d7e357164ca313a0019713c3db -> ae915d9f5fe287ced40627c9ca8bfafd
+  custom:scripting/monoscript/fileName/ExternalLink.cs: 7eb9650651b43fb98c07816e49275ba9 -> a8ff952d8c27d10f226ab92b7aa83b69
+  custom:scripting/monoscript/fileName/WaitingSignInPanel.cs: 247680fcfc6a176b9fa28a3df600a754 -> 7585e1c7111b6b900784e6d1c9454258
+  custom:scripting/monoscript/fileName/TestingHelpData.cs: 0d1f98ae9b6fa0253523889fad413adb -> 
+  custom:scripting/monoscript/fileName/OperationProgressData.cs: 0db72349eeecbe9449a517b1d79cc760 -> 15f68712baaea535af36d9e0333c0a6e
+  custom:scripting/monoscript/fileName/RepositoriesListHeaderState.cs: c0353a1af15ae4fd3d5a2a3cac816423 -> fb71b961ab7c924511a6b0e8680b60ee
+  custom:scripting/monoscript/fileName/ClientDiffTreeViewItem.cs: 56be9d3aa410e770e75de2d8b93be89d -> 43bdd7aa5bf1aa039a5b572c119c38d0
+  custom:scripting/monoscript/fileName/CreateWorkspaceView.cs: 0f1446bdab952811ae2968789e1a2804 -> 04b4ce6556541af6541e1f1c2ea97052
+  custom:scripting/monoscript/fileName/CommandLineArguments.cs: 0d20ca25f94249586a7c1484c469d8a2 -> 48a62ad3f817c0269ea7fc4a53799594
+  custom:scripting/monoscript/fileName/DownloadRepository.cs: 46fc68d9cc4da8e8ed765ff28b2dd438 -> 5bad8d3f76a3fcb41a94637e37c11ab0
+  custom:scripting/monoscript/fileName/ParentWindow.cs: 2476d8a6ba9c3055f984ac9792cae61a -> d6aa079e592e01701c5baa3ab98898bc
+  custom:scripting/monoscript/fileName/OperationParams.cs: 091a140b35535b91c773ddf98925322d -> 3312c7a4424a66ffbf2f88f056f329aa
+  custom:scripting/monoscript/fileName/SignInWithEmailPanel.cs: a5823728eb62cf6dbd8c933c1cb26f53 -> 6e8957c0ed7609303e68389067e72d72
+  custom:scripting/monoscript/fileName/LaunchInstaller.cs: f9b7c99441bc32980ce9b95be066824b -> b75efdf5909b501e06cacd9c66f75981
+  custom:scripting/monoscript/fileName/AvatarImages.cs: ea6dca998cf0ec5122553a9e010ef687 -> 3aa8c25a350843151ec4070c820c411a
+  custom:scripting/monoscript/fileName/DrawHelpPanel.cs: 58c832ce9ea1a11e2724de5dd46ca0cb -> 
+  custom:scripting/monoscript/fileName/DrawUserIcon.cs: 2f65feb9bed897237f97fbf9c5479092 -> 7d5385bf780ae84e648a8b49f8fe0825
+  custom:scripting/monoscript/fileName/AssetStatus.cs: b9ea657347f2c22e8e401cdb256c516c -> e017010009bdb28bcb0d7d8ef05e7dd9
+  custom:scripting/monoscript/fileName/BranchesListView.cs: 334a3fb302f855f71fb71520fb442a71 -> 3f5ed9fe5a1bca512014ae1600ee1666
+  custom:scripting/monoscript/fileName/DrawGuiModeSwitcher.cs: 363adc150c5f1c5059a678f179906090 -> d3be34a3134d3fe80ef6b14d0d519128
+  custom:scripting/monoscript/fileName/UnityMenuItem.cs: 5f445176ad3735e69769d93250663be7 -> 73f3c859f1b5092ad362c09e23b3a922
+  custom:scripting/monoscript/fileName/WebRestApiClient.cs: c0bdde7ff9e25b1ad06e078e6d9b2fe0 -> 746756fd499dddd02a4e7ccdbac48be3
+  custom:scripting/monoscript/fileName/IncomingChangesTreeView.cs: 78411a54601a32b278de0dd7d80f8670 -> 96479648d4498738733254eb4e4c6fb5
+  custom:scripting/monoscript/fileName/GenericProgress.cs: 11287c7d038c487f32d0c8edc476a32d -> 8492ec26f01fc248d3eb3c2f5b3b6c0f
+  custom:scripting/monoscript/fileName/MergeCategoryTreeViewItem.cs: c1ecd9dc0cd73eb7eb129994dedc1a91 -> 6bd59fcbfeafe06987a54631991d755b
+  custom:scripting/monoscript/fileName/CheckinDialog.cs: 1709b78fae1329cc05fd4f39334b25f5 -> 702fdb8d0a3b4bfcb9ba109e71325cad
+  custom:scripting/monoscript/fileName/ProcessCommand.cs: b8ac3f676ec101f7ebb0d2fff79235f1 -> 2cc3b6e2a763c7f353b474b6904b45a6
+  custom:scripting/monoscript/fileName/SortOrderComparer.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/GUIActionRunner.cs: 69af7de0762ed6d085feb4cc4b5101b3 -> 4a0608de635b0d82868d57923d68eff7
+  custom:scripting/monoscript/fileName/PlasticMenuItem.cs: 07a9318d8d82a152df4ec33acd1befdd -> 30c3a785b4c2607e2ae9aad693d5f604
+  custom:scripting/monoscript/fileName/PendingChangesTreeView.cs: f3722f38014385705913f17dbe0f90c1 -> 17142d220a0a50a3f3d184c4718a0da7
+  custom:scripting/monoscript/fileName/VCSPlugin.cs: e4ec197b273413c2276be270d94be16d -> 69c1b7249af35f35848ae707bd5e7113
+  custom:scripting/monoscript/fileName/GetClientDiffInfos.cs: 4ae14b15e2cf5177a84735548a44cdc9 -> f8db8e637ded2d5e935a953a13b85ebe
+  custom:scripting/monoscript/fileName/DrawActionButtonWithMenu.cs: d7f31944358aed2f3ed3982246fca039 -> 8d4f5edd02a1dd0f38c4f2baf5ee8a33
+  custom:scripting/monoscript/fileName/ErrorListViewItem.cs: 732dcd63546c04257b33a0917d21b2ae -> 8d377b020cd4efc9739abf6e8e730437
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/EditorProgressControls.cs: b1f133fa38afd918d537a72574fc93a0 -> 2e606eb01a6e6a567f3de9a0379ed3ae
+  custom:scripting/monoscript/fileName/BranchesListHeaderState.cs: d47f1164fa7093137db851c4c16ffba3 -> 82eab21603f4efc696334ee80641c2c9
+  custom:scripting/monoscript/fileName/DrawSearchField.cs: b11b864a92c7d76f85d4ec87d6faf61c -> 3de70beba9f4447205d50241d95b066a
+  custom:scripting/monoscript/fileName/PendingChangesTab.cs: c99065f3c85ec85c85ece2a1a30665af -> 15ae6787065f4af65778e981f418a60b
+  custom:scripting/monoscript/fileName/HelpPanel.cs: 625fbcc6029d5fe5cf4aa833f68adb0c -> 
+  custom:scripting/monoscript/fileName/BuildGetEventExtraInfoFunction.cs: 1308a6936e8051866a117b3b7c2c7b77 -> 74bfc8c01f931108a3c2b127aa04cc8d
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/WelcomeView.cs: 727cdb3e104b6a2a1b2a292c292f355e -> b6f5ad03828f3d0b6465c52959e1ee5e
+  custom:scripting/monoscript/fileName/HelpFormat.cs: 92b36f6584b3d7ccdc99b0ae4e152c53 -> 
+  custom:scripting/monoscript/fileName/PlasticApp.cs: c440a0fb380601a77ad475d6c15d4fa1 -> c57de230d90beac7b586f10b9c7c6cb5
+  custom:scripting/monoscript/fileName/ChangesetsTab.cs: ef408d8aaf89e01b17643ed0c836680d -> 46dde8f7856048792ad2e75490bb8c5e
+  custom:scripting/monoscript/fileName/DrawProgressForMigration.cs: 0390721ecd322e9ab47db03bd0f98a12 -> 
+  custom:scripting/monoscript/fileName/IncomingChangesNotification.cs: 5804eea08e59310a581998ae8010a5e1 -> f039cd7fb6b53e16030c9431c0e3a656
+  custom:scripting/monoscript/fileName/DrawTreeViewEmptyState.cs: 6287514b9d86e73fc5c808e9a9847355 -> d4c16fd6aad8161eda7d99fd74cbb08e
+  custom:scripting/monoscript/fileName/ErrorsListView.cs: 202ccd428b59063895c865fc91609494 -> 897fb5fb66de4298630458ed4a966790
+  custom:scripting/monoscript/fileName/UnityPendingChangesTree.cs: fd6f0a038401268983bd9328d10dec93 -> f391d9a00dc9e202cee4d4ebcf6d21c0
+  custom:scripting/monoscript/fileName/EmptyCheckinMessageDialog.cs: 12efddebfc1859d39c5d8d43b34ef051 -> e95636a2119dec4d0c1f323f7ba65603
+  custom:scripting/monoscript/fileName/PlasticDialog.cs: 4ceb3ccc6e5a1c5cb9d18e06aa785728 -> 63a17a2b696bc2a13c9046aa16f8cea4
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/AutoRefresh.cs: 9d30d5d3f0e8985355be1ab597da1dbb -> 0a8afde180a876655ad16caa14493409
+  custom:scripting/monoscript/fileName/PlasticPluginIsEnabledPreference.cs: 56473af084ae343e005353d1ebe26bab -> 7953272c37f4a828a3d1096e7479f346
+  custom:scripting/monoscript/fileName/HelpData.cs: 9293e68e835820b452391937547d1531 -> 
+  custom:scripting/monoscript/fileName/GetRelativePath.cs: 9b16eb2de9e98b392077181cc34243c1 -> ab04ae5e0cafb93ebf5c96148bb52df0
+  custom:scripting/monoscript/fileName/UnityEvents.cs: bbca41e222c933c10ac2fdcedacdc4c9 -> 93e3e01e1fc330c62462aa41b286117b
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DockEditorWindow.cs: 581124d5e19667105f2446d6dfbf7982 -> a9e5e467234133af999283610b6e84e6
+  custom:scripting/monoscript/fileName/BranchesSelection.cs: 7eb1fcb556f0fad697e4ec9d989be099 -> 33b36e7b03910960966036894ec90c7c
+  custom:scripting/monoscript/fileName/SaveAction.cs: b68fbb4319dbb368959c40781b39fdf8 -> 27c387bb58f3a69b0c9ff60d2209e18f
+  custom:scripting/monoscript/fileName/AutoConfig.cs: 6c4e7f9dc55323aa1299debfe9723aa6 -> bf4bbd2f2e752464ef51dbf102faed17
+  custom:scripting/monoscript/fileName/DiffPanel.cs: 02288a38bd14cc2b52a25b302a6f154e -> 210366dab3631628227b9406f87a9b7f
+  custom:scripting/monoscript/fileName/PlasticAssetsProcessor.cs: ffbead0ce8c78df1634f8fc06dec8ecf -> ff731c8aacf4a537dc74c7cf9eaeaed0
+  custom:scripting/monoscript/fileName/DrawDialogIcon.cs: 2a1cc28b64afd474736eb8a39b842af8 -> 
+  custom:scripting/monoscript/fileName/DrawActionToolbar.cs: 52293cb82089e0370f52e257f41c0869 -> e05748a99799f26304c1bbafd90f703b
+  custom:scripting/monoscript/fileName/TreeViewItemIds.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/EditorVersion.cs: 70953c9eccf7726f70c672a9a51619e9 -> 698aba075b19a52a056d67a7b809d179
+  custom:scripting/monoscript/fileName/TeamEditionConfigurationWindow.cs: d06f049421c16e5927ec29f770917e09 -> e53b1ca5561894aaeff930afb696d001
+  custom:scripting/monoscript/fileName/ProgressOperationHandler.cs: 5fbb4e0f656dcfaa4498bd2e492e4710 -> ec62666c0ca1649dd33cc6bc6834c6f7
+  custom:scripting/monoscript/fileName/UnityPlasticTimer.cs: 961fdb6492c99b4a3eadbed28e78c4b0 -> 6c887e722e951c2964523825cad70c4c
+  custom:scripting/monoscript/fileName/TreeHeaderColumns.cs: 9fc4a0396a421346b8aa3b7788860851 -> 316e5ea62e66b20fd6e687a6b9e5958e
+  custom:scripting/monoscript/fileName/AssetFilesFilterPatternsMenuBuilder.cs: 8fe5de6e5dc3d42fb7e95de2aaedbf5a -> 0d99e7514c6a33cda8314deed8f34bc5
+  custom:scripting/monoscript/fileName/PlasticNotification.cs: 71978c581e1127248a19c9d9e66cd355 -> 3629fdff9f054b2013702f5b131b2c47
+  custom:scripting/monoscript/fileName/ConfirmContinueWithPendingChangesDialog.cs: c0e147ff008a0b77c9337132a3ea70af -> 77462b1904ad8f6fee2f8da4523d59fe
+  custom:scripting/monoscript/fileName/ChangelistTreeViewItem.cs: a4a6f6169cdb3afe249e104e2b7b1a2c -> 87f69636be8bd1a264ec4eac1bffa701
+  custom:scripting/monoscript/fileName/CollabPlugin.cs: bda741ff77a19affbf276298e29313ec -> ca276d65e7cd77c5c99d9f119ffdb215
+  custom:scripting/monoscript/fileName/TabButton.cs: 3efe8f66ffd840fd7aeb0585b183d2fa -> 757146b89ed597b1d75c77241e5d5f63
+  custom:scripting/monoscript/fileName/LaunchTool.cs: 3ac53c8af1f56365aad9e1ae5366d98d -> 60773d78646dc188d4b2caca77f20b17
+  custom:scripting/monoscript/fileName/RunModal.cs: 33b931100ee477e6812324eabaa2e837 -> c83ee2ef642c5d8b8dfd32f033bfc438
+  custom:scripting/monoscript/fileName/BranchListViewItem.cs: 8fdaa5aa842f5a70237affa304b9d506 -> 55028f4aef24d6227589aaa95582b2ff
+  custom:scripting/monoscript/fileName/GetAvatar.cs: 07c98163f75f0b7c672bd453fc82bf61 -> 04ffae2a9e5a4c32a119f93144f558d2
+  custom:scripting/monoscript/fileName/FindTool.cs: fc3b0710b24078288fe829d0bb041dd0 -> 2f9d82566cfb01fb68fc30111fb47624
+  custom:scripting/monoscript/fileName/ChannelCertificateUiImpl.cs: 75d7831ab5da75cc0082e28863abb142 -> cefccf1e13b7bcf15e3c9f2dd4cd2fc8
+  custom:scripting/monoscript/fileName/ApplyCircleMask.cs: 02eb67e485278e7c9b719fee5ff90f4a -> b955b378d261fdcbd6272fe8711d1e4f
+  custom:scripting/monoscript/fileName/AssetMenuOperations.cs: 4d198753827ac1463e02b10d5d04cc7c -> 0f0ce50426259919e339aa7586c1e4ac
+  custom:scripting/monoscript/fileName/VisualElementExtensions.cs: 46b225d941aaa7b69168ef4467ffab1a -> 28d3e288ea1cf459fc3cca96347c70bf
+  custom:scripting/monoscript/fileName/LocksSelector.cs: 70b046a562568fd78d093736e68a3a58 -> 7b0f4fc5552c1d92ba7f4648526ceb21
+  custom:scripting/monoscript/fileName/ListViewItemIds.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/CreateWorkspaceViewState.cs: 1deb37b3c17c224d9a7dca9c990ea191 -> 0fe23b7cca9336b31a27790c714de652
+  custom:scripting/monoscript/fileName/MergeLinkListViewItem.cs: ebc1e6f9e3a3005d8f4c51a794adfdaa -> 3fa407d29597803190dd374d88ed170d
+  custom:scripting/monoscript/fileName/PlasticQuestionAlert.cs: 822b3ee0570c5b12e5690df1874da369 -> 
+  custom:scripting/monoscript/fileName/DrawCommentTextArea.cs: ad5449f632fd412ac0f7ba0d171fd453 -> c58c26552f95f108a8d9610eaf001fbc
+  custom:scripting/monoscript/fileName/ErrorsListHeaderState.cs: cb38081a34dcc37c968a3fae60743b76 -> ccfb08b895a719829a3302b7c4d26a5d
+  custom:scripting/monoscript/fileName/RefreshAsset.cs: f56d23c5126a2dd3db6f272d3d3b71dd -> 21c806d59a337a83fcab56230df298f8
+  custom:scripting/monoscript/fileName/BoolSetting.cs: 9c3f40d0ec58f1b80f82d15e4bda7107 -> 6866476ee3db529747ee7a560b4298d4
+  custom:scripting/monoscript/fileName/CreateChangelistDialog.cs: 774371d4233cc1d394d98dc80507a1f8 -> 386b03e27c951c5f1d63daf7aae486ca
+  custom:scripting/monoscript/fileName/HistoryListViewMenu.cs: 15a489e494f04a7ea37a587c7601070e -> 29770348599c8d5473b78d72e5741b40
+  custom:scripting/monoscript/fileName/FilterRulesConfirmationDialog.cs: 5186d89f21d03764f0cca01c2a0122d7 -> 9c91c6c91f20e6d013a753f32343b327
+  custom:scripting/monoscript/fileName/ChangesetsSelection.cs: d154d1782ed752b83834c54a0bde3df9 -> 8b9d539af9f7e269bac4e3d79e9ffab8
+  custom:scripting/monoscript/fileName/AssetPostprocessor.cs: 28be74a844bbed0286c3c45dee7283e7 -> 96208057b904410715a8df295ba4f8f4
+  custom:scripting/monoscript/fileName/IsResolved.cs: 12b1cb46be3341613a9d03a0fb32ccfc -> f54a3e2c5134aa4306f9ad150b1911a9
+  custom:scripting/monoscript/fileName/LocalStatusCache.cs: a558fcf5f34357bab4cfc7b75e2bb356 -> 30974ea30517fbfd1b93153f6c849a76
+  custom:scripting/monoscript/fileName/RepositoryExplorerDialog.cs: 143e7416b576681e1f2ea71288e530e6 -> eea34924da79ad7254f3e141a891c78d
+  custom:scripting/monoscript/fileName/HelpLinkData.cs: 298f428470bd6f0a46823cad390bf0d6 -> 
+  custom:scripting/monoscript/fileName/WorkspaceWindow.cs: ff52e13cd29dacd66db0169e14f71a23 -> b042f06133312d3bfed176231d97d77c
+  custom:scripting/monoscript/fileName/PlasticShutdown.cs: 927cfd31d19eaaaa16d67e3e3b26fdb2 -> a8df8eeeed98372d06e446171a192a6d
+  custom:scripting/monoscript/fileName/FilesFilterPatternsMenuBuilder.cs: 28072cd275c96994687e6d4d0d6e1dff -> cf716a8d336c8113475a9ca67a799ec1
+  custom:scripting/monoscript/fileName/HistoryListViewItem.cs: 2d3b1fc954b6bdbae298ec250ade0663 -> 96f2b67ec620b83e35d13f11877e1ac1
+  custom:scripting/monoscript/fileName/RemoteStatusCache.cs: 00463e6b90cfe7da080d7c266f783980 -> 402d5663f3675e9324c129274b0c00f2
+  custom:scripting/monoscript/fileName/EditorWindowFocus.cs: 1012e4e2e29e9b29bdcc03d8b92762a8 -> f258b0cf85078a7435d001e522d5e8e3
+  custom:scripting/monoscript/fileName/EnumExtensions.cs: 24df84756ec75feecd53a80a0991ea16 -> 872fcb89b813d64606e680211dede528
+  custom:scripting/monoscript/fileName/NewIncomingChanges.cs: 4475d5d6d9583dbe65c4824e6a1fe6aa -> fc48261878ef7e4b956e7172f5803aee
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/UnityIncomingChangesTree.cs: a6749c8b534ffb85ccf809bc8e274114 -> 42967773c43d3de5d23be4ddc6dfd9c4
+  custom:scripting/monoscript/fileName/UnityDiffTree.cs: 447fc3a8922f56330f4bae8c9dc9a8be -> 1029ffd567bc0e646e6b119719dcb2ff
+  custom:scripting/monoscript/fileName/TreeHeaderSettings.cs: 114eb9e27124403e8e111494b8eaf987 -> 662b1714c0fce36da72bbfe60201987a
+  custom:scripting/monoscript/fileName/UnityConstants.cs: 5ce06a0e2d108fc8a16a0af098aa895b -> 8f7afb61f2b433d3c701afb225319bcb
+  custom:scripting/monoscript/fileName/IsExeAvailable.cs: 3e4283303610c884e542b8f6d3e922d4 -> 4a3dbc5ded94087064afd97407f26631
+  custom:scripting/monoscript/fileName/AutoLogin.cs: d257b2b319167ee8af9b75266dabb58c -> cac363a2d5471994de278e71f937b032
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/UpdateReportLineListViewItem.cs: a101f0ba5292fc139445870b3f4af838 -> 9f63395e1ea590dbbab4d59cd0032ac4
+  custom:scripting/monoscript/fileName/DrawSplitter.cs: ec7e8739eacabcca3e2946d9833eea0f -> d2f114a8e8e4167f7762d835a83b2f55
+  custom:scripting/monoscript/fileName/LaunchDependenciesDialog.cs: e1c527862a66e73f0417ae177d7fdfb5 -> 2cabf22eb95430074b6c730a84e03493
+  custom:scripting/monoscript/fileName/CredentialsResponse.cs: 96b135ae1c4ea541dc762170ea524fa9 -> 3dd2507693e56dac75ee7783f598cbb9
+  custom:scripting/monoscript/fileName/LaunchDiffOperations.cs: 831bbe9f0510da02e07943dba200580f -> 20e85a96a5926a180bb53a2abca68aa4
+  custom:scripting/monoscript/fileName/PlasticSplitterGUILayout.cs: 4cfaefa1a850aceff54713912c4a2bda -> 111849f67dfbfea65ad2a9298ad1654d
+  custom:scripting/monoscript/fileName/CheckinDialogOperations.cs: 0b2a2cd4c41cf1865a29cf91b2a96a48 -> d032d69e8060311c06b88286e8f22ddd
+  custom:scripting/monoscript/fileName/PendingChangesViewMenu.cs: 68fab310addfd7068cfd7920070496ff -> 9b0019b6df6bb14eb3a2dbafa53fb54b
+  custom:scripting/monoscript/fileName/AssetsSelection.cs: 35cec24e81f0cb1de51daeb356abc4ff -> 0227d7ff4d5687932d10967a945a9b06
+  custom:scripting/monoscript/fileName/EnumPopupSetting.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/PlasticConnectionMonitor.cs: 0a14faa9ef1a178a87cdca925b1963c3 -> 920e8e381bfc94da8bb69d336dda57ca
+  custom:scripting/monoscript/fileName/HistoryListHeaderState.cs: 6226ef13a567fa81584864f8698be331 -> a87e0364d14866c369ad50d669bdfa85
+  custom:scripting/monoscript/fileName/CloudEditionWelcomeWindow.cs: c886fdb39f4b8787e6ea3701a8f88f4a -> b1721e471183956468462f6b64901640
+  custom:scripting/monoscript/fileName/MetaPath.cs: 1f80313a7ce6ec6ece505285578f5745 -> 417a84eb354831f828a6752b26c8592d
+  custom:scripting/monoscript/fileName/AssetsPath.cs: 367269acf8f676d2cdd30fdc387b3920 -> e0e986124adc46d913f0683c34b88c9f
+  custom:scripting/monoscript/fileName/CredentialsUIImpl.cs: 90e9c2de8d7bdd8424e0d89c415108ae -> dbacf67c37819fd95562fe169e706732
+  custom:scripting/monoscript/fileName/ChangesetsViewMenu.cs: b720f0168f4ce1b1e0d358a6d5ec9a42 -> 7d1a2de81910b5990e71a0bfff26fdca
+  custom:scripting/monoscript/fileName/UnityPlasticGuiMessage.cs: 2a7f71f59c0d7dc731fd345a3713957c -> 24eef0792e3802809607a7f9d04b8f1d
+  custom:scripting/monoscript/fileName/OrganizationCredentials.cs: ee462057b3bd23cc3dab953ac4d656e2 -> 0b123406cadd651e9adc01c85fab5124
+  custom:scripting/monoscript/fileName/StatusBar.cs: 4d7c95bdcb7dc38d15f73e75e08a1cfd -> 392933116703b8e69a96dc0b873bf6f1
+  custom:scripting/monoscript/fileName/IsCurrent.cs: 16ae2475c9982c21b0dccb3cdf4b1a92 -> cf1fd01890d0fd9f011c1a1a491e2cf0
+  custom:scripting/monoscript/fileName/ChangesetFromCollabCommitResponse.cs: b986ab8b1acd322b0367812e2d541734 -> ba336e4117e1b7ee28e4c17197bc3d0e
+  custom:scripting/monoscript/fileName/MoveToChangelistMenuBuilder.cs: 3a2ef8cb0baf69e5dadeafc731fe32a9 -> a90b3e388d3e1316fa104d4c9a03e2d1
+  custom:scripting/monoscript/fileName/LoadingSpinner.cs: 69a46a0158b3944983921513a6337a68 -> 1c13cf7a9498073806920e71757dfeda
+  custom:scripting/monoscript/fileName/LocksTab.cs: 134c512484ae73354c15c06a6dc69f9f -> 00ffb5a39c16fdc2d733c7e53471a3a9
+  custom:scripting/monoscript/fileName/BranchesTab.cs: 764cb17e9337c58ad4f5304b60b2042e -> 57c33f76c527a5aba4d269245ffff188
+  custom:scripting/monoscript/fileName/HelpLink.cs: f129aa05dc3840d5bd4f2e0d111189db -> 
+  custom:scripting/monoscript/fileName/ToolConfig.cs: 18b1ea271ce5e7b6deea7b4e8e175269 -> fcffc3165b047f54ed6ccafa4c8760dd
+  custom:scripting/monoscript/fileName/DropDownTextField.cs: e66e7314096900597993d2b353757d8d -> c8fc484ce140049ff31ebc2c6cbebf28
+  custom:scripting/monoscript/fileName/AssetsProcessor.cs: 47679a6e15b70f4fef48eb1b2df31b19 -> 18737889e95cd4088e8dfd4153fa8f40
+  custom:scripting/monoscript/fileName/DrawActionButton.cs: d847a7d82ac92cab2b3d0ae268cefb3d -> 81e6708d2b8fa199354e53f85db731a8
+  custom:scripting/monoscript/fileName/TableViewOperations.cs: ddc7b903e0dbd6bd109f2bd709b95f0e -> bef3a31deb1fe794a90f767d16e4c868
+  custom:scripting/monoscript/fileName/UpdateProgress.cs: 5b04f01bf199310f09ab9522f89c78f4 -> 281e1e05168d6a30be1d8d2f6200bef8
+  custom:scripting/monoscript/fileName/SubscriptionDetailsResponse.cs: e10e0299ef716630c63b8cf5f792cda0 -> e5121cec860a6d1097cc809217b3d8fe
+  custom:scripting/monoscript/fileName/DrawProgressForDialogs.cs: 5f8d39e3ea7c4a42148c6b1a7b4ca061 -> a5f2abd8875e7a6afbc171fabfbae81f
+  custom:scripting/monoscript/fileName/ToolbarButton.cs: 0b8663f5acfbbe9acf3c68758e2857fb -> 47dc767626bbd94d66707af31ddc5eb6
+  custom:scripting/monoscript/fileName/ProjectViewAssetSelection.cs: 349dc288d32791de51156d4e59000b7b -> 2560eadaf6a13a74a46a4a207cd5a8b6
+  custom:scripting/monoscript/fileName/DrawTreeViewItem.cs: cceebc4f1185658619e40964f29acb08 -> 0921a62a588ab864253743d1f07afb5a
+  custom:scripting/monoscript/fileName/DrawSceneOperations.cs: 2426c0c2ee58cd28be59874f6425940c -> d87f46f9fb97181a2f51490ea2e1efc3
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DrawActionHelpBox.cs: dcd6ec2e7fb1b44f22c4a79ff87b70cd -> c8f6be9dab1e6f8d71e0c63c29679186
+  custom:scripting/monoscript/fileName/PendingChangesMultiColumnHeader.cs: 21802cc6929e0e180fb4f0be8e34d9d0 -> 722de7d6e07a79981d750438e6febb8f
+  custom:scripting/monoscript/fileName/EditorDispatcher.cs: c739e073a8c38dbcf59192f45d1004c5 -> 3c402eae57d73cc54863f3f6a13096ae
+  custom:scripting/monoscript/fileName/IIncomingChangesTab.cs: 363f9daba453e316e730238a80857251 -> 40644cd18074db84684b9e437bf8fa77
+  custom:scripting/monoscript/fileName/GetChangesOverlayIcon.cs: f00e4b795697c6cf3092760f3b6fc49d -> d599d6efdee28305661bc0cf6683858a
+  custom:scripting/monoscript/fileName/ChangesetsListView.cs: caae0aefb36c869f50691482a5cd0944 -> 87b74e0d80cf59010f55e2baaeb6679d
+  custom:scripting/monoscript/fileName/UpdateReportListView.cs: 2d8fccdaad50bbd7454b52cf9cb4a0f9 -> 08d26df1ab6c3a7628addc5e54e50b08
+  custom:scripting/monoscript/fileName/UnityConfigurationChecker.cs: 59a8f0715a7c89a752351bf42f94abbd -> 874cd65cce0384fef4b60e71fb08a429
+  custom:scripting/monoscript/fileName/CheckWorkspaceTreeNodeStatus.cs: 5e11ff64963669981115eb58dc2b6e8b -> 1e1255b803bf7cbc935bb804bf0dbe7b
+  custom:scripting/monoscript/fileName/PlasticPlugin.cs: a57c142b98ca3d4daad221737fd72924 -> c64561980f26020cc3206ae8b1047268
+  custom:scripting/monoscript/fileName/SwitchModeConfirmationDialog.cs: 4d9c02587760213784bfe53d012122b4 -> 30cd71d0b3ee4b2689cde689908d301e
+  custom:scripting/monoscript/fileName/PlasticWindow.cs: 76740c086f0109337962354fe520adb2 -> fc467478941f610919bc69526ba2c215
+  custom:scripting/monoscript/fileName/BranchesViewMenu.cs: 8089f11c30784e2e57775dd6cdbae898 -> 7bfc83e917c9b0b5aa423bb947ce2a38
+  custom:scripting/monoscript/fileName/CooldownWindowDelayer.cs: 7816cfcad485500dbac9993c4502ea69 -> 4c95e39c8dd4cfa1bca106097fdb6524
+  custom:scripting/monoscript/fileName/GetInstallerTmpFileName.cs: fa7bda723ac795b48e38504727f44981 -> d09e0b5c7a9af5874530e17ef23025f0
+  custom:scripting/monoscript/fileName/IsCollabProjectMigratedResponse.cs: 4c3294c6a51e6f42161d191230692016 -> af2b76c693935deee55cfcaed2aa7568
+  custom:scripting/monoscript/fileName/AssetModificationProcessor.cs: 84d720d70e5c24b7d0630ef5cea215ce -> a602c9e59e7db185e3a0d68d986e6fef
+========================================================================
+Received Import Request.
+  Time since last request: 155633.172373 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity
+  artifactKey: Guid(337f92480dd24675aae9e79210fb1ad9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity using Guid(337f92480dd24675aae9e79210fb1ad9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7a5342ed1689cc70f213ca5a7faf3a75') in 0.045356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs
+  artifactKey: Guid(76c11bbcfddf44e0ba17d6c2751c8d84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs using Guid(76c11bbcfddf44e0ba17d6c2751c8d84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5e8cdf1a12bf3d31dd4c0b3608963d42') in 0.022140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity
+  artifactKey: Guid(349f38d3606449708c7340d26740e1e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity using Guid(349f38d3606449708c7340d26740e1e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'df4ff619eefb9baebb9bf943efbe1c90') in 0.006951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/WildHorizon/SpriteAtlas/170x170 Atlas.spriteatlas
+  artifactKey: Guid(add961a206c8518489b0b2af23ef7252) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/SpriteAtlas/170x170 Atlas.spriteatlas using Guid(add961a206c8518489b0b2af23ef7252) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '054ffc4fd4372019e23929a1ba28a6d1') in 0.010645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.030262 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd
+  artifactKey: Guid(2b5e9ae96c5644d8bae932f8b4ca68a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd using Guid(2b5e9ae96c5644d8bae932f8b4ca68a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3af5bb6bef16053af112c530bfba6e57') in 0.035654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Resources/Localization/Notifications.csv
+  artifactKey: Guid(8ca18f0c0701c94439f019953f2c700a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Resources/Localization/Notifications.csv using Guid(8ca18f0c0701c94439f019953f2c700a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4f76cd9b3e8768b3bd500e4308174c17') in 0.007418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/WildHorizon/Resources/ScriptableBuilding/Church.asset
+  artifactKey: Guid(6fbc1307fb37d91428e7747cdcf0c19b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Resources/ScriptableBuilding/Church.asset using Guid(6fbc1307fb37d91428e7747cdcf0c19b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6817777b166b2e9a943c8b6b62051029') in 0.036557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Resources/ScriptableHero/Bat Masterson.asset
+  artifactKey: Guid(627e29fd6046e3646b5a1a76f60429e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Resources/ScriptableHero/Bat Masterson.asset using Guid(627e29fd6046e3646b5a1a76f60429e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '027082df3e88acc5857eff50132ab90b') in 0.008540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Animations/UI Big Panel/Opening a big scroll 5.png
+  artifactKey: Guid(982ea72b8a4e46f40a556dd9fd2d3086) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Animations/UI Big Panel/Opening a big scroll 5.png using Guid(982ea72b8a4e46f40a556dd9fd2d3086) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4b211dcf5b33a762280ea46958f34898') in 0.014483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Resources/ScriptableInstrument/Leather bag with additional pockets.asset
+  artifactKey: Guid(defb9ee3682fbf14e8a6efb905e164d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Resources/ScriptableInstrument/Leather bag with additional pockets.asset using Guid(defb9ee3682fbf14e8a6efb905e164d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e746649caeb7d3d363aec247b3d0d04f') in 0.010358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/WildHorizon/Resources/ScriptableHero/Butch Cassidy.asset
+  artifactKey: Guid(637e890b9e5304a42962b96b7c2ab91b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Resources/ScriptableHero/Butch Cassidy.asset using Guid(637e890b9e5304a42962b96b7c2ab91b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b4dd6ee91d1c08c1db11e933e12caeeb') in 0.008322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Animations/Scroll line/Scroll line 5.png
+  artifactKey: Guid(cb58bc4cedd0760478f7d6af102ffc7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Animations/Scroll line/Scroll line 5.png using Guid(cb58bc4cedd0760478f7d6af102ffc7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '11536123f217318927bb8d588d0ceb0d') in 0.013833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Prefabs/Workers/Priest.prefab
+  artifactKey: Guid(9ef2c9cc0d1cab144a20a2f5ab396661) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Prefabs/Workers/Priest.prefab using Guid(9ef2c9cc0d1cab144a20a2f5ab396661) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c4dbbdfd57220b68c27bf79afafeca93') in 0.029265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/WildHorizon/Prefabs/Workers/Lumberjack.prefab
+  artifactKey: Guid(361a8d2e1e670d1418ecc91ca27bb900) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Prefabs/Workers/Lumberjack.prefab using Guid(361a8d2e1e670d1418ecc91ca27bb900) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5198939be98e30508b0471381f505ac1') in 0.020152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/WildHorizon/Resources/Crafting Recipes/Iron Piece.asset
+  artifactKey: Guid(dc2831b666212644984b567e32251a31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Resources/Crafting Recipes/Iron Piece.asset using Guid(dc2831b666212644984b567e32251a31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '15dca3dd4bb1cc159e389dbc8ee0aff1') in 0.010359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'dc5c367d776f7949c73cce22ae062b02') in 0.023693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Animations/UI Gift/Gift promotional button 1.png
+  artifactKey: Guid(b5451af2bc91f9c4ab3f8b12f778f769) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Animations/UI Gift/Gift promotional button 1.png using Guid(b5451af2bc91f9c4ab3f8b12f778f769) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c54b0d75e4a25fa0f46cd1875a8410a7') in 0.012564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/WildHorizon/Animations/Scroll line/Scroll line 4.png
+  artifactKey: Guid(b589ee1f3b528e549ad7f3834d727046) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Animations/Scroll line/Scroll line 4.png using Guid(b589ee1f3b528e549ad7f3834d727046) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b104ec236fb051cadce910e8502e6d56') in 0.012050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Animations/UI Gift/Gift promotional.controller
+  artifactKey: Guid(2493bbd5c5617164d843726676d3559e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Animations/UI Gift/Gift promotional.controller using Guid(2493bbd5c5617164d843726676d3559e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a354be0b0775f3804f9ac5dca051899c') in 0.007490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Animations/Scroll line/Scroll line controller.controller
+  artifactKey: Guid(4de8517a8f262de4f838d35c16752005) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Animations/Scroll line/Scroll line controller.controller using Guid(4de8517a8f262de4f838d35c16752005) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ffb5629a9e11dace9e9265fb2ac3de46') in 0.006797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1.188561 seconds.
+  path: Assets/WildHorizon/Resources/ScriptableResource/Copper Ore.asset
+  artifactKey: Guid(3b00aab51c212a948be0a59c40c53155) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Resources/ScriptableResource/Copper Ore.asset using Guid(3b00aab51c212a948be0a59c40c53155) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '025150860b0b2303dca0c4f9cc397436') in 0.010057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Scripts/PlayerComponents/PlayerFortune.cs
+  artifactKey: Guid(49389539059610c488666004a919ae1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Scripts/PlayerComponents/PlayerFortune.cs using Guid(49389539059610c488666004a919ae1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '82c0355171c8d80187f0e680606d6cc8') in 0.009957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Resources/ScriptableResource/Iron Bar.asset
+  artifactKey: Guid(ba72e7c165c584b4bb72bd2772d51b10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Resources/ScriptableResource/Iron Bar.asset using Guid(ba72e7c165c584b4bb72bd2772d51b10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3f2b2db61b8199cb59ee38d63efdba80') in 0.008025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/WildHorizon/Scripts/_UI/ItemsPrefabForAnimation.cs
+  artifactKey: Guid(95245a64ad72aee45b9e44efbd5b1bbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Scripts/_UI/ItemsPrefabForAnimation.cs using Guid(95245a64ad72aee45b9e44efbd5b1bbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6d8c05df354bc23535aa43135bc20d35') in 0.009515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/WildHorizon/Resources/ScriptableWeapon/Iron Knife.asset
+  artifactKey: Guid(f9994d3648743ac43b10188ee3f38374) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Resources/ScriptableWeapon/Iron Knife.asset using Guid(f9994d3648743ac43b10188ee3f38374) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '51a5da5378697071f62a0be4029ccc0f') in 0.010497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/WildHorizon/Scripts/ScriptableBuildings/ScriptableMining.cs
+  artifactKey: Guid(d53c4d305b8208147bd5a40798678006) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Scripts/ScriptableBuildings/ScriptableMining.cs using Guid(d53c4d305b8208147bd5a40798678006) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e5d212883b4e145b3dad27d9e7d18d72') in 0.007635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/WildHorizon/Scripts/Researches/Research.cs
+  artifactKey: Guid(dc1ead0e67164d4438a9f39bc638b831) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Scripts/Researches/Research.cs using Guid(dc1ead0e67164d4438a9f39bc638b831) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'bc8e2184b45be16f251025c61f6fb7e9') in 0.009347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001970 seconds.
+  path: Assets/WildHorizon/Scripts/PlayerComponents/PlayerNotifications.cs
+  artifactKey: Guid(51b11537d78eff5428450260617f35a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Scripts/PlayerComponents/PlayerNotifications.cs using Guid(51b11537d78eff5428450260617f35a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '9578b08f487c71383f39a6688c9aa838') in 0.009370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/WildHorizon/Resources/ScriptableResource/Tin Piece.asset
+  artifactKey: Guid(8033b9af5903da145a28910b948a4ec7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Resources/ScriptableResource/Tin Piece.asset using Guid(8033b9af5903da145a28910b948a4ec7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '842277b6cca6193f46c31b68d5eeac5f') in 0.010326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/WildHorizon/Scripts/ScriptableItems/ScriptableAnimal.cs
+  artifactKey: Guid(7432736553911b746b6e71c15cb92357) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Scripts/ScriptableItems/ScriptableAnimal.cs using Guid(7432736553911b746b6e71c15cb92357) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '114bc9a78c8503ff4897f00b47b51e96') in 0.009020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/WildHorizon/Resources/ScriptableResource/Zinc Piece.asset
+  artifactKey: Guid(886623869ad76974d81b0052a88fc0dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Resources/ScriptableResource/Zinc Piece.asset using Guid(886623869ad76974d81b0052a88fc0dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3599269800730d30aed99151c7009659') in 0.010444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Scripts/Battles & Trade System/UITradeCampItemSlot.cs
+  artifactKey: Guid(aafc4d65d4283974d95327126047a218) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Scripts/Battles & Trade System/UITradeCampItemSlot.cs using Guid(aafc4d65d4283974d95327126047a218) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1ba571429d9bd2206807f5ba8ced8b75') in 0.009870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/WildHorizon/Scripts/_UI/UIQuestTaskSlot.cs
+  artifactKey: Guid(eb24941c88d44f9489c411df98f9a82c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Scripts/_UI/UIQuestTaskSlot.cs using Guid(eb24941c88d44f9489c411df98f9a82c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'cca2313086481824ec45ea498a73d645') in 0.009724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Scripts/_UI/UIEnemyCampSlot.cs
+  artifactKey: Guid(7db2b788dbb102845bd39de99e6cda98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Scripts/_UI/UIEnemyCampSlot.cs using Guid(7db2b788dbb102845bd39de99e6cda98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e46b33826e8257881333e99069476338') in 0.008852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/WildHorizon/Scripts/Battles & Trade System/Battlefield.cs
+  artifactKey: Guid(d8b3a4eeaded8684c8c7cd96c2f23db6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Scripts/Battles & Trade System/Battlefield.cs using Guid(d8b3a4eeaded8684c8c7cd96c2f23db6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b650e8c7c47ce737adb6246002c6f684') in 0.008448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/WildHorizon/Scripts/_UI/UIHeroSlot.cs
+  artifactKey: Guid(0ade9568c3b5a354481c5bba5fd3ded1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Scripts/_UI/UIHeroSlot.cs using Guid(0ade9568c3b5a354481c5bba5fd3ded1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c7ba30d96e4e73fa7339285be75c57d3') in 0.009422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/WildHorizon/Resources/ScriptableResource/Limestone.asset
+  artifactKey: Guid(114c2feaa5c11184eb36251754e6e1ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Resources/ScriptableResource/Limestone.asset using Guid(114c2feaa5c11184eb36251754e6e1ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '55afdf41956b04860e135a762fa99f11') in 0.009053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/WildHorizon/Scripts/ScriptableItems/ScriptableResource.cs
+  artifactKey: Guid(c3e1cffde6387eb4aaf6152ca3120139) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Scripts/ScriptableItems/ScriptableResource.cs using Guid(c3e1cffde6387eb4aaf6152ca3120139) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd8f3dffd160d40939133c988df515897') in 0.010800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/WildHorizon/Resources/ScriptableResource/Hard leather.asset
+  artifactKey: Guid(d5fc1832b170e574ab1bd0c796aa5bcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Resources/ScriptableResource/Hard leather.asset using Guid(d5fc1832b170e574ab1bd0c796aa5bcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '246e5aa26e38278e70ea2f3fe0e516eb') in 0.010103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.091055 seconds.
+  path: Assets/WildHorizon/Sounds/Building sounds/Armory.wav
+  artifactKey: Guid(25cb046bdebb8dd46aa29388f1d173be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sounds/Building sounds/Armory.wav using Guid(25cb046bdebb8dd46aa29388f1d173be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4af9b0263b3b47fc7c04d17ed6622cee') in 0.031838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Heroes/Character 3.png
+  artifactKey: Guid(f6977ff28315feb4a8a91286a3ed0851) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Heroes/Character 3.png using Guid(f6977ff28315feb4a8a91286a3ed0851) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '07e6ac8fa45f498a321545694b58c8ab') in 0.012793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/WildHorizon/Resources/ScriptableResearch/Craft/Bar.asset
+  artifactKey: Guid(acd93da5ca6fb3c4d8b4af5185bd9790) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Resources/ScriptableResearch/Craft/Bar.asset using Guid(acd93da5ca6fb3c4d8b4af5185bd9790) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '41c0df385ef4b4bb3589115051d68d6c') in 0.009570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Heroes/Кит Карсон.png
+  artifactKey: Guid(c91e89439a37ca14aa65c34f84bcae1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Heroes/Кит Карсон.png using Guid(c91e89439a37ca14aa65c34f84bcae1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '13678745f7853d0c27e1c080ee8db93b') in 0.013637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/WildHorizon/Resources/EnemyCamps/Indians/Cheyenne.asset
+  artifactKey: Guid(93f9e0fb75f021b4fb0e3fdde211ac95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Resources/EnemyCamps/Indians/Cheyenne.asset using Guid(93f9e0fb75f021b4fb0e3fdde211ac95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '26f1bdd808c0dadf305617a3a6229c6f') in 0.010900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Frame 6 Training.png
+  artifactKey: Guid(b8e9edefbfdf0144884fd78f57edf19b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Frame 6 Training.png using Guid(b8e9edefbfdf0144884fd78f57edf19b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd32f6bc5427e3d6e9575f57134120777') in 0.013841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Army/Soldier with a gun.png
+  artifactKey: Guid(414f151ac120cea4287aada747a09d5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Army/Soldier with a gun.png using Guid(414f151ac120cea4287aada747a09d5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3f2d5a8cbbee7093816f4a8cd7464ac5') in 0.015560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/WildHorizon/Sounds/Building sounds/Mine All.wav
+  artifactKey: Guid(28259609dbc75824d8d5eb418152493b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sounds/Building sounds/Mine All.wav using Guid(28259609dbc75824d8d5eb418152493b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '940c18068d7ae3e41c12f26cdf5b6ace') in 0.027772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset
+  artifactKey: Guid(14aa93acbb234d16aaef0e8b46814db6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset using Guid(14aa93acbb234d16aaef0e8b46814db6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4b8d4e59a80e8ba9af084a6f25a951b5') in 0.012242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/WildHorizon/Sounds/Building sounds/Barracks.wav
+  artifactKey: Guid(2abe6deb36cce0d4aa631ce02c326025) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sounds/Building sounds/Barracks.wav using Guid(2abe6deb36cce0d4aa631ce02c326025) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd644fb1db532c94fc28165727602dc7f') in 0.027024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3a4a44de4f0baf47c865ec544268a284') in 0.012440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Sprites/Volume Settings/soundOffSprite.png
+  artifactKey: Guid(1b725fe06fd7fd74abf317d52314a70b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/Volume Settings/soundOffSprite.png using Guid(1b725fe06fd7fd74abf317d52314a70b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e06f0791e9c3f39bfd7d6d5b65550a10') in 0.013402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/WildHorizon/Resources/EnemyCamps/Indians/Cherokee.asset
+  artifactKey: Guid(05d9f5f2b9233d642871718cc5b08899) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Resources/EnemyCamps/Indians/Cherokee.asset using Guid(05d9f5f2b9233d642871718cc5b08899) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c186520c73e24e48fbf3ac8c48be6d55') in 0.008917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/WildHorizon/Resources/EnemyCamps/Indians/Iroquois.asset
+  artifactKey: Guid(059dcdb3d05001644b656bce40e39fef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Resources/EnemyCamps/Indians/Iroquois.asset using Guid(059dcdb3d05001644b656bce40e39fef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4882474df54b0d44ae93354d888bea6a') in 0.008771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Scripts/_UI/Building/UIBuildingSelect.cs
+  artifactKey: Guid(3a2d22e1c607a00408f9e58cdf6f3caa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Scripts/_UI/Building/UIBuildingSelect.cs using Guid(3a2d22e1c607a00408f9e58cdf6f3caa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '9ea6667b3eaf91e33eb5f1b1f2b59260') in 0.008145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/WildHorizon/Resources/ScriptableBuilding/Production/Workshop.asset
+  artifactKey: Guid(e7356248e3de7e740b5de3a142813ac1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Resources/ScriptableBuilding/Production/Workshop.asset using Guid(e7356248e3de7e740b5de3a142813ac1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '24dc5a55c3233094d0792c29528e8d2d') in 0.032354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 90
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Resources/EnemyCamps/Mexicans/Mexicans.asset
+  artifactKey: Guid(c9de44b1ac1bd7543bf767a5894b7db2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Resources/EnemyCamps/Mexicans/Mexicans.asset using Guid(c9de44b1ac1bd7543bf767a5894b7db2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a7a791677ac9ca8a552cb7a15a932658') in 0.007647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/WildHorizon/Scripts/_UI/Building/UIBuildingSlot.cs
+  artifactKey: Guid(cab89a8c8a22c064aaae3781184920b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Scripts/_UI/Building/UIBuildingSlot.cs using Guid(cab89a8c8a22c064aaae3781184920b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4386ed58bd25ca2210a729ce689bdd6f') in 0.008378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat
+  artifactKey: Guid(f2dcf029949142e28b974630369c8b4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat using Guid(f2dcf029949142e28b974630369c8b4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'eccc9f81f0e811dd635c334717eec3f3') in 0.014078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset
+  artifactKey: Guid(4c86a3366cd840348ebe8dc438570ee4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset using Guid(4c86a3366cd840348ebe8dc438570ee4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b9454b7a3c061e386ce44749562d4453') in 0.008693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/WildHorizon/Sounds/Western/Music/Western Outside Loop.wav
+  artifactKey: Guid(b4a57636a4cc64f6c822a6bd1aec36e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sounds/Western/Music/Western Outside Loop.wav using Guid(b4a57636a4cc64f6c822a6bd1aec36e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3ff3b719a0e67ab6b89bc0a604fc2910') in 0.264614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.599576 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Icons/Boost.png
+  artifactKey: Guid(1f92eb2e2070ace4fa261888ee0a367f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Icons/Boost.png using Guid(1f92eb2e2070ace4fa261888ee0a367f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '2874ea2ac4d71f417e3c7f4c272d6d91') in 0.012120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Building/170x170/House 2 170x170.png
+  artifactKey: Guid(3e971c50d7cdcce4fa9321012c002837) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Building/170x170/House 2 170x170.png using Guid(3e971c50d7cdcce4fa9321012c002837) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3f86e8a1ee7476a3ce4e1c94cb2b1087') in 0.014016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Animals/Deer/Deer 2.png
+  artifactKey: Guid(592c9afd36437d54a8e45939f51fc18a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Animals/Deer/Deer 2.png using Guid(592c9afd36437d54a8e45939f51fc18a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '04bc0448ebde01e3bad52d968533bcbd') in 0.013820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Building/170x170/Pumping station 2 170x170.png
+  artifactKey: Guid(25f67bd2d3d56154b91ee51f24e48d6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Building/170x170/Pumping station 2 170x170.png using Guid(25f67bd2d3d56154b91ee51f24e48d6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c5c05069bdf9e3b68fa4efc267e17359') in 0.013718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Icons/frame.png
+  artifactKey: Guid(a7d6f62da1d4ef449907433aadb1929e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Icons/frame.png using Guid(a7d6f62da1d4ef449907433aadb1929e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e380bd6c13c22e61ec7cd020507035b9') in 0.013137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Resources/Iron bar.png
+  artifactKey: Guid(d2d304a2e785ab74c8a20dc4cd89d753) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Resources/Iron bar.png using Guid(d2d304a2e785ab74c8a20dc4cd89d753) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '408385061b5a96568bc3f3b97cf61f52') in 0.011273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Resources/Planks.png
+  artifactKey: Guid(f70412f823dfdb44a815a16bcb03137b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Resources/Planks.png using Guid(f70412f823dfdb44a815a16bcb03137b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '50de00cad28d0f9f7032bfaf76e94794') in 0.016922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/idle/Wagon 2_Монтажная область 1 копия 92.png
+  artifactKey: Guid(8ae8e7a0317154d4ba9d239fbe958a77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/idle/Wagon 2_Монтажная область 1 копия 92.png using Guid(8ae8e7a0317154d4ba9d239fbe958a77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '73a4843b8e96f35a6c74434cd1076789') in 0.014441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Icons/WH Logo.png
+  artifactKey: Guid(62293f3a251e45d41a047f2c7ac827b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Icons/WH Logo.png using Guid(62293f3a251e45d41a047f2c7ac827b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a96d31477e495cd9f46cd7242531219b') in 0.019340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Wagon/Walk 1.1 Wagon.png
+  artifactKey: Guid(51b86fdf93bd03643b6d8cf198c0e74e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Wagon/Walk 1.1 Wagon.png using Guid(51b86fdf93bd03643b6d8cf198c0e74e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c585985ed01484a11325b53333f00da8') in 0.020231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Wagon/Walk 3.2 Wagon.png
+  artifactKey: Guid(f79852f7ec30161479eb91bd9c14c5fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Wagon/Walk 3.2 Wagon.png using Guid(f79852f7ec30161479eb91bd9c14c5fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '2c9c97fb60ac24c9d994a88950beb592') in 0.019594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Instruments/Lamp.png
+  artifactKey: Guid(83111722639b1104fbf10079e5d5a0ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Instruments/Lamp.png using Guid(83111722639b1104fbf10079e5d5a0ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b083f076a63f35ed23a55668da3d890c') in 0.014111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Icons/Star for quest.png
+  artifactKey: Guid(6dade728157621b4292925203d9c70ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Icons/Star for quest.png using Guid(6dade728157621b4292925203d9c70ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '289a329e09d100b11b0c6dd43e8bf91a') in 0.018649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Plants/Tree 2.png
+  artifactKey: Guid(855e60da07b60ef46ba4c4ca9e9a3f57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Plants/Tree 2.png using Guid(855e60da07b60ef46ba4c4ca9e9a3f57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0cec3dedf39770d20e053636a1e7946b') in 0.018002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Weapon/Coach Shotgun.png
+  artifactKey: Guid(cc8ddfee3fe0e464eaa7b7b0c8635426) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Weapon/Coach Shotgun.png using Guid(cc8ddfee3fe0e464eaa7b7b0c8635426) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '458aaa46f2a2d8a2c87e9d3a514535a3') in 0.014072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/idle/Wagon 1_Монтажная область 1 копия 91.png
+  artifactKey: Guid(3b6a35c7da59e614da77ccd5f5cf72b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/idle/Wagon 1_Монтажная область 1 копия 91.png using Guid(3b6a35c7da59e614da77ccd5f5cf72b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '47148b67f25a03021b0d178e811db656') in 0.020319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Resources/Wood.png
+  artifactKey: Guid(1dafd53d22ad4664f907c4c5894038f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Resources/Wood.png using Guid(1dafd53d22ad4664f907c4c5894038f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'aba18619eb5f6c33f5bbf0b2413c956c') in 0.013915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Shop Coins/Gold_coins_5.png
+  artifactKey: Guid(280d87f41c831d747b8083598953a44b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Shop Coins/Gold_coins_5.png using Guid(280d87f41c831d747b8083598953a44b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f811f4d208a25b47cc2ade65f03a1f6a') in 0.011542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Wagon/Walk 3.1 Wagon.png
+  artifactKey: Guid(9424851f6d219894b8287888bbd88b93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Wagon/Walk 3.1 Wagon.png using Guid(9424851f6d219894b8287888bbd88b93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '24cec914bbe3adaf924b45aa437e02ce') in 0.017671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Perekatipole/Walk 3 Perekatipole.png
+  artifactKey: Guid(edbde590be44d2949b629e7db0c957ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Perekatipole/Walk 3 Perekatipole.png using Guid(edbde590be44d2949b629e7db0c957ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e6afaf814662001be76cea1d1df36b2a') in 0.018339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Wagon/Walk 4 Wagon.anim
+  artifactKey: Guid(9e146c15a6f0ddc4281d4cffc43d39bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Wagon/Walk 4 Wagon.anim using Guid(9e146c15a6f0ddc4281d4cffc43d39bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '66cefa663a525e4b9fe0e65b52c42a53') in 0.012287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Resources/Gold bar 2.png
+  artifactKey: Guid(30cc6011e02309b418f90cb784edc4b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Resources/Gold bar 2.png using Guid(30cc6011e02309b418f90cb784edc4b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '50155f6d98e6d8e08bd69cac7fcf7bf5') in 0.013441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Perekatipole/Walk 4 Perekatipole.png
+  artifactKey: Guid(d2b20de3f36a39643b78250afad7d1ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Perekatipole/Walk 4 Perekatipole.png using Guid(d2b20de3f36a39643b78250afad7d1ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1922cf79ebcb84e8c004572b515c2b2b') in 0.015571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Icons/Quest.png
+  artifactKey: Guid(a51c8323ac2837246b9a959abfd5b672) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Icons/Quest.png using Guid(a51c8323ac2837246b9a959abfd5b672) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '17aa1a1b5fa1e67b152f92cdcae80136') in 0.014009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Building/170x170/Processing 170x170.png
+  artifactKey: Guid(6bfbc39e7c79bc94c9f3670be7dac174) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Building/170x170/Processing 170x170.png using Guid(6bfbc39e7c79bc94c9f3670be7dac174) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3298a94684fa37754a692aaf55d325dc') in 0.014127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/WildHorizon/Animations/UI Quest/Button Quests/Opening a small scroll/Opening a small scroll 5.png
+  artifactKey: Guid(f2b444174dc437f43ad1641dbcd7d7fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Animations/UI Quest/Button Quests/Opening a small scroll/Opening a small scroll 5.png using Guid(f2b444174dc437f43ad1641dbcd7d7fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b6ca60f1c9ca3db2c6408465a8370eac') in 0.012521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/idle/Water idle 2.PNG
+  artifactKey: Guid(2464959b1c7543648a0dfa5507a3a1f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/idle/Water idle 2.PNG using Guid(2464959b1c7543648a0dfa5507a3a1f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '8e056251805c57c7dbb2c02f59b8e36b') in 0.016795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.487461 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Building/4 Quarter/4.1 Quarter 5.png
+  artifactKey: Guid(08882b4aafce813408bb4f860fdeae44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Building/4 Quarter/4.1 Quarter 5.png using Guid(08882b4aafce813408bb4f860fdeae44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0fd0f90a0411ca07348fa23f6c26de3f') in 0.015615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Building/Towers/New_Tower_3 170x170.png
+  artifactKey: Guid(c4e57bbd028476c4c8c07cd7f3271846) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Building/Towers/New_Tower_3 170x170.png using Guid(c4e57bbd028476c4c8c07cd7f3271846) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b8ede5dda307b736ea89d17f926c85b6') in 0.012763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Building/Burnt objects/Burnt Saloon.png
+  artifactKey: Guid(b527850d68b043e46a4b57f8302a1dd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Building/Burnt objects/Burnt Saloon.png using Guid(b527850d68b043e46a4b57f8302a1dd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0265ef1ac6d746d88ca0a27b55f47a73') in 0.012358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Building/Water tower/Water tower 1.png
+  artifactKey: Guid(ec3f8dce2a61e0f4fa97c01b29fa137e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Building/Water tower/Water tower 1.png using Guid(ec3f8dce2a61e0f4fa97c01b29fa137e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd9a3d1f05ea86fca4acb3857e7dcd80e') in 0.015621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Building/Farm/Burnt Corral.png
+  artifactKey: Guid(0cbf1af3c954daf44adb1314895b7023) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Building/Farm/Burnt Corral.png using Guid(0cbf1af3c954daf44adb1314895b7023) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4cf8ff849b71dff62ef63de3678eccf7') in 0.012653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Building/Processing/Processing 1.png
+  artifactKey: Guid(fec08387e4d156c458c751f5976928f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Building/Processing/Processing 1.png using Guid(fec08387e4d156c458c751f5976928f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '569e0fe567882a78c9d534bf18f34120') in 0.013110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Russian roulette/6x/Roulette 3.png
+  artifactKey: Guid(58e40d7802ec0f449b4a4dfa4915c26b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Russian roulette/6x/Roulette 3.png using Guid(58e40d7802ec0f449b4a4dfa4915c26b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'cdc0ee631ac6caf12212ad5e09831331') in 0.016237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Research/Ver 2/Construction 2.1.png
+  artifactKey: Guid(7c5fcd6ab56b068429111fcf772856fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Research/Ver 2/Construction 2.1.png using Guid(7c5fcd6ab56b068429111fcf772856fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '30852d19a8dd7c98c2dcfc82dfd1cb7a') in 0.013463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Weapon/Indian things/Stone ax.png
+  artifactKey: Guid(2c4abe02e2e7751408b9d1eead740007) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Weapon/Indian things/Stone ax.png using Guid(2c4abe02e2e7751408b9d1eead740007) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4bb58a0b51200588631231cce75a783d') in 0.017370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Research/Ver 2/Сraft 2.2.png
+  artifactKey: Guid(c8d2acfaf63bd044bbc5618855892ba1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Research/Ver 2/Сraft 2.2.png using Guid(c8d2acfaf63bd044bbc5618855892ba1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1f459bcdea99d0e24bb5a1338d84a023') in 0.012308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Building/Towers/New_Tower_3.png
+  artifactKey: Guid(09fcf8a7d50ca174aa4f6bf613a7585a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Building/Towers/New_Tower_3.png using Guid(09fcf8a7d50ca174aa4f6bf613a7585a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b358523dfd04eed57074c0f65f7a78e4') in 0.012689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Building/Bank/Bank 1.png
+  artifactKey: Guid(6eb4b16dd75d8d3429c7b9902d88d838) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Building/Bank/Bank 1.png using Guid(6eb4b16dd75d8d3429c7b9902d88d838) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5d371c4d230a9037da01d2d3b14d160a') in 0.013263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Research/Ver 2/Instruments 2.1.png
+  artifactKey: Guid(a4ed8fa0051f48745916b95d15219ff4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Research/Ver 2/Instruments 2.1.png using Guid(a4ed8fa0051f48745916b95d15219ff4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '813b1df684c35431c6721df10ec0906e') in 0.013804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Lumberjack/Сutting 2.4.png
+  artifactKey: Guid(9176977d95bba9e4e8831c2c7e8ad1e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Lumberjack/Сutting 2.4.png using Guid(9176977d95bba9e4e8831c2c7e8ad1e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4035bd25b91501d369b20b7fe892507e') in 0.013585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Research/Ver 2/Military 1.1.png
+  artifactKey: Guid(f01516228edebf14bb8d17aa925c265e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Research/Ver 2/Military 1.1.png using Guid(f01516228edebf14bb8d17aa925c265e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd9e1302b2758a948de4283e56dfd1a3e') in 0.012402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Miners/Idle 1.1.png
+  artifactKey: Guid(ba9c744fa4d370b4ab3f66d32bbfc1ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Miners/Idle 1.1.png using Guid(ba9c744fa4d370b4ab3f66d32bbfc1ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '02fd101d765344acf81298404320971f') in 0.012847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Building/2 Quarter/2/2.1 Quarter 1.png
+  artifactKey: Guid(b0a58d0be062ce74d9529cc6985c6e34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Building/2 Quarter/2/2.1 Quarter 1.png using Guid(b0a58d0be062ce74d9529cc6985c6e34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ab6eaf10b7c11dbb5001699a26d2f003') in 0.013095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Building/Burnt objects/Burnt objects 1.png
+  artifactKey: Guid(6427112f37437ad48a11ce9ae004b6e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Building/Burnt objects/Burnt objects 1.png using Guid(6427112f37437ad48a11ce9ae004b6e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a5e77776c9d0e3c1d630587c4ebff1f6') in 0.013701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Building/Church/Church 1.1.png
+  artifactKey: Guid(0518cc0e8dd88b144af93e3bc29cbaa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Building/Church/Church 1.1.png using Guid(0518cc0e8dd88b144af93e3bc29cbaa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b8023cb18550a34804c93f036d41e34d') in 0.014997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Building/Houses/House 2.1.png
+  artifactKey: Guid(07928dbcf2b26a94e811de5692f7a626) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Building/Houses/House 2.1.png using Guid(07928dbcf2b26a94e811de5692f7a626) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0bdbd8ea8b406c6896d2708a8140bbd2') in 0.014736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Lumberjack/Walk 3.5 Lumb.png
+  artifactKey: Guid(68348ba387370df4e9aaf8227ef50709) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Lumberjack/Walk 3.5 Lumb.png using Guid(68348ba387370df4e9aaf8227ef50709) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e5a1c75aa26700f15ce04c9ea9b755ea') in 0.014542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Research/Ver 2/Instruments 1.2.png
+  artifactKey: Guid(52e90b59a74445b49b7f68ce1d2188d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Research/Ver 2/Instruments 1.2.png using Guid(52e90b59a74445b49b7f68ce1d2188d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3f00a1b5f749be820ffece67d7a84313') in 0.015193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Lumberjack/Сutting 1.4.png
+  artifactKey: Guid(35d25175dfbffde46beb72d2a1eeca3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Lumberjack/Сutting 1.4.png using Guid(35d25175dfbffde46beb72d2a1eeca3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '483497986d9f461d2b4b6617f1d1ae83') in 0.015967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Research/Ver 2/Resources 2.1.png
+  artifactKey: Guid(b66b81c7168829d45879f08abd145a1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Research/Ver 2/Resources 2.1.png using Guid(b66b81c7168829d45879f08abd145a1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0919a116ade4873539c92322cb21e576') in 0.018890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Lumberjack/Walk 3 Lumb.anim
+  artifactKey: Guid(74beaae3f2849904f85cd439350cb07a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Lumberjack/Walk 3 Lumb.anim using Guid(74beaae3f2849904f85cd439350cb07a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6f0f19a40e3a81820b54ce68d32b5c45') in 0.009167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Russian roulette/9х/Roulette 1.png
+  artifactKey: Guid(659e0cd7229cb254a8c7e9804214e494) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Russian roulette/9х/Roulette 1.png using Guid(659e0cd7229cb254a8c7e9804214e494) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '00047723abc93ae509682b92465e69b8') in 0.022321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Building/Wagon/Wagon 1.1 Construction.png
+  artifactKey: Guid(05c99c4d1ccf04644998ce5a6ed67f59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Building/Wagon/Wagon 1.1 Construction.png using Guid(05c99c4d1ccf04644998ce5a6ed67f59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6b2db402b0433faa0a2add9c407fe883') in 0.013820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Building/Windmill/Windmill 1.png
+  artifactKey: Guid(c8d37fa4d7ff5de4c977aa321c8a233c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Building/Windmill/Windmill 1.png using Guid(c8d37fa4d7ff5de4c977aa321c8a233c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '45a8410263646d49bb024a0137f4e0d4') in 0.014761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Lumberjack/Walk 1_1 Lumb.controller
+  artifactKey: Guid(6d9aba370d3b4544dbeaed9eedad380a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Lumberjack/Walk 1_1 Lumb.controller using Guid(6d9aba370d3b4544dbeaed9eedad380a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'eacb329b9519c7775ef579fc1630e0e6') in 0.008700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Building/2 Quarter/3/3.1 Quarter 4.png
+  artifactKey: Guid(e4b719ad8e599fe42bc137d160d3dc57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Building/2 Quarter/3/3.1 Quarter 4.png using Guid(e4b719ad8e599fe42bc137d160d3dc57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '01f5cb2665f49214d2393c5c8a4b85be') in 0.015431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Building/Mine/Mine 7.png
+  artifactKey: Guid(7715d261294c3a848a31d18c6469e4a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Building/Mine/Mine 7.png using Guid(7715d261294c3a848a31d18c6469e4a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd8bddec0a5017fae5d8d2b653b85d9e6') in 0.014548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Lumberjack/Walk 3.1 Lumb.png
+  artifactKey: Guid(cc12c468a90f1334fa333640f9e47e4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Lumberjack/Walk 3.1 Lumb.png using Guid(cc12c468a90f1334fa333640f9e47e4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a9845fd650144b5778bf31aa9d36fcad') in 0.013776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Miners/Idle 1.anim
+  artifactKey: Guid(7b4f874f9e2cbdf48aa9bba93bdbef4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Miners/Idle 1.anim using Guid(7b4f874f9e2cbdf48aa9bba93bdbef4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '171b1b161bc7db045caba42ee06e7ae8') in 0.008874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Building/2 Quarter/1/1.1 Quarter 1 construction.png
+  artifactKey: Guid(db866e2408bd81e458e0f393ea9ff1ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Building/2 Quarter/1/1.1 Quarter 1 construction.png using Guid(db866e2408bd81e458e0f393ea9ff1ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4ca073f572d99feb55a396b70dd91116') in 0.011862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Circle/5/Circkle 5.5.png
+  artifactKey: Guid(7bd138c2a129cc14a806ea7b19a005a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Circle/5/Circkle 5.5.png using Guid(7bd138c2a129cc14a806ea7b19a005a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '96393a117ad8b9704cf5e1accdeeb566') in 0.014102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Circle/3/Circkle 3.2.png
+  artifactKey: Guid(f8cfbeeb1652c324ea1a5fd2001df68e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Circle/3/Circkle 3.2.png using Guid(f8cfbeeb1652c324ea1a5fd2001df68e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ae3e06d4321eb91c660b8bc5692bb607') in 0.012334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Circle gold/5/Circkle 5.4 gold.png
+  artifactKey: Guid(e7a8f7f96a6cbe74097a430cdba74855) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Circle gold/5/Circkle 5.4 gold.png using Guid(e7a8f7f96a6cbe74097a430cdba74855) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6f8386f4aa37d7bb5642dab07007b3f7') in 0.013408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Building/Bank/Bank 1. Construction.png
+  artifactKey: Guid(09651ef7d601df748b55679619deee70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Building/Bank/Bank 1. Construction.png using Guid(09651ef7d601df748b55679619deee70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '9de317d99c21735623d011979c4450c5') in 0.012944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Research/Ver 2/Resources 2.2.png
+  artifactKey: Guid(8dd907d5d61d64c41b89aab8efbb602b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Research/Ver 2/Resources 2.2.png using Guid(8dd907d5d61d64c41b89aab8efbb602b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f2ee2d052918d4f7df337d639fb9f749') in 0.013429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Building/Pumping/Pumping station 1.png
+  artifactKey: Guid(d8e9dc43db2522b4d87cb86de9aebf94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Building/Pumping/Pumping station 1.png using Guid(d8e9dc43db2522b4d87cb86de9aebf94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c2f4f171a03722fa897379c890f02f31') in 0.014823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Research/Ver 2/Military 3.2.png
+  artifactKey: Guid(33e544ff3f6976a4b825f733cfd566ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Research/Ver 2/Military 3.2.png using Guid(33e544ff3f6976a4b825f733cfd566ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f741d8d7e43d6bc0b7676ff2b3fa5a4a') in 0.013628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Building/Mine/Mine 6.png
+  artifactKey: Guid(3650a9375e4dec84e8445cf3c96726aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Building/Mine/Mine 6.png using Guid(3650a9375e4dec84e8445cf3c96726aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4b3777e066d9a91b70862005a718e94d') in 0.013818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Building/2 Quarter/2/2.1 Quarter 4.png
+  artifactKey: Guid(431209af947196f4383d0bf69ccdff46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Building/2 Quarter/2/2.1 Quarter 4.png using Guid(431209af947196f4383d0bf69ccdff46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '52b91cfe27faea369651f537793e0219') in 0.011635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.080084 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Miners/Walk 1.6.png
+  artifactKey: Guid(4bca1f708a27e8e44981d46a00a0507b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Miners/Walk 1.6.png using Guid(4bca1f708a27e8e44981d46a00a0507b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '19b08d51e06e1c486d4cdb8a310f2ae4') in 0.015627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Miner/Walk 1.1 Miner New.PNG
+  artifactKey: Guid(74e291646546cb54bbac467e1b014cfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Miner/Walk 1.1 Miner New.PNG using Guid(74e291646546cb54bbac467e1b014cfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f75bb75ba7488856fe2038e9ec726f92') in 0.012847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Water bearer/Walk 3.2 Water.png
+  artifactKey: Guid(95f8959a5274f644c9f829280034e414) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Water bearer/Walk 3.2 Water.png using Guid(95f8959a5274f644c9f829280034e414) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '55480db5f836e5c0cb47ae08dbd351d7') in 0.012236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Working/Walk 4.2 Working.png
+  artifactKey: Guid(b9ee2dce43983eb4c88b3ca4dd7f21ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Working/Walk 4.2 Working.png using Guid(b9ee2dce43983eb4c88b3ca4dd7f21ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b6d0bafef86792f8b17c25b277bef1b5') in 0.013776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Working/Idle 1 Working.png
+  artifactKey: Guid(9da7a4b2bd3a64241a7ec12940b84998) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Working/Idle 1 Working.png using Guid(9da7a4b2bd3a64241a7ec12940b84998) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6d853672b92b3f51edec29faee6991b0') in 0.014203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Lumberjack/Walk 1.1 Lumb New.PNG
+  artifactKey: Guid(3b3cb5def721c0c4890f763bb228c2e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Lumberjack/Walk 1.1 Lumb New.PNG using Guid(3b3cb5def721c0c4890f763bb228c2e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'eddd690d948b409e3522b5c245cf00a0') in 0.016463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Priest/Walk 3.3 Priest New.PNG
+  artifactKey: Guid(54777377d35c58740b6c78d3eaed2ea9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Priest/Walk 3.3 Priest New.PNG using Guid(54777377d35c58740b6c78d3eaed2ea9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3c8714f2880912cfee1d1498507af766') in 0.013730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Miners/Walk 2.anim
+  artifactKey: Guid(66e411fb81e498446a4ec40a9c3b82b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Miners/Walk 2.anim using Guid(66e411fb81e498446a4ec40a9c3b82b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '27f277e07a47243e34120484010dff3b') in 0.008670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Water bearer/Idle 2 Water.png
+  artifactKey: Guid(5d7692937bfa62c43aad3d1e2299b0d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Water bearer/Idle 2 Water.png using Guid(5d7692937bfa62c43aad3d1e2299b0d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '087b2fd00ee7f3d6e138a960ae70ec39') in 0.015568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Miner/Walk 1.3 Miner New.PNG
+  artifactKey: Guid(cdaf6a3f0c37fe34697054578e62a5c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Miner/Walk 1.3 Miner New.PNG using Guid(cdaf6a3f0c37fe34697054578e62a5c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '64d4c354197d9d89ea03e31cb44cb84a') in 0.013661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Lumberjack/Walk 3_1 Lumb New.controller
+  artifactKey: Guid(e3c955fbacc6f1c40a746ae0ac21f062) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Lumberjack/Walk 3_1 Lumb New.controller using Guid(e3c955fbacc6f1c40a746ae0ac21f062) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '09ec2a0614caa2342494260124d894b5') in 0.008396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Priest/Walk 4 Priest New.anim
+  artifactKey: Guid(cb1aeb4ef26298b48a515ae7566961bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Priest/Walk 4 Priest New.anim using Guid(cb1aeb4ef26298b48a515ae7566961bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5fabe2906474ec90d0127e09c01f4666') in 0.009264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Water bearer/Walk 3.6 Water.png
+  artifactKey: Guid(561e8e663a1de87459f2c914669349ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Water bearer/Walk 3.6 Water.png using Guid(561e8e663a1de87459f2c914669349ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e9fb434da55a6f4ef88051afac850861') in 0.013225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Priest/Walk 2.1 Priest.png
+  artifactKey: Guid(f595f5da80e822a4ca4cd5a3c85dfa81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Priest/Walk 2.1 Priest.png using Guid(f595f5da80e822a4ca4cd5a3c85dfa81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a27cb167330e49da05ff8072add48730') in 0.013991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Water/Walk 2.3 Water New.PNG
+  artifactKey: Guid(c315256bbb97c694d8db4d6aefae5770) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Water/Walk 2.3 Water New.PNG using Guid(c315256bbb97c694d8db4d6aefae5770) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '79fd3e7b091395f4cb8cb065eceed9f1') in 0.013377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Worker/Walk 1.4 Working New.PNG
+  artifactKey: Guid(0e9a961e9fc09aa46be7b2e078e62b9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Worker/Walk 1.4 Working New.PNG using Guid(0e9a961e9fc09aa46be7b2e078e62b9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '2c98b6a7908b39865e568b9deebb89a1') in 0.015158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Worker/Walk 1 Working New.anim
+  artifactKey: Guid(8d18a19b5a8817845ab87ee2d960ba02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Worker/Walk 1 Working New.anim using Guid(8d18a19b5a8817845ab87ee2d960ba02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '93f043109aba5fb37efdce0129408d98') in 0.010745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Water bearer/Walk 2.2 Water.png
+  artifactKey: Guid(da05427c970c5e74ba72f31d31390611) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Water bearer/Walk 2.2 Water.png using Guid(da05427c970c5e74ba72f31d31390611) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1d708c3281c219b3ab23eccefd55a003') in 0.013291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Lumberjack/Walk 2.2 Lumb New.PNG
+  artifactKey: Guid(e42ca33fa555cd0429475b53d9a25c01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Lumberjack/Walk 2.2 Lumb New.PNG using Guid(e42ca33fa555cd0429475b53d9a25c01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '36c2e3d6f5833a8cfc19344802b6be82') in 0.013684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Priest/Walk 2_1 Priest New.controller
+  artifactKey: Guid(5a14cd4985cb726498c9165a3effb129) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Priest/Walk 2_1 Priest New.controller using Guid(5a14cd4985cb726498c9165a3effb129) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f46757a80e16d224029a2116ddd8e3bb') in 0.009951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Priest/Walk 1 Priest New.anim
+  artifactKey: Guid(bb111145b2818ef46a1d0cb2e055cd50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Priest/Walk 1 Priest New.anim using Guid(bb111145b2818ef46a1d0cb2e055cd50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '11cafc49970dc782fef234b131ac59cf') in 0.009089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Priest/Idle 1.1 Priest.png
+  artifactKey: Guid(fcd76b40a963ceb47ac50b4b07ed13b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Priest/Idle 1.1 Priest.png using Guid(fcd76b40a963ceb47ac50b4b07ed13b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3733050ceed2add9a7d56bccfaf0acbd') in 0.015588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Water/Walk 4_1 Water New.controller
+  artifactKey: Guid(2bf91713004f3cc429597aa03f0ac093) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Water/Walk 4_1 Water New.controller using Guid(2bf91713004f3cc429597aa03f0ac093) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7ad7178a55f30fdc24eb49173a0e2dfc') in 0.006636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Worker/Walk 1.5 Working New.PNG
+  artifactKey: Guid(4ad181d4d76743f40b5166934301b44b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Worker/Walk 1.5 Working New.PNG using Guid(4ad181d4d76743f40b5166934301b44b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '355a6dc4bf530243b7391e220475f1dc') in 0.012559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Priest/Walk 2.2 Priest New.PNG
+  artifactKey: Guid(207bfd7717d79c247928978be67c0b7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Priest/Walk 2.2 Priest New.PNG using Guid(207bfd7717d79c247928978be67c0b7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3409abd2604b21df800a089eff62ed72') in 0.084031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Priest/Walk 4.6 Priest.png
+  artifactKey: Guid(58b196a6b4c931f49987eb5e768c6f45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Priest/Walk 4.6 Priest.png using Guid(58b196a6b4c931f49987eb5e768c6f45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '444106ee3d16e21a5f5b076dc9df8d45') in 0.014652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Water bearer/Walk 3.5 Water.png
+  artifactKey: Guid(1f637c550c51bad48ae6a7878b6f3e5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Water bearer/Walk 3.5 Water.png using Guid(1f637c550c51bad48ae6a7878b6f3e5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4c84a92d5763a57536832d68cada2ace') in 0.013635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Working/Walk 4_1 Working.controller
+  artifactKey: Guid(5f0e627df442614448ed42081c4dc929) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Working/Walk 4_1 Working.controller using Guid(5f0e627df442614448ed42081c4dc929) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '38cbc9ec8bb278396fbce069b3f7f1ce') in 0.009215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Priest/Walk 2.1 Priest New.PNG
+  artifactKey: Guid(7417082f440df3749935b16c122d58e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Priest/Walk 2.1 Priest New.PNG using Guid(7417082f440df3749935b16c122d58e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'bcbf33d1dc147a8f5b5be14260c2388b') in 0.014278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Miner/Walk 1.2 Miner New.PNG
+  artifactKey: Guid(e9f2501ab062f0b42b275d48a86eb977) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Miner/Walk 1.2 Miner New.PNG using Guid(e9f2501ab062f0b42b275d48a86eb977) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '630f012e729b5401906f42d9aeea4b1f') in 0.019966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Water/Walk 3.5 Water New.PNG
+  artifactKey: Guid(e25f452c1351fb74b9924cf6166ea916) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Water/Walk 3.5 Water New.PNG using Guid(e25f452c1351fb74b9924cf6166ea916) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'bfe2b382156b784ca957c683b39eefd6') in 0.013893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Worker/Walk 1.8 Working New.PNG
+  artifactKey: Guid(3c546532d895acb43889a5a9265b77ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Worker/Walk 1.8 Working New.PNG using Guid(3c546532d895acb43889a5a9265b77ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'dd271d0481c0bfb11cb824170de3425b') in 0.014554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Miners/Walk 3.3.png
+  artifactKey: Guid(666198191cd7c3b418836a76fb3d01ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Miners/Walk 3.3.png using Guid(666198191cd7c3b418836a76fb3d01ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b5274f9ee3e49a273f792fd4c7732535') in 0.013580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Miners/Walk 2.1.png
+  artifactKey: Guid(1ae41c8c5c75d1e4f9393ba1afc6648e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Miners/Walk 2.1.png using Guid(1ae41c8c5c75d1e4f9393ba1afc6648e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0bfa691573d9717afe682aa83ae464d6') in 0.013697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Working/Walk 2.4 Working.png
+  artifactKey: Guid(8230ca2c0a0d3774c80786f177754586) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Working/Walk 2.4 Working.png using Guid(8230ca2c0a0d3774c80786f177754586) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a84b654dd3198528caead6d7756bb300') in 0.015878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Worker/Walk 4.7 Working New.PNG
+  artifactKey: Guid(d4de64c2b79e1a14cb3aefa7e37ef966) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Worker/Walk 4.7 Working New.PNG using Guid(d4de64c2b79e1a14cb3aefa7e37ef966) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '9eef5f0b4abd747925b080fd9aa689ac') in 0.015911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Working/Walk 1 Working.anim
+  artifactKey: Guid(191a720392db4544c8fc3a7ee831be48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Working/Walk 1 Working.anim using Guid(191a720392db4544c8fc3a7ee831be48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ba8a13f5d31ec2cc743af8ccaad80ef1') in 0.007314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Miners/Walk 1_1.controller
+  artifactKey: Guid(d3b565148325b4c4187197de8c8fbe53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Miners/Walk 1_1.controller using Guid(d3b565148325b4c4187197de8c8fbe53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1de35309597a6d4bfb9bf477bbdbd52d') in 0.005414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Priest/Walk 1.1 Priest.png
+  artifactKey: Guid(ea73f8ceff3aa14488f3a8aec0f24777) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 1/Priest/Walk 1.1 Priest.png using Guid(ea73f8ceff3aa14488f3a8aec0f24777) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e084f5e16c4874a3e8c8ed025459a644') in 0.013676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Priest/Walk 1_1 Priest New.controller
+  artifactKey: Guid(97c7449d2a3e49a45af7430e475a8d1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Priest/Walk 1_1 Priest New.controller using Guid(97c7449d2a3e49a45af7430e475a8d1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b46f8d5c386a82351c0c3dde5def5ede') in 0.008842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Miner/Walk 4.8 Miner New.PNG
+  artifactKey: Guid(2066309b8f09cdc45889e22a7799adc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Miner/Walk 4.8 Miner New.PNG using Guid(2066309b8f09cdc45889e22a7799adc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b15349b1bf338729c66385ca1d65f6c5') in 0.015283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Miner/Walk 3 Miner New.anim
+  artifactKey: Guid(408cd50b6ee303b41bca93c09947151f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Miner/Walk 3 Miner New.anim using Guid(408cd50b6ee303b41bca93c09947151f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '246d08b5c016b0e0e0a5e30ba82dbe94') in 0.032346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Priest/Walk 1.4 Priest New.PNG
+  artifactKey: Guid(d14ed1fc7e3e7e643b7c5ebd6c0d4ec7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Priest/Walk 1.4 Priest New.PNG using Guid(d14ed1fc7e3e7e643b7c5ebd6c0d4ec7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6f6fcaa4530620bb958c6a6dcaa32d08') in 0.014975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Miner/Walk 3_1 Miner New.controller
+  artifactKey: Guid(e6bf26c39b0e09b4d95a95dbdc9f6126) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/WildHorizon/Sprites/GFF Western Tileset/Workers/ver 2/Miner/Walk 3_1 Miner New.controller using Guid(e6bf26c39b0e09b4d95a95dbdc9f6126) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '003a5e91121b8aeb6a38ed07d9a2c908') in 0.009276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

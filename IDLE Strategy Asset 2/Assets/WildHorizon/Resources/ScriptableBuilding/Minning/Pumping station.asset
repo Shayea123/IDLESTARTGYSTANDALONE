@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c6bec75648b7144b9b395514d7e34d9, type: 3}
+  m_Name: Pumping station
+  m_EditorClassIdentifier: 
+  maxLevel: 20
+  buildingType: 2
+  spriteForPreview:
+  - {fileID: 21300000, guid: c5e0821ad86b64240beb34feaf0d89e1, type: 3}
+  - {fileID: 21300000, guid: c5e0821ad86b64240beb34feaf0d89e1, type: 3}
+  - {fileID: 21300000, guid: c5e0821ad86b64240beb34feaf0d89e1, type: 3}
+  - {fileID: 21300000, guid: c5e0821ad86b64240beb34feaf0d89e1, type: 3}
+  - {fileID: 21300000, guid: c5e0821ad86b64240beb34feaf0d89e1, type: 3}
+  - {fileID: 21300000, guid: c5e0821ad86b64240beb34feaf0d89e1, type: 3}
+  - {fileID: 21300000, guid: c5e0821ad86b64240beb34feaf0d89e1, type: 3}
+  - {fileID: 21300000, guid: c5e0821ad86b64240beb34feaf0d89e1, type: 3}
+  - {fileID: 21300000, guid: c5e0821ad86b64240beb34feaf0d89e1, type: 3}
+  - {fileID: 21300000, guid: c5e0821ad86b64240beb34feaf0d89e1, type: 3}
+  - {fileID: 21300000, guid: c5e0821ad86b64240beb34feaf0d89e1, type: 3}
+  - {fileID: 21300000, guid: c5e0821ad86b64240beb34feaf0d89e1, type: 3}
+  - {fileID: 21300000, guid: c5e0821ad86b64240beb34feaf0d89e1, type: 3}
+  - {fileID: 21300000, guid: c5e0821ad86b64240beb34feaf0d89e1, type: 3}
+  - {fileID: 21300000, guid: c5e0821ad86b64240beb34feaf0d89e1, type: 3}
+  - {fileID: 21300000, guid: c5e0821ad86b64240beb34feaf0d89e1, type: 3}
+  - {fileID: 21300000, guid: c5e0821ad86b64240beb34feaf0d89e1, type: 3}
+  - {fileID: 21300000, guid: c5e0821ad86b64240beb34feaf0d89e1, type: 3}
+  - {fileID: 21300000, guid: c5e0821ad86b64240beb34feaf0d89e1, type: 3}
+  - {fileID: 21300000, guid: c5e0821ad86b64240beb34feaf0d89e1, type: 3}
+  spritesByLevel:
+  - {fileID: 21300000, guid: d8e9dc43db2522b4d87cb86de9aebf94, type: 3}
+  - {fileID: 21300000, guid: d8e9dc43db2522b4d87cb86de9aebf94, type: 3}
+  - {fileID: 21300000, guid: d8e9dc43db2522b4d87cb86de9aebf94, type: 3}
+  - {fileID: 21300000, guid: d8e9dc43db2522b4d87cb86de9aebf94, type: 3}
+  - {fileID: 21300000, guid: d8e9dc43db2522b4d87cb86de9aebf94, type: 3}
+  - {fileID: 21300000, guid: d8e9dc43db2522b4d87cb86de9aebf94, type: 3}
+  - {fileID: 21300000, guid: d8e9dc43db2522b4d87cb86de9aebf94, type: 3}
+  - {fileID: 21300000, guid: d8e9dc43db2522b4d87cb86de9aebf94, type: 3}
+  - {fileID: 21300000, guid: d8e9dc43db2522b4d87cb86de9aebf94, type: 3}
+  - {fileID: 21300000, guid: d8e9dc43db2522b4d87cb86de9aebf94, type: 3}
+  - {fileID: 21300000, guid: d8e9dc43db2522b4d87cb86de9aebf94, type: 3}
+  - {fileID: 21300000, guid: d8e9dc43db2522b4d87cb86de9aebf94, type: 3}
+  - {fileID: 21300000, guid: d8e9dc43db2522b4d87cb86de9aebf94, type: 3}
+  - {fileID: 21300000, guid: d8e9dc43db2522b4d87cb86de9aebf94, type: 3}
+  - {fileID: 21300000, guid: d8e9dc43db2522b4d87cb86de9aebf94, type: 3}
+  - {fileID: 21300000, guid: d8e9dc43db2522b4d87cb86de9aebf94, type: 3}
+  - {fileID: 21300000, guid: d8e9dc43db2522b4d87cb86de9aebf94, type: 3}
+  - {fileID: 21300000, guid: d8e9dc43db2522b4d87cb86de9aebf94, type: 3}
+  - {fileID: 21300000, guid: d8e9dc43db2522b4d87cb86de9aebf94, type: 3}
+  - {fileID: 21300000, guid: d8e9dc43db2522b4d87cb86de9aebf94, type: 3}
+  spriteBurn: {fileID: 0}
+  spriteConstruction: {fileID: 0}
+  descriptionLocalize:
+  - language: 10
+    description: A facility that allows the extraction of water on an industrial
+      scale.
+  - language: 30
+    description: "\u0421\u043E\u043E\u0440\u0443\u0436\u0435\u043D\u0438\u0435, \u043A\u043E\u0442\u043E\u0440\u043E\u0435
+      \u043F\u043E\u0437\u0432\u043E\u043B\u044F\u0435\u0442 \u0434\u043E\u0431\u044B\u0432\u0430\u0442\u044C
+      \u0432\u043E\u0434\u0443 \u0432 \u043F\u0440\u043E\u043C\u044B\u0448\u043B\u0435\u043D\u043D\u044B\u0445
+      \u043C\u0430\u0441\u0448\u0442\u0430\u0431\u0430\u0445."
+  - language: 15
+    description: 
+  _openTownInfo: 0
+  _managerAvailable: 1
+  _sellAndBuyResources: 0
+  _managedPrayer: 0
+  _openResearches: 0
+  coins:
+    baseValue: 5
+    bonusPerLevel: 3
+  buildTime:
+  - 30
+  - 60
+  - 90
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  workersNeed:
+    baseValue: 3
+    bonusPerLevel: 1
+  ingredients:
+  - item: {fileID: 11400000, guid: d227b010a81608e4b84c8ef83fde8aaa, type: 2}
+    multiplier: 50
+    baseValue: 1.1
+    requiredPermanently: 0
+    minlevel: 0
+    maxLevel: 10
+  requiredResearches:
+  - forLevel: 0
+    item: {fileID: 11400000, guid: 01d231beca037d34e86999d8ab548171, type: 2}
+    researachLevel: 4
+  requiredBuildings: []
+  sortValue: 4
+  dontShow: 0
+  temporarilyInactive: 0
+  increasingStorages: []
+  inhabitantsIncreaseByTime:
+    baseValue: 0
+    multiplier: 0
+  dollarsIncreaseByTime:
+    baseValue: 0
+    multiplier: 0
+  sendingWorkers: []
+  requiredLevelForSell: 0
+  requiredLevelForBuy: 0
+  salesTax:
+    baseValue: 0
+    multiplier: 0
+  internalStorage:
+    baseValue: 1.1
+    multiplier: 5000
+  trainArmy: []
+  prayBonusBuildingSpeed: []
+  prayBonusResearchingSpeed: []
+  options: []
+  sound: {fileID: 0}
+  workersMax:
+    baseValue: 5
+    bonusPerLevel: 3
+  minedResources:
+  - item: {fileID: 11400000, guid: f0c9ba9998da96a4c876e00698687700, type: 2}
+    yield: 100
+    amount: 2
+  miningRate:
+    baseValue: 60
+    multiplier: 0.95
+  miningTools: []
+  deliverySpeed:
+    baseValue: 60
+    multiplier: 0.95
+  transportationTools: []

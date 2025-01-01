@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Burnt atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 9b931ad94f9f4bb49b13387082c95555, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - f16b13508d0ec804cadf2b808802e214: 21300000
+    - bb1fd6316fde8db4bb9a88d75e5ff2f0: 21300000
+    - 9e0870d1edd9e12498a55cc81815c847: 21300000
+    - b68be4f1b0250684da73f67d153241ef: 21300000
+    - 5cbad902226c8104a92d3a68ac91f0b0: 21300000
+    - 75357fd525ef9f14096ffa8c0a751f18: 21300000
+    - ee30c1f565864e543aa7391cf2670a0c: 21300000
+    - 8d4922f6a21661b40b20d332e032d1c7: 21300000
+    - b1f1fb77c5cc4b74eab79d2b971a8d62: 21300000
+    - 16acb409ae958894a94194f20dcf1d13: 21300000
+    - 33f330e955ca94f4f97e01d2259a7990: 21300000
+    - 72f4bdfb3c74ad546be24f3a31dc9643: 21300000
+    - 92dfa31c6585c454584cc6d0a771b4da: 21300000
+    - f833195c5a7ea92418b58b2decd11474: 21300000
+    - b00b4d6c50f394a4ebe8c813d1ff7762: 21300000
+    - 48af07bc8ee94fe43b6167ef6c3de9e6: 21300000
+    - b527850d68b043e46a4b57f8302a1dd9: 21300000
+    - b0788e1f5be43814b9dd974830bafeb6: 21300000
+    - 6427112f37437ad48a11ce9ae004b6e5: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: f16b13508d0ec804cadf2b808802e214, type: 3}
+  - {fileID: 21300000, guid: bb1fd6316fde8db4bb9a88d75e5ff2f0, type: 3}
+  - {fileID: 21300000, guid: 9e0870d1edd9e12498a55cc81815c847, type: 3}
+  - {fileID: 21300000, guid: b68be4f1b0250684da73f67d153241ef, type: 3}
+  - {fileID: 21300000, guid: 5cbad902226c8104a92d3a68ac91f0b0, type: 3}
+  - {fileID: 21300000, guid: 75357fd525ef9f14096ffa8c0a751f18, type: 3}
+  - {fileID: 21300000, guid: ee30c1f565864e543aa7391cf2670a0c, type: 3}
+  - {fileID: 21300000, guid: 8d4922f6a21661b40b20d332e032d1c7, type: 3}
+  - {fileID: 21300000, guid: b1f1fb77c5cc4b74eab79d2b971a8d62, type: 3}
+  - {fileID: 21300000, guid: 16acb409ae958894a94194f20dcf1d13, type: 3}
+  - {fileID: 21300000, guid: 33f330e955ca94f4f97e01d2259a7990, type: 3}
+  - {fileID: 21300000, guid: 72f4bdfb3c74ad546be24f3a31dc9643, type: 3}
+  - {fileID: 21300000, guid: 92dfa31c6585c454584cc6d0a771b4da, type: 3}
+  - {fileID: 21300000, guid: f833195c5a7ea92418b58b2decd11474, type: 3}
+  - {fileID: 21300000, guid: b00b4d6c50f394a4ebe8c813d1ff7762, type: 3}
+  - {fileID: 21300000, guid: 48af07bc8ee94fe43b6167ef6c3de9e6, type: 3}
+  - {fileID: 21300000, guid: b527850d68b043e46a4b57f8302a1dd9, type: 3}
+  - {fileID: 21300000, guid: b0788e1f5be43814b9dd974830bafeb6, type: 3}
+  - {fileID: 21300000, guid: 6427112f37437ad48a11ce9ae004b6e5, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Burnt Bank
+  - Burnt objects 7
+  - Burnt objects 3
+  - Burnt Sawmill
+  - Burnt objects 8
+  - Burnt Windmill
+  - Burnt objects 4
+  - Burnt Mine Stone
+  - Burnt objects 9
+  - Burnt objects 2
+  - Burnt objects 11
+  - Burnt Market
+  - Burnt objects 6
+  - Burnt Water tower
+  - Burnt objects 5
+  - Burnt objects 10
+  - Burnt Saloon
+  - "Burnt \u0421hurch"
+  - Burnt objects 1
+  m_RenderDataMap: {}
+  m_Tag: Burnt atlas
+  m_IsVariant: 0

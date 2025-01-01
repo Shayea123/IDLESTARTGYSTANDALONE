@@ -1,0 +1,3 @@
+26.08.2023 Updated Researches scripts
+26.08.2023 Change namespace to "IdleStrategyKit"
+06.12.2023 Update UI, Update Heroes 

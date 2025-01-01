@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cabbb0b958ac7b9448d63d2a24e143f2, type: 3}
+  m_Name: Name for your town
+  m_EditorClassIdentifier: 
+  questType: 0
+  nextPart: {fileID: 0}
+  descriptionLocalize:
+  - language: 10
+    description: 'Give your town a name so that other cities can mark you on their
+      maps.
+
+      You can do this in the town panel'
+  - language: 30
+    description: "\u0414\u0430\u0439\u0442\u0435 \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u0435
+      \u0432\u0430\u0448\u0435\u043C\u0443 \u0433\u043E\u0440\u043E\u0434\u0443 \u0447\u0442\u043E
+      \u0431\u044B \u0434\u0440\u0443\u0433\u0438\u0435  \u0433\u043E\u0440\u043E\u0434\u0430
+      \u043C\u043E\u0433\u043B\u0438 \u043E\u0442\u043C\u0435\u0442\u0438\u0442\u044C
+      \u0432\u0430\u0441 \u043D\u0430 \u0441\u0432\u043E\u0438\u0445 \u043A\u0430\u0440\u0442\u0430\u0445.
+      \n\u0421\u0434\u0435\u043B\u0430\u0442\u044C \u044D\u0442\u043E \u043C\u043E\u0436\u043D\u043E
+      \u0432 \u043F\u0430\u043D\u0435\u043B\u0438 \u0433\u043E\u0440\u043E\u0434\u0430"
+  - language: 15
+    description: 
+  predecessor: {fileID: 11400000, guid: 662812d751eb711419fb70cb3bce7f1c, type: 2}
+  items: []
+  spendItems: []
+  sellItems: []
+  buyItems: []
+  buildings: []
+  researches: []
+  hunters: 0
+  waterCarrier: 0
+  renameTown: 1
+  rewardItems:
+  - item: {fileID: 11400000, guid: d72ef2fe9b96b8c498e70e5021d07a9f, type: 2}
+    amount: 2
+  - item: {fileID: 11400000, guid: b5675696dfe5a7149a095b6fc9fb0030, type: 2}
+    amount: 3
+  - item: {fileID: 11400000, guid: e49de966ed468bb47b8f6c38a9b8e4de, type: 2}
+    amount: 200
+  - item: {fileID: 11400000, guid: d227b010a81608e4b84c8ef83fde8aaa, type: 2}
+    amount: 100
+  - item: {fileID: 11400000, guid: c04aaacf68f970043a05a7abfbed4275, type: 2}
+    amount: 100
+  showCompletionPercentage: 0

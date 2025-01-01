@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0ba4aeab3b70e542a6a687f46850287, type: 3}
+  m_Name: Double Derringer
+  m_EditorClassIdentifier: 
+  buyPrice: 10
+  sellPrice: 1
+  shopPrice: 0
+  sellable: 1
+  tradable: 1
+  destroyable: 1
+  toolTip: 
+  image: {fileID: 21300000, guid: b3a64a0b524f0bb428c1702118ab3dd9, type: 3}
+  descriptionLocalize: []
+  rarity: 0
+  storageType: 5
+  damage: 0
+  ammo: 0

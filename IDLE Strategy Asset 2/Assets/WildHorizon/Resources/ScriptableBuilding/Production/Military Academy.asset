@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11fe26be15266dc419a0438d6f1c2621, type: 3}
+  m_Name: Military Academy
+  m_EditorClassIdentifier: 
+  maxLevel: 20
+  buildingType: 3
+  spriteForPreview:
+  - {fileID: 21300000, guid: d39af3e085992e547b72645e1824f83c, type: 3}
+  - {fileID: 21300000, guid: d39af3e085992e547b72645e1824f83c, type: 3}
+  - {fileID: 21300000, guid: d39af3e085992e547b72645e1824f83c, type: 3}
+  - {fileID: 21300000, guid: d39af3e085992e547b72645e1824f83c, type: 3}
+  - {fileID: 21300000, guid: d39af3e085992e547b72645e1824f83c, type: 3}
+  - {fileID: 21300000, guid: d39af3e085992e547b72645e1824f83c, type: 3}
+  - {fileID: 21300000, guid: d39af3e085992e547b72645e1824f83c, type: 3}
+  - {fileID: 21300000, guid: d39af3e085992e547b72645e1824f83c, type: 3}
+  - {fileID: 21300000, guid: d39af3e085992e547b72645e1824f83c, type: 3}
+  - {fileID: 21300000, guid: d39af3e085992e547b72645e1824f83c, type: 3}
+  - {fileID: 21300000, guid: d39af3e085992e547b72645e1824f83c, type: 3}
+  - {fileID: 21300000, guid: d39af3e085992e547b72645e1824f83c, type: 3}
+  - {fileID: 21300000, guid: d39af3e085992e547b72645e1824f83c, type: 3}
+  - {fileID: 21300000, guid: d39af3e085992e547b72645e1824f83c, type: 3}
+  - {fileID: 21300000, guid: d39af3e085992e547b72645e1824f83c, type: 3}
+  - {fileID: 21300000, guid: d39af3e085992e547b72645e1824f83c, type: 3}
+  - {fileID: 21300000, guid: d39af3e085992e547b72645e1824f83c, type: 3}
+  - {fileID: 21300000, guid: d39af3e085992e547b72645e1824f83c, type: 3}
+  - {fileID: 21300000, guid: d39af3e085992e547b72645e1824f83c, type: 3}
+  - {fileID: 21300000, guid: d39af3e085992e547b72645e1824f83c, type: 3}
+  spritesByLevel:
+  - {fileID: 21300000, guid: 38022ae14f68ab44199236ad99c45b8f, type: 3}
+  - {fileID: 21300000, guid: 38022ae14f68ab44199236ad99c45b8f, type: 3}
+  - {fileID: 21300000, guid: 38022ae14f68ab44199236ad99c45b8f, type: 3}
+  - {fileID: 21300000, guid: 38022ae14f68ab44199236ad99c45b8f, type: 3}
+  - {fileID: 21300000, guid: 38022ae14f68ab44199236ad99c45b8f, type: 3}
+  - {fileID: 21300000, guid: 38022ae14f68ab44199236ad99c45b8f, type: 3}
+  - {fileID: 21300000, guid: 38022ae14f68ab44199236ad99c45b8f, type: 3}
+  - {fileID: 21300000, guid: 38022ae14f68ab44199236ad99c45b8f, type: 3}
+  - {fileID: 21300000, guid: 38022ae14f68ab44199236ad99c45b8f, type: 3}
+  - {fileID: 21300000, guid: 38022ae14f68ab44199236ad99c45b8f, type: 3}
+  - {fileID: 21300000, guid: 38022ae14f68ab44199236ad99c45b8f, type: 3}
+  - {fileID: 21300000, guid: 38022ae14f68ab44199236ad99c45b8f, type: 3}
+  - {fileID: 21300000, guid: 38022ae14f68ab44199236ad99c45b8f, type: 3}
+  - {fileID: 21300000, guid: 38022ae14f68ab44199236ad99c45b8f, type: 3}
+  - {fileID: 21300000, guid: 38022ae14f68ab44199236ad99c45b8f, type: 3}
+  - {fileID: 21300000, guid: 38022ae14f68ab44199236ad99c45b8f, type: 3}
+  - {fileID: 21300000, guid: 38022ae14f68ab44199236ad99c45b8f, type: 3}
+  - {fileID: 21300000, guid: 38022ae14f68ab44199236ad99c45b8f, type: 3}
+  - {fileID: 21300000, guid: 38022ae14f68ab44199236ad99c45b8f, type: 3}
+  - {fileID: 21300000, guid: 38022ae14f68ab44199236ad99c45b8f, type: 3}
+  spriteBurn: {fileID: 21300000, guid: ad48bd1024ffb5a4c981d601d450f37a, type: 3}
+  spriteConstruction: {fileID: 21300000, guid: 841ec43b228122240ba6ff57b2231544, type: 3}
+  descriptionLocalize:
+  - language: 10
+    description: A structure that allows you to store crafted and looted weapons.
+      Each new level increases the number of weapons available for storage.
+  - language: 30
+    description: "\u041F\u043E\u0437\u0432\u043E\u043B\u044F\u0435\u0442 \u0445\u0440\u0430\u043D\u0438\u0442\u044C
+      \u0441\u043E\u0437\u0434\u0430\u043D\u043D\u043E\u0435 \u0438 \u043D\u0430\u0433\u0440\u0430\u0431\u043B\u0435\u043D\u043D\u043E\u0435
+      \u043E\u0440\u0443\u0436\u0438\u0435. \u041A\u0430\u0436\u0434\u044B\u0439
+      \u043D\u043E\u0432\u044B\u0439 \u0443\u0440\u043E\u0432\u0435\u043D\u044C \u0443\u0432\u0435\u043B\u0438\u0447\u0438\u0432\u0430\u0435\u0442
+      \u0434\u043E\u0441\u0442\u0443\u043F\u043D\u043E\u0435 \u0434\u043B\u044F \u0445\u0440\u0430\u043D\u0435\u043D\u0438\u044F
+      \u043A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u043E\u0440\u0443\u0436\u0438\u044F."
+  - language: 15
+    description: 
+  _openTownInfo: 0
+  _managerAvailable: 1
+  _sellAndBuyResources: 0
+  _managedPrayer: 0
+  _openResearches: 0
+  coins:
+    baseValue: 5
+    bonusPerLevel: 2
+  buildTime:
+  - 30
+  - 60
+  - 90
+  - 180
+  - 360
+  - 720
+  - 1080
+  - 2000
+  - 3400
+  - 5200
+  - 8700
+  - 14300
+  - 26000
+  - 47000
+  - 79000
+  - 152000
+  - 284000
+  - 0
+  - 0
+  - 0
+  workersNeed:
+    baseValue: 3
+    bonusPerLevel: 1
+  ingredients:
+  - item: {fileID: 11400000, guid: e49de966ed468bb47b8f6c38a9b8e4de, type: 2}
+    multiplier: 1500
+    baseValue: 1.5
+    requiredPermanently: 1
+    minlevel: 0
+    maxLevel: 10
+  - item: {fileID: 11400000, guid: d227b010a81608e4b84c8ef83fde8aaa, type: 2}
+    multiplier: 650
+    baseValue: 1.5
+    requiredPermanently: 0
+    minlevel: 0
+    maxLevel: 10
+  - item: {fileID: 11400000, guid: c04aaacf68f970043a05a7abfbed4275, type: 2}
+    multiplier: 300
+    baseValue: 1.5
+    requiredPermanently: 0
+    minlevel: 0
+    maxLevel: 10
+  requiredResearches: []
+  requiredBuildings:
+  - forLevel: 1
+    item: {fileID: 11400000, guid: 097a796103cd6fb4e994b3157edf67d4, type: 2}
+    amount: 0
+    requiredBuildingLevel: 1
+  sortValue: 1
+  dontShow: 0
+  temporarilyInactive: 0
+  increasingStorages: []
+  inhabitantsIncreaseByTime:
+    baseValue: 0
+    multiplier: 0
+  dollarsIncreaseByTime:
+    baseValue: 0
+    multiplier: 0
+  sendingWorkers: []
+  requiredLevelForSell: 0
+  requiredLevelForBuy: 0
+  salesTax:
+    baseValue: 0
+    multiplier: 0
+  internalStorage:
+    baseValue: 1.1
+    multiplier: 5000
+  trainArmy: []
+  prayBonusBuildingSpeed: []
+  prayBonusResearchingSpeed: []
+  options: []
+  sound: {fileID: 0}
+  recipeTypes: 02000000
+  craftingRecipes:
+  - {fileID: 11400000, guid: 597843e486861b64db02d49a684da411, type: 2}
+  - {fileID: 11400000, guid: 3154e49930b01274cbeb17b134bb9a04, type: 2}
+  craftingRate:
+    baseValue: 60
+    multiplier: 0.95

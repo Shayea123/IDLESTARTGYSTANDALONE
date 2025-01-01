@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11fe26be15266dc419a0438d6f1c2621, type: 3}
+  m_Name: Workshop
+  m_EditorClassIdentifier: 
+  sortValue: 0
+  maxLevel: 20
+  buildingType: 3
+  dontShow: 0
+  temporarilyInactive: 0
+  spriteForPreview:
+  - {fileID: 21300000, guid: 6bfbc39e7c79bc94c9f3670be7dac174, type: 3}
+  - {fileID: 21300000, guid: 6bfbc39e7c79bc94c9f3670be7dac174, type: 3}
+  - {fileID: 21300000, guid: 6bfbc39e7c79bc94c9f3670be7dac174, type: 3}
+  - {fileID: 21300000, guid: 6bfbc39e7c79bc94c9f3670be7dac174, type: 3}
+  - {fileID: 21300000, guid: 6bfbc39e7c79bc94c9f3670be7dac174, type: 3}
+  - {fileID: 21300000, guid: 6bfbc39e7c79bc94c9f3670be7dac174, type: 3}
+  - {fileID: 21300000, guid: 6bfbc39e7c79bc94c9f3670be7dac174, type: 3}
+  - {fileID: 21300000, guid: 6bfbc39e7c79bc94c9f3670be7dac174, type: 3}
+  - {fileID: 21300000, guid: 6bfbc39e7c79bc94c9f3670be7dac174, type: 3}
+  - {fileID: 21300000, guid: 6bfbc39e7c79bc94c9f3670be7dac174, type: 3}
+  - {fileID: 21300000, guid: 6bfbc39e7c79bc94c9f3670be7dac174, type: 3}
+  - {fileID: 21300000, guid: 6bfbc39e7c79bc94c9f3670be7dac174, type: 3}
+  - {fileID: 21300000, guid: 6bfbc39e7c79bc94c9f3670be7dac174, type: 3}
+  - {fileID: 21300000, guid: 6bfbc39e7c79bc94c9f3670be7dac174, type: 3}
+  - {fileID: 21300000, guid: 6bfbc39e7c79bc94c9f3670be7dac174, type: 3}
+  - {fileID: 21300000, guid: 6bfbc39e7c79bc94c9f3670be7dac174, type: 3}
+  - {fileID: 21300000, guid: 6bfbc39e7c79bc94c9f3670be7dac174, type: 3}
+  - {fileID: 21300000, guid: 6bfbc39e7c79bc94c9f3670be7dac174, type: 3}
+  - {fileID: 21300000, guid: 6bfbc39e7c79bc94c9f3670be7dac174, type: 3}
+  - {fileID: 21300000, guid: 6bfbc39e7c79bc94c9f3670be7dac174, type: 3}
+  spritesByLevel:
+  - {fileID: 21300000, guid: fec08387e4d156c458c751f5976928f2, type: 3}
+  - {fileID: 21300000, guid: fec08387e4d156c458c751f5976928f2, type: 3}
+  - {fileID: 21300000, guid: fec08387e4d156c458c751f5976928f2, type: 3}
+  - {fileID: 21300000, guid: fec08387e4d156c458c751f5976928f2, type: 3}
+  - {fileID: 21300000, guid: fec08387e4d156c458c751f5976928f2, type: 3}
+  - {fileID: 21300000, guid: fec08387e4d156c458c751f5976928f2, type: 3}
+  - {fileID: 21300000, guid: fec08387e4d156c458c751f5976928f2, type: 3}
+  - {fileID: 21300000, guid: fec08387e4d156c458c751f5976928f2, type: 3}
+  - {fileID: 21300000, guid: fec08387e4d156c458c751f5976928f2, type: 3}
+  - {fileID: 21300000, guid: fec08387e4d156c458c751f5976928f2, type: 3}
+  - {fileID: 21300000, guid: fec08387e4d156c458c751f5976928f2, type: 3}
+  - {fileID: 21300000, guid: fec08387e4d156c458c751f5976928f2, type: 3}
+  - {fileID: 21300000, guid: fec08387e4d156c458c751f5976928f2, type: 3}
+  - {fileID: 21300000, guid: fec08387e4d156c458c751f5976928f2, type: 3}
+  - {fileID: 21300000, guid: fec08387e4d156c458c751f5976928f2, type: 3}
+  - {fileID: 21300000, guid: fec08387e4d156c458c751f5976928f2, type: 3}
+  - {fileID: 21300000, guid: fec08387e4d156c458c751f5976928f2, type: 3}
+  - {fileID: 21300000, guid: fec08387e4d156c458c751f5976928f2, type: 3}
+  - {fileID: 21300000, guid: fec08387e4d156c458c751f5976928f2, type: 3}
+  - {fileID: 21300000, guid: fec08387e4d156c458c751f5976928f2, type: 3}
+  spriteBurn: {fileID: 0}
+  spriteConstruction: {fileID: 21300000, guid: 3519b3bcee0ed0d4c98a5ff4aff9e924, type: 3}
+  descriptionLocalize:
+  - language: 10
+    description: A structure that allows you to process available resources, as well
+      as create new types of materials.
+  - language: 30
+    description: "\u041F\u043E\u0437\u0432\u043E\u043B\u044F\u0435\u0442 \u043E\u0431\u0440\u0430\u0431\u0430\u0442\u044B\u0432\u0430\u0442\u044C
+      \u0440\u0435\u0441\u0443\u0440\u0441\u044B \u0438 \u0441\u043E\u0437\u0434\u0430\u0432\u0430\u0442\u044C
+      \u043D\u043E\u0432\u044B\u0435 \u0432\u0438\u0434\u044B \u043C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u043E\u0432."
+  - language: 15
+    description: 
+  managed: 1
+  managerAvailable: 1
+  managedSellBuyResources: 0
+  managedPrayer: 0
+  openResearches: 0
+  coins:
+    baseValue: 5
+    bonusPerLevel: 4
+  buildTime:
+  - 30
+  - 60
+  - 90
+  - 180
+  - 360
+  - 720
+  - 1080
+  - 2000
+  - 3400
+  - 5200
+  - 8700
+  - 14300
+  - 26000
+  - 47000
+  - 79000
+  - 152000
+  - 284000
+  - 450000
+  - 576000
+  - 0
+  workersNeed:
+    baseValue: 3
+    bonusPerLevel: 1
+  ingredients:
+  - item: {fileID: 0}
+    multiplier: 0
+    baseValue: 0
+    requiredPermanently: 0
+    minlevel: 0
+    maxLevel: 0
+  - item: {fileID: 0}
+    multiplier: 0
+    baseValue: 0
+    requiredPermanently: 0
+    minlevel: 0
+    maxLevel: 0
+  - item: {fileID: 0}
+    multiplier: 0
+    baseValue: 0
+    requiredPermanently: 0
+    minlevel: 0
+    maxLevel: 0
+  requiredResearches: []
+  requiredBuildings:
+  - forLevel: 1
+    item: {fileID: 11400000, guid: 097a796103cd6fb4e994b3157edf67d4, type: 2}
+    amount: 0
+    requiredBuildingLevel: 1
+  increasingStorages: []
+  inhabitantsIncreaseByTime:
+    baseValue: 0
+    multiplier: 0
+  dollarsIncreaseByTime:
+    baseValue: 0
+    multiplier: 0
+  sendingWorkers: []
+  requiredLevelForSell: 0
+  requiredLevelForBuy: 0
+  salesTax:
+    baseValue: 0
+    multiplier: 0
+  workersMax:
+    baseValue: 5
+    bonusPerLevel: 3
+  internalStorage:
+    baseValue: 1.1
+    multiplier: 5000
+  minedResources: []
+  miningRate:
+    baseValue: 60
+    multiplier: 0.95
+  miningTools: []
+  deliverySpeed:
+    baseValue: 60
+    multiplier: 0.95
+  transportationTools: []
+  trainArmy: []
+  prayBonusBuildingSpeed: []
+  prayBonusResearchingSpeed: []
+  options: []
+  sound: {fileID: 0}
+  recipeTypes: 0000000001000000
+  craftingRecipes:
+  - {fileID: 11400000, guid: 513260f2e7bbc15408d311e6f109e4d2, type: 2}
+  - {fileID: 11400000, guid: c998f7c815b27684683ed712cb955d75, type: 2}
+  - {fileID: 11400000, guid: cd12eb3c741db2f4a8768faa850d7f8a, type: 2}
+  - {fileID: 11400000, guid: 3b79e279e3ba9744d8b05839778c9a54, type: 2}
+  - {fileID: 11400000, guid: 903c8086d02de6e4c9c398619aeda622, type: 2}
+  - {fileID: 11400000, guid: dc2831b666212644984b567e32251a31, type: 2}
+  - {fileID: 11400000, guid: 8c379af835cdf26458a857b2a46fab80, type: 2}
+  - {fileID: 11400000, guid: 275505de6e7dcec47a7f9a0fb987b65b, type: 2}
+  - {fileID: 11400000, guid: 89efa5446f1b99a4595fb80357216f2e, type: 2}
+  - {fileID: 11400000, guid: 036030b3de9f94e4dbd738cf9a7740ee, type: 2}
+  - {fileID: 11400000, guid: 05284c9a351ce45409088cff687a54bb, type: 2}
+  - {fileID: 11400000, guid: 7b52cc72848384e469cf0134bd3a2bbe, type: 2}
+  - {fileID: 11400000, guid: 4e30d3ff35a380a46beef7c05807f7a8, type: 2}
+  - {fileID: 11400000, guid: fa839030ca0f2454e879fb5e8ce09f4f, type: 2}
+  - {fileID: 11400000, guid: 8233c8b021fc5dd4d8b4c5e0669a99e7, type: 2}
+  - {fileID: 11400000, guid: e0f31987ced0c2846a5069fe3fd62f70, type: 2}

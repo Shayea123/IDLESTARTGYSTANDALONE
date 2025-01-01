@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebbc1a0ee2fab524885c447762e10267, type: 3}
+  m_Name: Billy the Kid
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: f14248f3f65034c49881b1645096647c, type: 3}
+  factionType: 3
+  waitingTime: 300
+  aggressiveness: 1
+  rarity: 0
+  hero: {fileID: 0}
+  army:
+  - item: {fileID: 11400000, guid: bb1811023a50e8441b2ed5f0fa226c6e, type: 2}
+    amount: 1
+  inhabitantsKill: 0.215
+  tradeItems: []
+  requiredItems: []

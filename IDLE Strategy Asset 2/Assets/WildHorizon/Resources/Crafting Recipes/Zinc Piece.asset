@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f66d1a3cc5b0e01489852528ff859cf5, type: 3}
+  m_Name: Zinc Piece
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: 472153e4237c99546b74de7dccbb8810, type: 3}
+  recipeType: 0
+  inhabitants: 2
+  ingredients:
+  - item: {fileID: 11400000, guid: e49de966ed468bb47b8f6c38a9b8e4de, type: 2}
+    amount: 50
+  - item: {fileID: 11400000, guid: 93846294e489ba542ba7da5de9e1f745, type: 2}
+    amount: 5
+  - item: {fileID: 11400000, guid: c9bf6a15269bc764eb84a1a03498c25d, type: 2}
+    amount: 5
+  time: 300
+  resultItem: {fileID: 11400000, guid: 886623869ad76974d81b0052a88fc0dc, type: 2}
+  resultAmount: 1
+  probabilitySuccess: 1
+  disassembleToResources: 0
+  removeAllIngredientsIfFailed: 1
+  randomRemoveIngredientsIfFailed: 0
+  chanceDestructionIngredients: 0
+  buildings: []
+  researches:
+  - forLevel: 0
+    item: {fileID: 11400000, guid: b0fc60a8fe1c0234eb52fdd24a29cc16, type: 2}
+    researachLevel: 1

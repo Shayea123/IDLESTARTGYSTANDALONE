@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3e1cffde6387eb4aaf6152ca3120139, type: 3}
+  m_Name: Meat
+  m_EditorClassIdentifier: 
+  buyPrice: 2
+  sellPrice: 1
+  shopPrice: 0
+  sellable: 1
+  tradable: 1
+  destroyable: 0
+  toolTip: 
+  image: {fileID: 21300000, guid: 26950ca563731964b97b456b6242960f, type: 3}
+  descriptionLocalize:
+  - language: 10
+    description: Food is obtained by hunting, as well as animal husbandry.
+  - language: 30
+    description: "\u0415\u0434\u0430 \u0434\u043E\u0431\u044B\u0432\u0430\u0435\u0442\u0441\u044F
+      \u043E\u0445\u043E\u0442\u043E\u0439, \u0430 \u0442\u0430\u043A\u0436\u0435
+      \u0436\u0438\u0432\u043E\u0442\u043D\u043E\u0432\u043E\u0434\u0441\u0442\u0432\u043E\u043C"
+  - language: 15
+    description: 
+  rarity: 0
+  storageType: 3
+  miningMethod: 1

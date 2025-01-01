@@ -1,0 +1,153 @@
+English;Russian;German;Italian;French;Spanish
+
+
+Information;Information;Информация;;;;
+BetaInfo;The game is under development.\n\nSometimes something may not work as planned.\nSome of game mechanics may differ from the release version.;Игра находится в стадии разработки.\n\nИногда что-то может работать не так, как планировалось.\nНекоторые игровые механики могут отличаться от релизной версии.\n\n\nМного запланированных вещей и событий\n(Противостояние и выживание)\nбудут ждать Вас в следующих обновлениях!\n\n\nБлагодарим Вас за то, что присоединились к нам на этапе тестирования;;;;
+Do not show again;Do not show again;Не показывать;;;;
+
+Chapter I;Chapter I;Глава I;;;;
+Si vis pacem, para bellum;Si vis pacem, para bellum;Хочешь мира — готовься к войне;;;;
+
+;;;;;;
+
+Town;Town;Город;;;;
+Buildings;Buildings;Здания;;;;
+Researches;Researches;Изучения;;;;
+Research;Research;Изучить;;;;
+Heroes;Heroes;Герои;;;;
+Boosts;Boosts;Ускорения;;;;
+Battles;Battles;Сражения;;;;
+Shop;Shop;Магазин;;;;
+Friends;Friends;Друзья;;;;
+
+Info;Info;Город;;;;
+Storage;Storage;Склад;;;;
+Resources;Resources;Ресурсы;Resources;;;
+Resource;Resource;Ресурс;Resource;;;
+Resource mining;Resource mining;Добыча ресурсов;Resource mining;;;
+Instruments;Tools;Инструменты;Instruments;;;
+Weapon;Weapon;Оружие;Weapon;;;
+Animals;Animals;Животные;Animals;;;
+Army;Army;Войска;Army;;;
+Settlement Troops;Settlement Troops;Войска поселения;Settlement Troops;;;
+Quest;Quest;Задание;Quest;;;
+Quests;Quests;Квесты;Quests;;;
+Quest is Complete;Quest is Complete;Выполнено задание;;;;
+
+Relations;Faction relations;Отношения с другими фракциями;Hunters;;;
+Indians;Indians;Индейцы;Hunters;;;
+Cowboys;Cowboys;Ковбои;Hunters;;;
+Bandits;Bandits;Бандиты;Hunters;;;
+Mexicans;Mexicans;Мексиканцы;Hunters;;;
+
+Achievements;Achievements;Достижения;Achievements;;;
+Rename;Rename;Переименовать\nгород;;;;
+City without a name;City without a name;Город без названия;;;;
+TownRename;Rename the city;Переименовать Город;;;;
+TownRenameInfo;Come up with a name for your city;Придумайте название для своего города;;;;
+Confirm;Confirm;Подвердить;;;;
+Error;Error;Ошибка;;;;
+TownNameEmpty;City name cannot be empty;Название города не может быть пустым;;;;
+
+Bank capacity;Bank capacity;Вместимость Банка;Warehouse capacity;;;
+Warehouse capacity;Warehouse capacity;Вместимость Склада;Warehouse capacity;;;
+Water storage;Water storage;Хранилище воды;Water storage;;;
+MoneyGrowth;Money Growth;Пророст денег;;;;
+Inhabitants (free / current);Inhabitants (free / current);Жителей (свободно / всего);Inhabitants (free / current);;;
+Inhabitants Max;Inhabitants Max;Максимальное колво жителей;Inhabitants Max;;;
+Horses (free / current);Horses (free / current);Лошадей (свободно / всего);Horses (free / current);;;
+Carts (free / current);Carts (free / current);Повозок (свободно / всего);Carts (free / current);;;
+
+Accept;Accept;Принять;Accept;;;
+Continue;Continue;Продолжить;Continue;;;
+Get Reward;Get Reward;Завершить;Get Reward;;;
+Close;Close;Закрыть;Close;;;
+CloseAll;Close All;Закрыть Все;Close ALL;;;
+
+Tasks;Tasks;Задачи;Tasks;;;
+Rewards;Rewards;Награда;Rewards;;;
+Attack;Attack;Атаковать;Attack;;;
+Trade;Trade;Торговать;Trade;;;
+TradingProgress;Trading in progress;Идет Торговля;Trading in progress;;;
+
+Wanted;Wanted;Разыскивается;Wanted;;;
+
+Required Ingredients;Required Ingredients;Требуемые Ресурсы;Required Ingredients;;;
+Required Researches;Required Researches;Требуемые Изучения;Required Researches;;;
+Required Buildings;Required Buildings;Требуемые Здания;Required Buildings;;;
+
+Description;Description;Описание;Description;;;
+Send Workers;Send Workers;Отправить рабочих;Send Workers;;;
+Manager;Manager;Управляющий;Manager;;;
+Options;Options;Опции;Options;;;
+
+Craft;Craft;Крафт;Craft;;;
+Processing;Processing;Обработка;Processing;;;
+
+Buy;Buy;Купить;Buy;;;
+Sell;Sell;Продать;Sell;;;
+Cancel;Cancel;Отменить;Cancel;;;
+
+Clearing the area;Clear The Area;Расчистить\nтерриторию;Cleaning The Territory;;;
+Hunters;Hunters;Охотники;Hunters;;;
+
+Workers;Workers;Рабочие;Workers;;;
+Workers Free;Workers Free;Рабочих Свободно;Workers Free;;;
+Workers Involved;Workers Involved;Рабочих Занято;Workers Involved;;;
+Transportation;Transportation;Транспортировка;Transportation;;;
+
+Rate;Rate;Скорость;;;;
+Mined;Mined;Добыто;Mined;;;
+Yield;Yield;Шанс;Yield;;;
+
+Level;Level;Уровень;Level;;;
+BuildTime;Build time;Время Строительства;Build time;;;
+
+Arapaho;Arapaho;Арапахо;;;;
+Cherokee;Cherokee;Чероки;;;;
+Cheyenne;Cheyenne;Шайенны;;;;
+Iroquois;Iroquois;Ирокезы;;;;
+
+InhabitantsInArmy;Inhabitants in the army;Жителей в армии;;;;
+PopulationGrowth;Population Growth;Прирост населения;;;;
+Revenue;Revenue;Прирост денег;;;;
+WorkersMax;Maximum number of workers\nNeed to upgrade the building;Максимальное количество рабочих\nНеобходимо улучшить здание;;;;
+WatchAds;Would you like to watch an ad to get a reward?;Хотите посмотреть рекламу и получить награду ?;;;;
+
+
+TradeRequired;To trade, you need to build a ;Для торговли необходимо построить ;;;;
+Settlements;Settlements;Поселения;Settlements;;;
+TradeItems;Trade Items;Предметы торговли;Trade Items;;;
+Gift;Gift;Подарки;Gift;;;
+War;War;Атаковать;War;;;
+Send;Send;Отправить;Send;;;
+
+Friendly;Friendly;Дружественные;Friendly;;;
+Neutral;Neutral;Нейтральные;Neutral;;;
+Aggressive;Aggressive;Агрессивные;Aggressive;;;
+
+SettlementSells;Settlement Sells;Поселение продает;Settlement Sells;;;
+SettlementBuys;Settlement Buys;Поселение покупает;Settlement Buys;;;
+SettlementResources;Settlement Resources;Ресурсы поселения;Settlement Resources;;;
+Resources in stock;Resources in stock;Ресурсы на складе;Resources in stock;;;
+
+BuyItems;Items to buy;Товары для покупки;Items to buy;;;
+SaleItems;Items for sale;Товары на продажу;Items for sale;;;
+
+None;None;Нет;;;;
+Pray;Pray;Молитва;Pray;;;
+Submit;Submit;Оценить;Submit;;;
+
+
+ByName;By Name;По имени;By Name;;;
+ByAmount;By Amount;По колличеству;By Amount;;;
+
+Roulette;Roulette;Рулетка;By Amount;;;
+CanGet;You can get the following items;Вы можете получить следующие предметы;;;;
+Normal;Normal;Обычное;Normal;;;
+Rare;Rare;Редкое;Rare;;;
+Legendary;Legendary;Легендарное;Legendary;;;
+
+Capacity;Capacity;Вместимость;Capacity;;;
+exchangeRate;Exchange Rate;Обменный Курс;;;;
+LoadCart;Load into cart;Загрузить в телегу;;;;

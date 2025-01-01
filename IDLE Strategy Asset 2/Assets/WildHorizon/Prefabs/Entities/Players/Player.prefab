@@ -1,0 +1,658 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9009832249286889260
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9009832249286889263}
+  - component: {fileID: 6950089108653000899}
+  - component: {fileID: 9009832249286889266}
+  - component: {fileID: 9009832249286889262}
+  - component: {fileID: 9009832249286889264}
+  - component: {fileID: 9009832249286889271}
+  - component: {fileID: 9009832249286889267}
+  - component: {fileID: 9009832249286889265}
+  - component: {fileID: 9009832249286889269}
+  - component: {fileID: 9009832249286889270}
+  - component: {fileID: 9009832249286889275}
+  - component: {fileID: 9009832249286889272}
+  - component: {fileID: 9009832249286889273}
+  - component: {fileID: 9009832249286889274}
+  - component: {fileID: 9009832249286889268}
+  - component: {fileID: 8379010910920242651}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9009832249286889263
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9009832249286889260}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6950089108653000899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9009832249286889260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5ca51a935277cd4b819339759f889a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 9009832249286889266}
+  inhabitants: {fileID: 9009832249286889262}
+  enemyCamps: {fileID: 9009832249286889268}
+  items: {fileID: 9009832249286889264}
+  quests: {fileID: 9009832249286889267}
+  buildings: {fileID: 9009832249286889265}
+  researches: {fileID: 9009832249286889269}
+  heroes: {fileID: 9009832249286889270}
+  army: {fileID: 9009832249286889271}
+  saveName: MySaveData
+  saveExtension: dat
+  saveInterval: 30
+--- !u!114 &9009832249286889266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9009832249286889260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a73778c3f43420a45982fbd7837e44d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inhabitants: {fileID: 9009832249286889262}
+  items: {fileID: 9009832249286889264}
+  buildings: {fileID: 9009832249286889265}
+  quests: {fileID: 9009832249286889267}
+  researches: {fileID: 9009832249286889269}
+  craft: {fileID: 9009832249286889274}
+  heroes: {fileID: 9009832249286889270}
+  boosts: {fileID: 9009832249286889275}
+  shop: {fileID: 9009832249286889272}
+  army: {fileID: 9009832249286889271}
+  fortune: {fileID: 9009832249286889273}
+  camps: {fileID: 9009832249286889268}
+  notifications: {fileID: 8379010910920242651}
+  rarity: {fileID: 11400000, guid: dd350f5007de8874cb433e69b78b8c95, type: 2}
+  coinsItem: {fileID: 11400000, guid: d72ef2fe9b96b8c498e70e5021d07a9f, type: 2}
+  dollarsItem: {fileID: 11400000, guid: e49de966ed468bb47b8f6c38a9b8e4de, type: 2}
+  clearTerritoryBuilding: {fileID: 11400000, guid: 097a796103cd6fb4e994b3157edf67d4, type: 2}
+  townRenameItem: {fileID: 11400000, guid: d72ef2fe9b96b8c498e70e5021d07a9f, type: 2}
+  saveInterval: 30
+  accessToTheTown:
+    forLevel: 1
+    item: {fileID: 11400000, guid: ccf1678c07eff70449867ba70efa0478, type: 2}
+    amount: 1
+    requiredBuildingLevel: 1
+  accessToTheResearches:
+    forLevel: 1
+    item: {fileID: 11400000, guid: e05336ceb7a4b824f8651d9673d50e16, type: 2}
+    amount: 1
+    requiredBuildingLevel: 1
+  accessToTheHeroes:
+    forLevel: 0
+    item: {fileID: 0}
+    amount: 0
+    requiredBuildingLevel: 0
+  accessToTheBoosts:
+    forLevel: 0
+    item: {fileID: 0}
+    amount: 0
+    requiredBuildingLevel: 0
+  accessToTheBattles:
+    forLevel: 0
+    item: {fileID: 0}
+    amount: 0
+    requiredBuildingLevel: 0
+  accessToTheCampTrade:
+    forLevel: 0
+    item: {fileID: 0}
+    amount: 0
+    requiredBuildingLevel: 0
+  account: 
+  newGameType: 0
+  gameType: 0
+  townName: HillWaley
+  prayType: 0
+  availableIdleAwaySeconds: 0
+  idleAwaySecondsMin: 7200
+  idleAwaySecondsMax: 86400
+  decreaseBuildingTimeByAdsShow: 15
+  decreaseResearchingTimeByAdsShow: 15
+  adsDisabled: 0
+  panelBeta: {fileID: 0}
+  toggleBeta: {fileID: 0}
+  panelChapter: {fileID: 0}
+  panelIdleTime: {fileID: 0}
+  textAwayTimeCurrent: {fileID: 0}
+  textAwayTimeMax: {fileID: 0}
+  panelResources: {fileID: 0}
+  contentIdleTime: {fileID: 0}
+  resourcesPrefab: {fileID: 1501256567509209784, guid: 2d5442bc1fc471347a74a70ca8c1f9ba, type: 3}
+  buttonShowAd: {fileID: 0}
+  requiredBuildingForIdlePanel: {fileID: 11400000, guid: ccf1678c07eff70449867ba70efa0478, type: 2}
+--- !u!114 &9009832249286889262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9009832249286889260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f31916d3724407542931697054a54047, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildings: {fileID: 9009832249286889265}
+  researches: {fileID: 9009832249286889269}
+  heroes: {fileID: 9009832249286889270}
+  camps: {fileID: 9009832249286889268}
+  army: {fileID: 9009832249286889271}
+  scriptableItem: {fileID: 11400000, guid: b5675696dfe5a7149a095b6fc9fb0030, type: 2}
+  defaultMax: 100
+  addingInhabitantsOnStart: 60
+  arrivalTime: 60
+  workersDefaultWeight: 3
+  lastTimeInhabitansIncrease: 0
+--- !u!114 &9009832249286889264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9009832249286889260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb175734168b96f4d8b107a07a673f21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 9009832249286889266}
+  inhabitants: {fileID: 9009832249286889262}
+  quests: {fileID: 9009832249286889267}
+  buildings: {fileID: 9009832249286889265}
+  heroes: {fileID: 9009832249286889270}
+  startingStorageCapacity:
+  - name: Bank
+    type: 2
+    capacity: 5000
+  - name: Warehouse
+    type: 3
+    capacity: 10000
+  - name: Water
+    type: 4
+    capacity: 2500
+  - name: Armory
+    type: 5
+    capacity: 100
+  addingResourcesOnStart:
+  - name: Coins
+    item: {fileID: 11400000, guid: d72ef2fe9b96b8c498e70e5021d07a9f, type: 2}
+    amount: 150
+  - name: Dollars
+    item: {fileID: 11400000, guid: e49de966ed468bb47b8f6c38a9b8e4de, type: 2}
+    amount: 150
+  - name: Wood
+    item: {fileID: 11400000, guid: d227b010a81608e4b84c8ef83fde8aaa, type: 2}
+    amount: 100
+  - name: Rough stone
+    item: {fileID: 11400000, guid: c04aaacf68f970043a05a7abfbed4275, type: 2}
+    amount: 80
+  - name: Water
+    item: {fileID: 11400000, guid: f0c9ba9998da96a4c876e00698687700, type: 2}
+    amount: 50
+  - name: Meat
+    item: {fileID: 11400000, guid: 05b6761f291b983449d5da645f787108, type: 2}
+    amount: 30
+  addingInstrumentsOnStart:
+  - name: Rusty Axe
+    item: {fileID: 11400000, guid: 01cb5679b8544a84da10337cb4c3e3ed, type: 2}
+    amount: 5
+  - name: Rusty Pickaxe
+    item: {fileID: 11400000, guid: 5be1737829a99f34a9cf1d279b976a45, type: 2}
+    amount: 5
+  - name: Rusty shovel
+    item: {fileID: 11400000, guid: d6e350cf85ccd8c43af78727822d0617, type: 2}
+    amount: 5
+  - name: Cart
+    item: {fileID: 11400000, guid: 4506336a4a3ea974e9f772bfd9e6a1c4, type: 2}
+    amount: 2
+  addingAnimalsOnStart:
+  - name: Cow
+    item: {fileID: 11400000, guid: 615850fe3f9f68749a45ad5e1c502c09, type: 2}
+    amount: 3
+  - name: Chicken
+    item: {fileID: 11400000, guid: d1ecd5cdf24ee134cbf7fb865910dac0, type: 2}
+    amount: 10
+  addingWeaponsOnStart:
+  - name: Colt Peacemaker
+    item: {fileID: 11400000, guid: 1fb84cb5e75b6aa4f83cbf58d0c7f1b6, type: 2}
+    amount: 5
+  - name: Winchester 1866
+    item: {fileID: 11400000, guid: bbebf2f224dce024598080288269eb08, type: 2}
+    amount: 3
+  increaseForTime: 60
+  defaultTrackedItems:
+  - {fileID: 11400000, guid: b5675696dfe5a7149a095b6fc9fb0030, type: 2}
+  - {fileID: 11400000, guid: d72ef2fe9b96b8c498e70e5021d07a9f, type: 2}
+  itemsTracked: []
+  rewardsForShowAds:
+  - {fileID: 11400000, guid: d72ef2fe9b96b8c498e70e5021d07a9f, type: 2}
+  - {fileID: 11400000, guid: d227b010a81608e4b84c8ef83fde8aaa, type: 2}
+  - {fileID: 11400000, guid: c04aaacf68f970043a05a7abfbed4275, type: 2}
+  rewardForAds:
+    item:
+      hash: 0
+    amount: 0
+    amountShop: 0
+  items: []
+  resourcesIdleTime: []
+--- !u!114 &9009832249286889271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9009832249286889260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7c61201ba7ee3e4089bde32dbf47d0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  addingArmyOnStart:
+  - name: Shooter with a gun
+    item: {fileID: 11400000, guid: 75cfa067707daa74386e15f0c7db7d5f, type: 2}
+    amount: 5
+  - name: Shooter with revolver
+    item: {fileID: 11400000, guid: bb1811023a50e8441b2ed5f0fa226c6e, type: 2}
+    amount: 3
+  player: {fileID: 9009832249286889266}
+  armies: []
+--- !u!114 &9009832249286889267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9009832249286889260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b2b8ba191ebdd74db2c599cc929289f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 9009832249286889266}
+  items: {fileID: 9009832249286889264}
+  buildings: {fileID: 9009832249286889265}
+  researches: {fileID: 9009832249286889269}
+  quests: []
+  questsTracked: []
+--- !u!114 &9009832249286889265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9009832249286889260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55aff1f3d8da3d842b3e63511ed1ca13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 9009832249286889266}
+  inhabitants: {fileID: 9009832249286889262}
+  quests: {fileID: 9009832249286889267}
+  items: {fileID: 9009832249286889264}
+  researches: {fileID: 9009832249286889269}
+  heroes: {fileID: 9009832249286889270}
+  army: {fileID: 9009832249286889271}
+  advertisingBonus: 0.3
+  buildings: []
+--- !u!114 &9009832249286889269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9009832249286889260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbc38415dc9cac545855f9287a6db07c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 9009832249286889266}
+  items: {fileID: 9009832249286889264}
+  buildings: {fileID: 9009832249286889265}
+  researches: []
+  templates:
+  - name: Build
+    researches:
+    - {fileID: 11400000, guid: a47d2394149d36345bf98c3ed8ff1dc8, type: 2}
+    - {fileID: 11400000, guid: 37dee8e4d5c1a4a4ea0464aa883d8f9c, type: 2}
+    - {fileID: 11400000, guid: ce18b2427355ca14484500b959fc0677, type: 2}
+  - name: Craft
+    researches:
+    - {fileID: 11400000, guid: acd93da5ca6fb3c4d8b4af5185bd9790, type: 2}
+    - {fileID: 11400000, guid: b0fc60a8fe1c0234eb52fdd24a29cc16, type: 2}
+    - {fileID: 11400000, guid: 03efa140e74113c48bd41dfe224987c2, type: 2}
+    - {fileID: 11400000, guid: 67a84733c54cb9948a808c24ee801f6b, type: 2}
+  - name: Mining
+    researches:
+    - {fileID: 11400000, guid: 8606058045b1eb54aabf2d729b714500, type: 2}
+    - {fileID: 11400000, guid: 0ec26818897ebf64ab3f67f1b5d66fc0, type: 2}
+    - {fileID: 11400000, guid: 01d231beca037d34e86999d8ab548171, type: 2}
+  requeredBuilding: {fileID: 11400000, guid: e05336ceb7a4b824f8651d9673d50e16, type: 2}
+--- !u!114 &9009832249286889270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9009832249286889260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab07ebe55631e5488be0909ca23e181, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 9009832249286889266}
+  templates: []
+  defaultHeroes: []
+  heroes: []
+--- !u!114 &9009832249286889275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9009832249286889260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c8b0318bd10d0d49991f95130beff61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 9009832249286889266}
+  _items: {fileID: 9009832249286889264}
+  multiplier: 1
+  amountBoost: 1
+  speedBoost: 1
+  boosts: []
+  boostsActive: []
+--- !u!114 &9009832249286889272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9009832249286889260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a6927c591eb60a489c81428c9e17564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _player: {fileID: 9009832249286889266}
+  _inhabitants: {fileID: 9009832249286889262}
+  _items: {fileID: 9009832249286889264}
+  _heroes: {fileID: 9009832249286889270}
+  inhabitants:
+  - name: 25
+    item: {fileID: 11400000, guid: b5675696dfe5a7149a095b6fc9fb0030, type: 2}
+    amount: 25
+    price: 5
+  - name: 50
+    item: {fileID: 11400000, guid: b5675696dfe5a7149a095b6fc9fb0030, type: 2}
+    amount: 50
+    price: 9
+  - name: 100
+    item: {fileID: 11400000, guid: b5675696dfe5a7149a095b6fc9fb0030, type: 2}
+    amount: 100
+    price: 15
+  resources:
+  - name: Water
+    item: {fileID: 11400000, guid: f0c9ba9998da96a4c876e00698687700, type: 2}
+    amount: 1500
+    price: 1
+  - name: Meat
+    item: {fileID: 11400000, guid: 05b6761f291b983449d5da645f787108, type: 2}
+    amount: 1500
+    price: 2
+  - name: Wood
+    item: {fileID: 11400000, guid: d227b010a81608e4b84c8ef83fde8aaa, type: 2}
+    amount: 2500
+    price: 5
+  - name: Wooden plank
+    item: {fileID: 11400000, guid: fccf680b93ac52d489c3f202590cff04, type: 2}
+    amount: 500
+    price: 5
+  - name: Rough stone
+    item: {fileID: 11400000, guid: c04aaacf68f970043a05a7abfbed4275, type: 2}
+    amount: 2500
+    price: 5
+  - name: Stone block
+    item: {fileID: 11400000, guid: b6becac8ce880aa43a331e9dab8d0360, type: 2}
+    amount: 500
+    price: 5
+  - name: Limestone
+    item: {fileID: 11400000, guid: 114c2feaa5c11184eb36251754e6e1ef, type: 2}
+    amount: 500
+    price: 5
+  instruments:
+  - name: Bag
+    item: {fileID: 11400000, guid: 04c2941d29692e242be82b787a6d507a, type: 2}
+    amount: 25
+    price: 2
+  - name: Improved bag
+    item: {fileID: 11400000, guid: 59e143bbcb9e6e347aa396fa23cdd0f2, type: 2}
+    amount: 50
+    price: 2
+  - name: Rusty Pickaxe
+    item: {fileID: 11400000, guid: 5be1737829a99f34a9cf1d279b976a45, type: 2}
+    amount: 50
+    price: 2
+  - name: Pickaxe
+    item: {fileID: 11400000, guid: 1ef28fb2a1602da4cadd97be1b5682a9, type: 2}
+    amount: 50
+    price: 2
+  - name: Rusty Axe
+    item: {fileID: 11400000, guid: 01cb5679b8544a84da10337cb4c3e3ed, type: 2}
+    amount: 50
+    price: 2
+  - name: Axe
+    item: {fileID: 11400000, guid: b6266c2e87bd1294ab06b58a5cb6cc96, type: 2}
+    amount: 25
+    price: 2
+  - name: Nails
+    item: {fileID: 11400000, guid: bb6c8596c85c5eb4a829fd2f3fc3d84c, type: 2}
+    amount: 50
+    price: 2
+  animals:
+  - name: Bull
+    item: {fileID: 11400000, guid: 18e2b2958188afe488b250cf16998ebc, type: 2}
+    amount: 5
+    price: 1
+  - name: Cow
+    item: {fileID: 11400000, guid: 615850fe3f9f68749a45ad5e1c502c09, type: 2}
+    amount: 5
+    price: 1
+  - name: Chicken
+    item: {fileID: 11400000, guid: d1ecd5cdf24ee134cbf7fb865910dac0, type: 2}
+    amount: 50
+    price: 1
+  - name: Horse
+    item: {fileID: 11400000, guid: ea13995942624db429353ce083f980bb, type: 2}
+    amount: 2
+    price: 1
+  weapon:
+  - name: Tomahawk
+    item: {fileID: 11400000, guid: c4054cca657371f43ad4cf387e909f87, type: 2}
+    amount: 5
+    price: 1
+  - name: Combat Bow
+    item: {fileID: 11400000, guid: 704dd7f553a97c64fb76d572ddf6dfd3, type: 2}
+    amount: 5
+    price: 1
+  - name: Apache Bow
+    item: {fileID: 11400000, guid: 2493c1afc588bd642bc731c7ac0421d9, type: 2}
+    amount: 20
+    price: 1
+  - name: Iron Knife
+    item: {fileID: 11400000, guid: f9994d3648743ac43b10188ee3f38374, type: 2}
+    amount: 5
+    price: 1
+  - name: LE MAT
+    item: {fileID: 11400000, guid: e4a7d96ad709f3e45b96acc21686ab91, type: 2}
+    amount: 5
+    price: 1
+  - name: Colt Peacemaker
+    item: {fileID: 11400000, guid: 1fb84cb5e75b6aa4f83cbf58d0c7f1b6, type: 2}
+    amount: 5
+    price: 1
+  - name: Remington 1858
+    item: {fileID: 11400000, guid: a7bc1182b96948146b3ba303482f7225, type: 2}
+    amount: 10
+    price: 1
+  - name: Winchester 1866
+    item: {fileID: 11400000, guid: bbebf2f224dce024598080288269eb08, type: 2}
+    amount: 5
+    price: 1
+  heroes:
+  - name: Bat Masterson
+    hero: {fileID: 11400000, guid: 627e29fd6046e3646b5a1a76f60429e3, type: 2}
+    rarity: 0
+    amount: 5
+    sellfor: {fileID: 11400000, guid: e49de966ed468bb47b8f6c38a9b8e4de, type: 2}
+    price: 5000
+  - name: Butch Cassidy
+    hero: {fileID: 11400000, guid: 637e890b9e5304a42962b96b7c2ab91b, type: 2}
+    rarity: 0
+    amount: 3
+    sellfor: {fileID: 11400000, guid: e49de966ed468bb47b8f6c38a9b8e4de, type: 2}
+    price: 15000
+  - name: Bernard Low
+    hero: {fileID: 11400000, guid: d606f079796ba234c95e695f7bc38461, type: 2}
+    rarity: 0
+    amount: 1
+    sellfor: {fileID: 11400000, guid: e49de966ed468bb47b8f6c38a9b8e4de, type: 2}
+    price: 35000
+  - name: Normal
+    hero: {fileID: 0}
+    rarity: 0
+    amount: 5
+    sellfor: {fileID: 11400000, guid: d72ef2fe9b96b8c498e70e5021d07a9f, type: 2}
+    price: 10
+  - name: Rare
+    hero: {fileID: 0}
+    rarity: 1
+    amount: 5
+    sellfor: {fileID: 11400000, guid: d72ef2fe9b96b8c498e70e5021d07a9f, type: 2}
+    price: 20
+  - name: Elite
+    hero: {fileID: 0}
+    rarity: 2
+    amount: 5
+    sellfor: {fileID: 11400000, guid: d72ef2fe9b96b8c498e70e5021d07a9f, type: 2}
+    price: 30
+--- !u!114 &9009832249286889273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9009832249286889260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49389539059610c488666004a919ae1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 9009832249286889266}
+  items: {fileID: 9009832249286889264}
+  heroes: {fileID: 9009832249286889270}
+  rewards: {fileID: 11400000, guid: 176b8736419b04a45848df24a6a7464f, type: 2}
+  timeAdRefresh: 30
+--- !u!114 &9009832249286889274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9009832249286889260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e552915ff94166444b1543c07c4e8b3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  advertisingBonus: 0.2
+  player: {fileID: 9009832249286889266}
+  _items: {fileID: 9009832249286889264}
+  _buildings: {fileID: 9009832249286889265}
+  _researches: {fileID: 9009832249286889269}
+  _heroes: {fileID: 9009832249286889270}
+  requeredBuilding: {fileID: 0}
+--- !u!114 &9009832249286889268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9009832249286889260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cb1eba4a698f2249b085615d10a8dff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 9009832249286889266}
+  _items: {fileID: 9009832249286889264}
+  _inhabitants: {fileID: 9009832249286889262}
+  friendshipChangeMultiplier: 0.02
+  factionIndians: 0.15
+  factionCowboys: 0.7
+  factionBandits: 0.5
+  factionMexicans: 0.5
+  maximumSettlements: 8
+  placesForSettlements: 15
+  temp: 
+  enemyCamps: []
+  battleResults: []
+  selectedGoodsForTrade: []
+  selectedEnemyCamp:
+    scriptableBattlefieldHash: 0
+    _hash: 0
+    location: 0
+    state: 0
+    timeToDisappear: 0
+    actionEndTime: 0
+    tradeItems: []
+    barterItems: []
+    inhabitants: 0
+--- !u!114 &8379010910920242651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9009832249286889260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51b11537d78eff5428450260617f35a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notifications: []

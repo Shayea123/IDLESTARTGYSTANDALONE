@@ -1,0 +1,218 @@
+                     //// Recommended Unity Version
+Right now, the recommended Unity version is Unity 2022.3 LTS
+
+
+
+                     ////Getting Started
+To see project in action, simply open the included scene "Scene_0" from Assets/WildHorizon/Scenes/, press Play
+Complete a few quests, build starting buildings, get resources by sending workers and recycle them into other resources or use them to explore and expand your city
+
+
+Once you got a feeling for it, now it’s time to get some basic project overview and learn some new stuff.
+
+
+  //Basic game mechanics
+- Completing tasks (Quests)
+- Gathering and Extraction of resources
+- Building of various types of buildings
+- Exploring technology (Researches)
+- Craft - Processing Resources and creating new materials and items (instruments, weapons and armor)
+- Heroes - Which can be assigned to buildings to improve performance
+- Russian roulette (Opportunity to get valuable goods)
+
+//Scenes
+There are only two scenes
+Scene_0 - Start loading scene with project logo
+ * on this stage, the game settings, user game data are loaded and the project is localized
+
+Scene_1 - The main Scene where the whole game takes place
+//Ñamera
+ * script "CameraExtended" was added on the "Main Camera" object
+   - will allow you to move the camera to the sides and also zoom in and out of the camera during the game
+   - in the settings of this script, you can set camera movement limits
+
+
+//Clouds
+ * In the scene hierarchy you can find the "Clouds" object
+ * In the "CloudManager" script inspector you will find the options for configuring the Clouds (prefabs, scale, delay)
+
+
+ //Workers on the map
+ * Move around the map along predetermined routes
+ * The system includes several scripts (Path, FollowPath, WorkersAnimations, WorkersSystem)
+
+
+ //Localization
+- When you first start the game, the language is detected and all text objects are localized
+- Language can be changed in Game settings
+- Text translation works through keywords that are loaded into the dictionary at the start of the game
+- CSV files are used to store translations (Resources/Localization)
+- Add a script "UILocalizationText" to all text objects in your game
+- Building description localization is configured in the building ScriptableObject
+
+
+//Load and Save
+Script "LoadAndSave"
+- Saving and loading "Player data" happens through data serialization
+- Saving game data occurs every 30 seconds after the start of the game
+- The save interval can be changed in the player settings (In script "Player")
+
+
+//Scriptable Items
+We already added the most basic items types (WildHorizon/Resources/), so you can simply duplicate existing items to make similar ones:
+* Quests
+* Building
+* Researches
+* Resources
+* Instruments
+* Animals
+* Weapons
+* Army
+* Crafting Recipes
+* Heroes
+* Boosts
+* EnemyCamps
+* Item Rarity Settings
+You can also create new Items by right clicking in the Project area to select Create -> Idle clicker strategy Game:
+
+
+
+//Recommended first steps:
+1. Inspect the Player Prefab  - Prefabs/Entities/Players/.
+ * Player have several components attached to them, with the ‘Player’ component being the most important one.
+   - PlayerInhabitants
+   - PlayerItems
+   - PlayerArmy
+   - PlayerQuests
+   - PlayerBuildings
+   - PlayerResearches
+   - PlayerHeroes
+   - PlayerShop
+   - PlayerFortune
+   - PlayerCraft
+   - PlayerNotifications
+
+ * You can modify a whole lot without writing any code, simply browse through the Player component in the Inspector to get a feel for it.
+ * You can of course add your own components to player prefab too.
+
+2. Look at the WildHorizon/Resources/ folder and play around with the items.
+ * You can modify stats and icons easily without writing any code.
+ * Duplicate the Wood and modify it to be an Sand. Then select one of the Quest (WildHorizon/Resources/ScriptableQuest/) and assign it to rewards.
+
+
+             *** Quests ***
+- Story, Secondary, Achievement
+- Progress displayed as a percentage
+
+The quest may have different requirements to complete it
+  * May have a predecessor quest
+  * Required Resources
+  * Required Buildings
+  * Required Studies
+
+Ñreate a new one or duplicate an existing one and change its settings
+When loading a project, it will automatically be added to the player
+
+
+
+           *** Inhabitants ***
+The most important resource is the inhabitants of your city.
+Everything in the city is done with the help of residents who must be assigned to the required work. Bring water, hunt, extract and process resources, produce goods, build buildings, learn new technologies and train troops
+The more inhabitants you have, the faster you can extract resources and produce new ones, build buildings and study new technologies.
+Some buildings increase the maximum number of inhabitants in your city and some increase their growth.
+You can set the maximum number of inhabitants and the number received at the start of the game and their growth time in the inspector on the object(prefab) "Player"
+
+
+           *** Resources ***
+* In the Town
+    - You can only see the resources that are available and that the built buildings can extract / produce
+    - You can enable resource tracking on the main screen
+
+* At the merchant
+    - The entire list of resources available in the game is visible
+    - You can sell and buy resources
+
+* When buying resources in the Shop For Coins
+  If the purchased amount of resources is more than the warehouse can accommodate, then the remainder is placed in a separate (non-dimensional storage)
+  Resources from this storage are used first.
+
+
+            *** Instruments ***
+* Instruments are needed to increase the speed of resource extraction and transport them to the warehouse
+* Instruments can be crafted
+
+
+            *** Animals ***
+Raising livestock is necessary for obtaining leather and meat, and it can also be used in trade and exchange.
+
+
+            *** Weapon ***
+Weapons can be crafted in the armory and used to form troops for defense or offense
+
+
+
+	         *** Building ***
+* 4 building types available
+  - Social : Camp, Institute, Market, Saloon, Church, Workshop, Residential area
+  - Storages : Bank, Warehouse, Water tower
+  - Mining : Lumberjack's hut, Quarry, Mines, Farm, Windmill, Pumping station
+  - Military : Armory, Barracks, Towers
+
+* Each building for construction may require:
+  - Number of workers
+  - Resources and money
+  - Required studies
+  - Construction of other buildings
+
+* All these parameters can be configured for each Scriptable building (/WildHorizon/Resources/ScriptableBuilding/) separately
+
+* For each building at each level, you can specify its construction time and the sprite by which it will be displayed
+
+Each building on the map has its own place and the player cannot move them to any place
+To add a new building to the game
+* duplicate an existing scriptable building (WildHorizon/Resources/ScriptableBuilding/) and change its settings
+* duplicate an existing building on Map From Scene_1\Buildings\
+* in inspector select for new Building on map - new scriptable building 
+* move the building to a new location
+
+
+
+	      *** Researches ***
+Learning new technologies will allow you to build buildings faster and spend less resources on construction. they are also necessary for the production of new materials, tools and weapons
+* Each study may require:
+   - Number of workers
+   - Resources and money
+   - Other studies
+   - Buildings
+
+* All these parameters can be configured for each Scriptable Research (WildHorizon/Resources/ScriptableResearch/) separately
+* Access to research opens a special building
+
+
+	     *** Heroes ***
+* Heroes can be used to assign them as building managers
+* Heroes are divided by type (Hunters, Cowboys, Indians, Mexicans, Sheriffs, Bandits) and rarity (Normal, Rare, Elite, Epic, Legendary)
+
+* Possible bonuses
+   - increased resource extraction in buildings
+   - increasing the speed of cargo delivery to the warehouse
+   - increase in the amount of cargo carried
+   - increase in the amount of resource extraction in buildings
+   - reduction of study time
+   - reduced building upgrade time () if the building has already been built to at least level 1
+   - increase in money growth
+
+
+//Shop
+You can buy the necessary resources, parts of heroes, game currency, disable ads and various sets
+
+
+//Settings : Saved and loaded in place with other data
+- volume of sounds
+- notifications
+  * pop-up messages on the home screen
+  * list of all notifications with the ability to view and close them
+
+- languages
+- contacts
+- additional features (Start new game / Rate)

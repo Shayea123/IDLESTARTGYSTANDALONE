@@ -1,0 +1,64 @@
+English;Russian;German;Italian;French;Spanish
+
+
+Social;Community;Социальные;;;;
+Storages;Facilities;Хранение;;;;
+Mining;Mining;Добыча;;;;
+Production;Production;Переработка;;;;
+Military;Military;Военные;;;;
+
+Camp;Camp;Лагерь;;;;
+Barracks;Barracks;Казарма;;;;
+Market;Market;Рынок;;;;
+Trade Camp;Trade Camp;Лагерь торговли;;;;
+Church;Church;Церковь;;;;
+Saloon;Saloon;Салун;;;;
+House1;House;Жилой дом;;;;
+House2;House;Жилой дом;;;;
+Clear the area;Clear the area;Расчистка территории;;;;
+Gallow;Gallow;Виселица;;;;
+Institute;Institute;Институт;;;;
+
+Bank;Bank;Банк;;;;
+Warehouse;Warehouse;Склад;;;;
+Water tower;Water tower;Водяная башня;;;;
+
+Farm;Farm;Ферма;;;;
+Quarry;Quarry;Каменоломня;;;;
+Lumberjack's hut;Lumberjack's hut;Хижина лесника;;;;
+Windmill;Windmill;Ветряк;;;;
+Pier;Pier;Пирс;;;;
+Pumping station;Pumping station;Насосная станция;;;;
+Coal mine;Coal mine;Угольная шахта;;;;
+Gold ore mine;Gold ore mine;Шахта по добыче золота;;;;
+Iron ore mine;Iron ore mine;Шахта по добыче железной руды;;;;
+Copper ore mine;Copper ore mine;Медная шахта;;;;
+Silver ore mine;Silver ore mine;Шахта по добыче серебра;;;;
+
+Workshop;Workshop;Мастерская;;;;
+Armory;Armory;Оружейная;;;;
+Forge;Forge;Кузница;;;;
+Sawmill;Carpentry;Плотник;;;;
+
+
+Build;Build;Построить;;;;
+Build Instantly;Build Instantly;Построить мгновенно;;;;
+Start Building;Start Building;Начать Строительтво;;;;
+Upgrade;Upgrade;Улучшить;;;;
+MaxLevel;Max Level;Максимальный Уровень;;;;
+Manage;Manage;Управление;;;;
+
+North Residential area;North Residential area;Северный Жилой квартал;;;;
+South Residential area;South Residential area;Южный Жилой квартал;;;;
+East Residential area;East Residential area;Восточный Жилой квартал;;;;
+
+
+Western defensive tower;Western defensive tower;Западная защитная башня;;;;
+Northern defensive tower;Northern defensive tower;Северная защитная башня;;;;
+Mountain small tower;Mountain small tower;Горная малая башня;;;;
+Eastern small tower;Eastern small tower;Восточная малая башня;;;;
+South defense tower;South defense tower;Южная защитная башня;;;;
+South small tower;South small tower;Южная малая башня;;;;
+Small tower of the main gate;Small tower of the main gate;Малая башня главных ворот;;;;
+
+Statue Cowboy;Statue "Cowboy";Статуя "Ковбой";;;;

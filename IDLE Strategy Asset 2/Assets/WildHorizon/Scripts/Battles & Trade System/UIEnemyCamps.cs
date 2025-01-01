@@ -61,12 +61,26 @@ namespace IdleStrategyKit
         }
 
         public static UIEnemyCamps singleton;
-        public UIEnemyCamps()
+
+        //public UIEnemyCamps()
+        //{
+        //    // assign singleton only once (to work with DontDestroyOnLoad when
+        //    // using Zones / switching scenes)
+        //    if (singleton == null) singleton = this;
+        //}
+
+        void Awake()
         {
-            // assign singleton only once (to work with DontDestroyOnLoad when
-            // using Zones / switching scenes)
             if (singleton == null) singleton = this;
+            Debug.Log($"UIEnemyCamps Awake - Locations Count: {locations?.Length ?? 0}");
+
         }
+
+        void Start()
+        {
+            Debug.Log("UIEnemyCamps Singleton Initialized.");
+        }
+
 
         // Update is called once per frame
         void Update()
@@ -74,7 +88,7 @@ namespace IdleStrategyKit
             Player player = Player.localPlayer;
             if (player != null)
             {
-                //ïîêàçûâàåì íà êàðòå ëàãåðÿ ñîïåðíèêîâ
+                //Ã¯Ã®ÃªÃ Ã§Ã»Ã¢Ã Ã¥Ã¬ Ã­Ã  ÃªÃ Ã°Ã²Ã¥ Ã«Ã Ã£Ã¥Ã°Ã¿ Ã±Ã®Ã¯Ã¥Ã°Ã­Ã¨ÃªÃ®Ã¢
                 if (player.accessToTheBattles.item == null || player.buildings.buildings[player.buildings.FindIndex(player.accessToTheBattles.item)].level >= player.accessToTheBattles.requiredBuildingLevel)
                 {
                     for (int i = 0; i < player.camps.enemyCamps.Count; i++)

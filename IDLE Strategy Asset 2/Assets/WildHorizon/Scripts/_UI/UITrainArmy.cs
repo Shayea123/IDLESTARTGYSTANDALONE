@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -18,145 +20,138 @@ namespace IdleStrategyKit
         public UIAudio _audio;
 
         // Update is called once per frame
-        /*void Update()
+        void Update()
         {
             if (panel.activeSelf)
             {
                 Player player = Player.localPlayer;
                 if (player != null)
                 {
-                    //find this building index in Global list
-                    int index = player.buildings.FindIndex(UIBuildingSelect.selectedBuilding);
-                    Building building = player.buildings.buildings[index];
-
-                    //translate texts
-                    textInhabitantsFree.font = Localization.fontClassic;
-
-                    //show texts info (workers amount)
-                    long inhabitants = player.inhabitants.InhabitantsCurrent();
-                    textInhabitantsFreeValue.text = inhabitants.ToString();
-
-                    // instantiate/destroy enough slots
-                    UIUtils.BalancePrefabs(craftPrefab, building.data.trainArmy.Length, content);
-
-                    //refresh all slots
-                    for (int i = 0; i < building.data.trainArmy.Length; i++)
+                    if (UIBuildingSelect.selectedBuilding != null && UIBuildingSelect.selectedBuilding is ScriptableBuilding selectedBuilding)
                     {
-                        UIProcessingSlot slot = content.transform.GetChild(i).GetComponent<UIProcessingSlot>();
-                        ScriptableTrainArmyRecipe recipe = building.data.trainArmy[i];
+                        // Find this building index in global list
+                        int index = player.buildings.FindIndex(UIBuildingSelect.selectedBuilding);
+                        Building building = player.buildings.buildings[index];
 
-                        //image
-                        slot.image.sprite = recipe.result.image;
+                        // Show texts info (workers amount)
+                        long inhabitants = player.inhabitants.GetCurrent();
+                        textInhabitantsFreeValue.text = inhabitants.ToString();
 
-                        //result name
-                        slot.textName.text = Localization.Translate(recipe.result.name);
-                        slot.textName.font = Localization.fontTMP;
+                        // Instantiate/destroy enough slots
+                        UIUtils.BalancePrefabs(craftPrefab, building.data.trainArmy.Length, content);
 
-                        //amount
-                        slot.textAmount.text = player.army.GetArmyAmount(recipe.result).ToString();
-
-                        // instantiate/destroy enough slots for ingredients
-                        UIUtils.BalancePrefabs(craftIngredientPrefab, recipe.ingredients.Count, slot.ingredientsContent);
-
-                        //refresh all slots
-                        for (int x = 0; x < recipe.ingredients.Count; x++)
+                        // Refresh all slots
+                        for (int i = 0; i < building.data.trainArmy.Length; i++)
                         {
-                            UIProcessingIngredientSlot ingredientSlot = slot.ingredientsContent.transform.GetChild(x).GetComponent<UIProcessingIngredientSlot>();
+                            UIProcessingSlot slot = content.transform.GetChild(i).GetComponent<UIProcessingSlot>();
+                            ScriptableTrainArmyRecipe recipe = building.data.trainArmy[i];
 
-                            //image
-                            ingredientSlot.image.sprite = recipe.ingredients[x].item.image;
+                            // Set image
+                            slot.image.sprite = recipe.result.image;
 
-                            //amount
-                            ingredientSlot.textAmount.text = recipe.ingredients[x].amount.ToString();
+                            // Set result name
+                            slot.textName.text = Localization.Translate(recipe.result.name);
 
-                            //chage color if not enough ingredient 
-                            if (player.items.EnoughItemAmount(recipe.ingredients[x])) ingredientSlot.image.color = Color.white;
-                            else ingredientSlot.image.color = Color.red;
-                        }
+                            // Set amount
+                            slot.textAmount.text = player.army.GetArmyAmount(recipe.result).ToString();
 
-                        int icopy = i;
-                        int recipeIndex = building.data.GetTrainArmyIndex(recipe);
-                        slot.button.onClick.SetListener(() =>
-                        {
-                            _audio.PlaySoundButtonClick();
+                            // Instantiate/destroy enough slots for ingredients
+                            UIUtils.BalancePrefabs(craftIngredientPrefab, recipe.ingredients.Length, slot.ingredientsContent);
 
-                            //if enabled
-                            if (building.trainArmyEnable[recipeIndex])
+                            // Refresh all slots
+                            for (int x = 0; x < recipe.ingredients.Length; x++)
                             {
-                                Building temp = building;
-                                temp.trainArmyEnable[recipeIndex] = false;
-                                building = temp;
+                                UIProcessingIngredientSlot ingredientSlot = slot.ingredientsContent.transform.GetChild(x).GetComponent<UIProcessingIngredientSlot>();
+
+                                // Set image
+                                ingredientSlot.image.sprite = recipe.ingredients[x].item.image;
+
+                                // Set amount
+                                ingredientSlot.textAmount.text = recipe.ingredients[x].amount.ToString();
+
+                                // Change color if not enough ingredients
+                                if (player.items.EnoughItems(new ScriptableItemAndAmount[] { recipe.ingredients[x] }))
+                                    ingredientSlot.image.color = Color.white;
+                                else
+                                    ingredientSlot.image.color = Color.red;
                             }
-                            else
+
+                            // Button onClick behavior
+                            int recipeIndex = building.data.GetTrainArmyIndex(recipe);
+                            slot.button.onClick.SetListener(() =>
                             {
-                                if (!player.researches.CheckRequiredResearcheslist(recipe.researches))
+                                _audio.PlaySoundButtonClick();
+
+                                // Check if enabled
+                                if (building.trainArmyEnable[recipeIndex])
                                 {
-                                    //show error panel
-                                    if (Localization.languageCurrent == SystemLanguage.English)
-                                    {
-                                        if (recipe.researches.Count == 1)
-                                            UIError.singleton.ShowListScriptableResearchAndLevel("Need to get knowledge", recipe.researches, "");
-                                        else
-                                            UIError.singleton.ShowListScriptableResearchAndLevel("Need to get knowledges", recipe.researches, "");
-                                    }
-                                    else if (Localization.languageCurrent == SystemLanguage.Russian)
-                                    {
-                                        if (recipe.researches.Count == 1)
-                                            UIError.singleton.ShowListScriptableResearchAndLevel("Необходимо получить знание", recipe.researches, "");
-                                        else
-                                            UIError.singleton.ShowListScriptableResearchAndLevel("Необходимо получить знания", recipe.researches, "");
-                                    }
+                                    Building temp = building;
+                                    temp.trainArmyEnable[recipeIndex] = false;
+                                    building = temp;
                                 }
                                 else
                                 {
-                                    //check free inhabitants
-                                    if (inhabitants >= recipe.ingredients[0].amount)
+                                    if (!player.researches.CheckRequiredResearcheslist(recipe.researches))
                                     {
-                                        //check ingredients amount
-                                        if (player.items.EnoughItems(recipe.ingredients))
-                                        {
-                                            Building temp = building;
-                                            temp.trainArmyEnable[recipeIndex] = true;
+                                        // Show error panel if researches are not done
+                                        string errorMessage = Localization.languageCurrent == SystemLanguage.English
+                                            ? "Need to get knowledge"
+                                            : "ГЌГҐГ®ГЎГµГ®Г¤ГЁГ¬Г® ГЇГ®Г«ГіГ·ГЁГІГј Г§Г­Г Г­ГЁГҐ";
+                                        UIError.singleton.ShowListScriptableResearchAndLevel(errorMessage, recipe.researches, "");
+                                    }
+                                    else if (inhabitants >= recipe.ingredients[0].amount &&
+                                             player.items.EnoughItems(recipe.ingredients))
+                                    {
+                                        // Start training
+                                        Building temp = building;
+                                        temp.trainArmyEnable[recipeIndex] = true;
 
-                                            float bonusTimeForManager = recipe.time * player.heroes.BonusForManager(temp.data, HeroBonusType.craftingSpeed);
-                                            temp.lastTimeTrainArmy[recipeIndex] = recipe.time - bonusTimeForManager;
+                                        float bonusTimeForManager = recipe.time * player.heroes.BonusForManager(temp.data.name, HeroBonusType.craftingSpeed);
+                                        temp.lastTimeTrainArmy[recipeIndex] = recipe.time - bonusTimeForManager;
 
-                                            building = temp;
-                                        }
-                                        else
-                                        {
-                                            //show error panel
-                                            if (Localization.languageCurrent == SystemLanguage.English)
-                                                UIError.singleton.ShowListScriptableItemAndAmount(player, "Not enough Ingredients", recipe.ingredients, "");
-                                            else if (Localization.languageCurrent == SystemLanguage.Russian)
-                                                UIError.singleton.ShowListScriptableItemAndAmount(player, "Не достаточно ресурсов", recipe.ingredients, "");
-                                        }
+                                        building = temp;
+
+                                        // Stop training after one cycle
+                                        StartCoroutine(StopTrainingAfterCycle(recipeIndex, recipe.time - bonusTimeForManager, temp));
                                     }
                                     else
                                     {
-                                        //show error panel
-                                        if (Localization.languageCurrent == SystemLanguage.English)
-                                            UIError.singleton.ShowScriptableItemAndAmount(player, "Not enough workers", recipe.ingredients[0], "");
-                                        else if (Localization.languageCurrent == SystemLanguage.Russian)
-                                            UIError.singleton.ShowScriptableItemAndAmount(player, "Не достаточно рабочих", recipe.ingredients[0], "");
+                                        // Show error if not enough inhabitants or ingredients
+                                        string errorMessage = Localization.languageCurrent == SystemLanguage.English
+                                            ? "Not enough resources"
+                                            : "ГЌГҐГµГўГ ГІГЄГ  Г°ГҐГ±ГіГ°Г±Г®Гў";
+                                        UIError.singleton.ShowListScriptableItemAndAmount(errorMessage, recipe.ingredients, "");
                                     }
                                 }
-                            }
-                        });
+                            });
 
-                        //show panel lock if required researches is not done
-                        slot.panelLock.SetActive(!player.researches.CheckRequiredResearcheslist(recipe.researches));
 
-                        slot.panelTime.SetActive(building.trainArmyEnable[recipeIndex]);
-                        slot.textTime.text = building.trainArmyEnable[recipeIndex] ? Utils.PrettySeconds((int)building.lastTimeTrainArmy[recipeIndex]) : "";
+                            // Show panel lock if required researches are not done
+                            slot.panelLock.SetActive(!player.researches.CheckRequiredResearcheslist(recipe.researches));
 
-                        slot.imageState.color = building.trainArmyEnable[recipeIndex] ? colorEnabled : colorDisabled;
+                            // Show panel time if training is enabled
+                            slot.panelTime.SetActive(building.trainArmyEnable[recipeIndex]);
+                            slot.textTime.text = building.trainArmyEnable[recipeIndex]
+                                ? Utils.PrettySeconds((int)building.lastTimeTrainArmy[recipeIndex])
+                                : "";
+
+                            // Update state image color
+                            slot.imageState.color = building.trainArmyEnable[recipeIndex] ? colorEnabled : colorDisabled;
+                        }
                     }
+                    else panel.SetActive(false);
                 }
-
+                else panel.SetActive(false);
             }
-        }*/
+        }
+        private IEnumerator StopTrainingAfterCycle(int recipeIndex, float cooldownTime, Building building)
+        {
+            yield return new WaitForSeconds(cooldownTime);
+
+            Building temp = building;
+            temp.trainArmyEnable[recipeIndex] = false; // Disable training
+            building = temp;
+        }
+
     }
 }
-
-

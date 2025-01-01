@@ -73,3 +73,12 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# JetBrains/IntelliJ/Rider settings
+.idea/
+
+# macOS metadata files
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db

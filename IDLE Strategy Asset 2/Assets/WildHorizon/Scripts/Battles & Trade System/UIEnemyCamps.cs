@@ -54,31 +54,59 @@ namespace IdleStrategyKit
         public UIAudio _audio;
         public GameObject panelTrade;
 
+        // Add this check in the Show method
         public void Show()
         {
-            _audio.PlaySoundButtonClick();
-            panel.SetActive(true);
+            if (_audio != null) // Add null check
+            {
+                _audio.PlaySoundButtonClick();
+            }
+
+            if (panel != null) // Add null check
+            {
+                panel.SetActive(true);
+            }
+            else
+            {
+                Debug.LogError("Panel reference is missing in UIEnemyCamps");
+            }
         }
 
         public static UIEnemyCamps singleton;
 
-        //public UIEnemyCamps()
-        //{
-        //    // assign singleton only once (to work with DontDestroyOnLoad when
-        //    // using Zones / switching scenes)
-        //    if (singleton == null) singleton = this;
-        //}
+        public UIEnemyCamps()
+        {
+            // assign singleton only once (to work with DontDestroyOnLoad when
+            // using Zones / switching scenes)
+            //if (singleton == null) singleton = this;
+        }
 
         void Awake()
         {
+            // Make sure singleton is set
             if (singleton == null) singleton = this;
-            Debug.Log($"UIEnemyCamps Awake - Locations Count: {locations?.Length ?? 0}");
 
+            // Validate required components
+            if (_audio == null)
+            {
+                // Try to get audio component if it exists on the same GameObject
+                _audio = GetComponent<UIAudio>();
+
+                if (_audio == null)
+                {
+                    Debug.LogWarning("UIAudio component is missing in UIEnemyCamps. Sound effects will be disabled.");
+                }
+            }
+
+            if (panel == null)
+            {
+                Debug.LogError("Panel reference is missing in UIEnemyCamps");
+            }
         }
 
         void Start()
         {
-            Debug.Log("UIEnemyCamps Singleton Initialized.");
+            // Debug.Log("UIEnemyCamps Singleton Initialized."); <<<<<<<<<
         }
 
 
@@ -148,7 +176,7 @@ namespace IdleStrategyKit
                     //show camp description
                     if (player.camps.GetCampIndexByHash(player.camps.selectedEnemyCamp._hash) != -1)
                     {
-                        //buttonAttack.gameObject.SetActive(false);
+                        buttonAttack.gameObject.SetActive(false);
                         buttonAttack.onClick.SetListener(() =>
                         {
                             _audio.PlaySoundButtonClick();

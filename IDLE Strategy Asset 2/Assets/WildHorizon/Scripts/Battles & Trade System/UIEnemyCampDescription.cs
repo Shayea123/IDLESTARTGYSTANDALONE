@@ -35,16 +35,16 @@ namespace IdleStrategyKit
         }
 
         // Update is called once per frame
-        /* void Update()
+         void Update()
          {
              if (panel.activeSelf)
              {
                  Player player = Player.localPlayer;
                  if (player != null)
                  {
-                     if (UIEnemyCamps.selectedEnemyCamp != null)
+                     if (UIEnemyCamps.singleton != null)
                      {
-                         ScriptableBattlefieldselectedEnemyCamp = UIEnemyCamps.selectedEnemyCamp;
+                         ScriptableBattlefield selectedEnemyCamp = UIEnemyCamps.selectedEnemyCamp;
 
                          //name
                          string name =selectedEnemyCamp.hero != null ?selectedEnemyCamp.hero.name :selectedEnemyCamp.name;
@@ -123,7 +123,7 @@ namespace IdleStrategyKit
                          }
 
                          //if this battle is over
-                         if (player.battles.IsCampPresent(selectedEnemyCamp.hash) == false)
+                         if (player.accessToTheBattles.IsCampPresent(selectedEnemyCamp.hash) == false)
                          {
                              //enemyCamp.camp = null;
                              panelBattleIsOver.SetActive(true);
@@ -133,7 +133,7 @@ namespace IdleStrategyKit
                      else panel.SetActive(false);
                  }
              }
-         }*/
+         }
     }
 }
 

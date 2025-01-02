@@ -45,8 +45,28 @@ namespace IdleStrategyKit
         // networkbehaviour ////////////////////////////////////////////////////////
         private void Start()
         {
+            // Check if UIEnemyCamps.singleton is initialized
+            if (UIEnemyCamps.singleton == null)
+            {
+                Debug.LogError("UIEnemyCamps.singleton is not initialized! Make sure UIEnemyCamps is active in the scene.");
+                return;
+            }
+
+            if (UIEnemyCamps.singleton.locations == null || UIEnemyCamps.singleton.locations.Length == 0)
+            {
+                Debug.LogError("UIEnemyCamps.locations is not properly assigned!");
+                return;
+            }
+
+            temp = new int[UIEnemyCamps.singleton.locations.Length];
+            for (int i = 0; i < temp.Length; i++)
+            {
+                temp[i] = -1; // Mark all locations as available initially
+            }
+
             InvokeRepeating("GenerateCamps", 0, 30);
         }
+
 
         void Update()
         {
@@ -69,7 +89,7 @@ namespace IdleStrategyKit
                     {
                         //float relationshipLevel = player.FindFactionRelationshipLevel(camp.data.factionType);
 
-                        //óñïåøíàÿ ëè òîðãîâëÿ 
+                        //Ã³Ã±Ã¯Ã¥Ã¸Ã­Ã Ã¿ Ã«Ã¨ Ã²Ã®Ã°Ã£Ã®Ã¢Ã«Ã¿ 
                         /*if (UnityEngine.Random.Range(0f, 1f) > relationshipLevel)
                         {
                             //remove inhabitants
@@ -184,7 +204,7 @@ namespace IdleStrategyKit
                                 //campDamage += camp.data.army[x].item.damage * camp.data.army[x].amount;
                             }
 
-                            //øàã ïðåâûé - íàïàäàþùèé áüåò ïåðâûì
+                            //Ã¸Ã Ã£ Ã¯Ã°Ã¥Ã¢Ã»Ã© - Ã­Ã Ã¯Ã Ã¤Ã Ã¾Ã¹Ã¨Ã© Ã¡Ã¼Ã¥Ã² Ã¯Ã¥Ã°Ã¢Ã»Ã¬
                             campPeople -= people;
                             if (campPeople > 0)
                             {
@@ -257,21 +277,72 @@ namespace IdleStrategyKit
             else if (factionType == FactionType.Bandits) factionBandits += friendshipChangeMultiplier;
             else if (factionType == FactionType.Mexicans) factionMexicans += friendshipChangeMultiplier;
         }
-
         void GenerateCamps()
         {
-            if (enemyCamps.Count < maximumSettlements)
+            if (enemyCamps == null) enemyCamps = new List<EnemyCamp>();
+
+            // Clear existing camps
+            enemyCamps.Clear();
+
+            var uiEnemyCamps = UIEnemyCamps.singleton;
+            if (uiEnemyCamps == null)
             {
-                for (int i = 0; i < maximumSettlements && enemyCamps.Count < maximumSettlements; i++)
+                Debug.LogError("UIEnemyCamps singleton is not set!");
+                return;
+            }
+
+           // Debug.Log($"UIEnemyCamps Locations Count: {uiEnemyCamps.locations.Length}");  <<<<<<<<<<<<
+
+            foreach (var battlefield in ScriptableBattlefield.dict.Values)
+            {
+                sbyte randomLocation = GetLocation();
+               // Debug.Log($"Random Location: {randomLocation}");   <<<<<<<<<<<<   
+
+                if (randomLocation != -1 && uiEnemyCamps.locations[randomLocation] != null)
                 {
-                    if (UnityEngine.Random.Range(0f, 1f) > 0.6f)
-                    {
-                        ScriptableBattlefield data = ScriptableBattlefield.dict.ElementAt(UnityEngine.Random.Range(0, ScriptableBattlefield.dict.Count)).Value;
-                        enemyCamps.Add(new EnemyCamp(data, CampState.none, GetLocation(), 0, data.waitingTime, 0, data.RandomGenerationTradeItems(), new SelectedGoodsForTrade[] { }));
-                    }
+                    //Debug.Log($"Placing Battlefield at Location {randomLocation}");   <<<<<<<<<<<<
+
+                    // Create a new EnemyCamp
+                    EnemyCamp camp = new EnemyCamp(
+                        battlefield,
+                        CampState.none,
+                        randomLocation,
+                        (uint)UnityEngine.Random.Range(50, 200), // Random inhabitants
+                        UnityEngine.Random.Range(300f, 600f), // Time to disappear
+                        UnityEngine.Random.Range(60f, 120f), // Action end time
+                        battlefield.RandomGenerationTradeItems(),
+                        new SelectedGoodsForTrade[] { }
+                    );
+
+                    enemyCamps.Add(camp);
+
+                    // Instantiate the battlefieldPrefab
+                    GameObject battlefieldInstance = Instantiate(
+                        uiEnemyCamps.battlefieldPrefab,
+                        uiEnemyCamps.locations[randomLocation].position,
+                        Quaternion.identity
+                    );
+                    battlefieldInstance.name = battlefield.name;
+                }
+                else
+                {
+                    Debug.LogWarning($"Failed to place battlefield. Random Location: {randomLocation}");
                 }
             }
+
+            // Debug.Log($"Generated Camps Count: {enemyCamps.Count}"); <<<<<<<<<<<<
         }
+
+
+
+
+        ScriptableBattlefield GetRandomBattlefield()
+        {
+            // This is a placeholder for retrieving a random ScriptableBattlefield.
+            // Replace it with your logic for fetching ScriptableBattlefield assets.
+            return ScriptableBattlefield.dict.Values.ElementAt(UnityEngine.Random.Range(0, ScriptableBattlefield.dict.Count));
+        }
+
         sbyte GetLocation()
         {
             List<int> list = new List<int>();
@@ -283,10 +354,12 @@ namespace IdleStrategyKit
                 }
             }
 
+            //Debug.Log($"Available Locations: {list.Count}"); <<<<<<<<<<
             if (list.Count > 0) return (sbyte)(list[UnityEngine.Random.Range(0, list.Count)]);
 
             return -1;
         }
+
 
         public int GetCampIndexByHash(int hash)
         {
@@ -304,7 +377,7 @@ namespace IdleStrategyKit
         }
         public void CmdAddToTradeList(int camphash, string selectedItem_1, uint selectedAmount_1, string selectedItem_2, uint selectedAmount_2)
         {
-            //ïðîâåðÿåì ñóùåñòâóþò ëè ïðåäìåòû â èãðå ñ èìåíàìè êîòîðûå ìû õîòèì îáìåíÿòü
+            //Ã¯Ã°Ã®Ã¢Ã¥Ã°Ã¿Ã¥Ã¬ Ã±Ã³Ã¹Ã¥Ã±Ã²Ã¢Ã³Ã¾Ã² Ã«Ã¨ Ã¯Ã°Ã¥Ã¤Ã¬Ã¥Ã²Ã» Ã¢ Ã¨Ã£Ã°Ã¥ Ã± Ã¨Ã¬Ã¥Ã­Ã Ã¬Ã¨ ÃªÃ®Ã²Ã®Ã°Ã»Ã¥ Ã¬Ã» ÃµÃ®Ã²Ã¨Ã¬ Ã®Ã¡Ã¬Ã¥Ã­Ã¿Ã²Ã¼
             if (ScriptableItem.All.TryGetValue(selectedItem_1.GetStableHashCode(), out ScriptableItem item_1) &&
                 ScriptableItem.All.TryGetValue(selectedItem_2.GetStableHashCode(), out ScriptableItem item_2))
             {
@@ -313,7 +386,7 @@ namespace IdleStrategyKit
                 {
                     EnemyCamp camp = enemyCamps[campindex];
 
-                    //äîáàâëÿåì åñëè êîëëè÷åñòâî âûáðàííûõ ðåñóðñîâ â íàëè÷èè
+                    //Ã¤Ã®Ã¡Ã Ã¢Ã«Ã¿Ã¥Ã¬ Ã¥Ã±Ã«Ã¨ ÃªÃ®Ã«Ã«Ã¨Ã·Ã¥Ã±Ã²Ã¢Ã® Ã¢Ã»Ã¡Ã°Ã Ã­Ã­Ã»Ãµ Ã°Ã¥Ã±Ã³Ã°Ã±Ã®Ã¢ Ã¢ Ã­Ã Ã«Ã¨Ã·Ã¨Ã¨
                     int slot1ItemIndex = FindItemIndexInCampTradeItems(camp, item_1);
                     if (slot1ItemIndex != -1)
                     {
@@ -434,7 +507,7 @@ namespace IdleStrategyKit
                 //campDamage += camp.data.army[x].item.damage * camp.data.army[x].amount;
             }
 
-            //øàã ïðåâûé - íàïàäàþùèé áüåò ïåðâûì
+            //Ã¸Ã Ã£ Ã¯Ã°Ã¥Ã¢Ã»Ã© - Ã­Ã Ã¯Ã Ã¤Ã Ã¾Ã¹Ã¨Ã© Ã¡Ã¼Ã¥Ã² Ã¯Ã¥Ã°Ã¢Ã»Ã¬
             campPeople -= people;
             if (campPeople > 0)
             {
